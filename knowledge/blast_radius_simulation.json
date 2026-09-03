@@ -1,0 +1,3596 @@
+{
+  "asset_graph_nodes": 2,
+  "asset_graph_edges": 2,
+  "max_hops": 3,
+  "max_path_cost": 4.0,
+  "simulations": [
+    {
+      "finding_id": "CVE-2016-1000027",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 51.1
+    },
+    {
+      "finding_id": "CVE-2022-22965",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 84.5
+    },
+    {
+      "finding_id": "CVE-2023-20873",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.8
+    },
+    {
+      "finding_id": "CVE-2023-20860",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 45.3
+    },
+    {
+      "finding_id": "GHSA-36p3-wjmg-h94x",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.6
+    },
+    {
+      "finding_id": "GHSA-36p3-wjmg-h94x",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.6
+    },
+    {
+      "finding_id": "CVE-2026-22733",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.7
+    },
+    {
+      "finding_id": "CVE-2025-66614",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.6
+    },
+    {
+      "finding_id": "CVE-2025-24813",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 84.6
+    },
+    {
+      "finding_id": "CVE-2024-50379",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 53.5
+    },
+    {
+      "finding_id": "CVE-2024-56337",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 46.4
+    },
+    {
+      "finding_id": "CVE-2024-52316",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 45.8
+    },
+    {
+      "finding_id": "GHSA-7phw-cxx7-q9vq",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.6
+    },
+    {
+      "finding_id": "GHSA-4wrc-f8pq-fpqp",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.6
+    },
+    {
+      "finding_id": "GHSA-36p3-wjmg-h94x",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.6
+    },
+    {
+      "finding_id": "GHSA-g5h3-w546-pj7f",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.6
+    },
+    {
+      "finding_id": "GHSA-83qj-6fr2-vhqg",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 44.6
+    },
+    {
+      "finding_id": "CVE-2022-42004",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.9
+    },
+    {
+      "finding_id": "CVE-2022-45143",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.9
+    },
+    {
+      "finding_id": "CVE-2022-42003",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.9
+    },
+    {
+      "finding_id": "CVE-2022-1471",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 58.3
+    },
+    {
+      "finding_id": "CVE-2022-22968",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 39.5
+    },
+    {
+      "finding_id": "CVE-2022-22970",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.7
+    },
+    {
+      "finding_id": "CVE-2022-23181",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "CVE-2022-25857",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.9
+    },
+    {
+      "finding_id": "CVE-2022-38749",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.8
+    },
+    {
+      "finding_id": "CVE-2021-46877",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.6
+    },
+    {
+      "finding_id": "CVE-2020-36518",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 39.3
+    },
+    {
+      "finding_id": "CVE-2024-23672",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.8
+    },
+    {
+      "finding_id": "CVE-2024-22262",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.6
+    },
+    {
+      "finding_id": "CVE-2024-22259",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.9
+    },
+    {
+      "finding_id": "CVE-2024-22243",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 39.1
+    },
+    {
+      "finding_id": "CVE-2023-6481",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "CVE-2023-6378",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "CVE-2023-46589",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.9
+    },
+    {
+      "finding_id": "CVE-2023-44487",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 84.6
+    },
+    {
+      "finding_id": "CVE-2023-24998",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 48.1
+    },
+    {
+      "finding_id": "CVE-2023-22102",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "CVE-2023-20883",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "CVE-2023-20863",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.6
+    },
+    {
+      "finding_id": "CVE-2022-42252",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.7
+    },
+    {
+      "finding_id": "CVE-2024-38819",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 49.3
+    },
+    {
+      "finding_id": "CVE-2024-38816",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 41.3
+    },
+    {
+      "finding_id": "CVE-2025-22235",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2025-52434",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.7
+    },
+    {
+      "finding_id": "CVE-2025-49124",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2025-52520",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.8
+    },
+    {
+      "finding_id": "CVE-2025-52999",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "CVE-2025-55752",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 51.7
+    },
+    {
+      "finding_id": "CVE-2025-53506",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.7
+    },
+    {
+      "finding_id": "CVE-2026-0603",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "CVE-2026-22737",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2026-22740",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2026-24880",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "CVE-2025-41242",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.8
+    },
+    {
+      "finding_id": "CVE-2025-41249",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2025-48988",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 49.7
+    },
+    {
+      "finding_id": "CVE-2025-48989",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 39.1
+    },
+    {
+      "finding_id": "CVE-2024-34750",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 39.3
+    },
+    {
+      "finding_id": "CVE-2024-38286",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.7
+    },
+    {
+      "finding_id": "CVE-2026-40973",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2026-40972",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2026-34500",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2026-34487",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2026-34483",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2026-29145",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.5
+    },
+    {
+      "finding_id": "GHSA-mjmj-j48q-9wg2",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-cx7f-g6mp-7hqm",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-5j33-cvvr-w245",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-g5vr-rgqm-vf78",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-ccgv-vj62-xf9h",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-hgjh-9rj2-g67j",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-fccv-jmmp-qg76",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-g5mm-vmx4-3rg7",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-wm9w-rjj3-j356",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-hfrx-6qgj-fp6c",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-wxqc-pxw9-g2p8",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-27hp-xhwr-wr2m",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-rq2w-37h9-vg94",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-2wrp-6fg6-hmc5",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-m6vm-37g8-gqvh",
+      "source_asset": "timesheet-devops-db",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-app",
+          "criticality": 7,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-db",
+            "timesheet-devops-app"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 39.6
+    },
+    {
+      "finding_id": "GHSA-3mc7-4q67-w48m",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-jjjh-jjxp-wpff",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-rgv9-q543-rqg4",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-25xr-qj8w-c4vf",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-rc42-6c7j-7h5r",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-vmq6-5m68-f53m",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-57j2-w4cx-62h2",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-xf96-w227-r7c4",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-vmq6-5m68-f53m",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-h3gc-qfqq-6h8f",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "CVE-2024-24549",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 43.0
+    },
+    {
+      "finding_id": "GHSA-wmwf-9ccg-fff5",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-jmp9-x22r-554x",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-2p5w-cvg5-gc5c",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-x4m4-345f-5h5g",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "10038",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-mgvc-8q2h-5pgc",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-rv64-5gf8-9qq8",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-gqp3-2cvr-x8m3",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-hh26-6xwr-ggv7",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-p22x-g9px-3945",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-wr62-c79q-cv37",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-h46c-h94j-95f3",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-3x8x-79m2-3w2w",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 38.4
+    },
+    {
+      "finding_id": "GHSA-v682-8vv8-vpwr",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-668q-qrv7-99fm",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-4gc7-5j7h-4qph",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-4gc7-5j7h-4qph",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-558x-2xjg-6232",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-q3mw-pvr8-9ggc",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-r6j3-px5g-cq3x",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-w6f2-8wx4-47r5",
+      "source_asset": "timesheet-devops-db",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-app",
+          "criticality": 7,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-db",
+            "timesheet-devops-app"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 32.1
+    },
+    {
+      "finding_id": "GHSA-7w75-32cg-r6g2",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-qppj-fm5r-hxr3",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-g8pj-r55q-5c2v",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-564r-hj7v-mcr5",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-g76j-4cxx-23h9",
+      "source_asset": "timesheet-devops-db",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-app",
+          "criticality": 7,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-db",
+            "timesheet-devops-app"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 32.1
+    },
+    {
+      "finding_id": "GHSA-c4r9-r8fh-9vj2",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-jjfh-589g-3hjx",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-9cmq-m9j5-mvww",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-pr98-23f8-jwxv",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-2rmj-mq67-h97g",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-6gf2-pvqw-37ph",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-rfmp-97jj-h8m6",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-42wg-hm62-jcwg",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-hhhw-99gj-p3c3",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-9w3m-gqgf-c4p9",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-98wm-3w3q-mw94",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-wc4r-xq3c-5cf3",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-fpj8-gq4v-p354",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-9m3c-qcxr-9x87",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-25qh-j22f-pwp8",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-4773-3jfm-qmx3",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-w37g-rhq8-7m4j",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-r936-gwx5-v52f",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-w3c8-7r8f-9jp8",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "VAULT-STATUS",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "10063",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "NIKTO-FINDING",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-wf8f-6423-gfxg",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-72hv-8253-57qq",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 30.9
+    },
+    {
+      "finding_id": "GHSA-qq5r-98hh-rxc9",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "GHSA-vfww-5hm6-hx2j",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "GHSA-4wp7-92pw-q264",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "GHSA-6hcq-hmm3-jj3c",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "GHSA-h2fw-rfh5-95r3",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "GHSA-hgrr-935x-pq79",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "GHSA-qqpg-mvqg-649v",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "GHSA-6v67-2wr5-gvf4",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "10049",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    },
+    {
+      "finding_id": "10049",
+      "source_asset": "timesheet-devops-app",
+      "affected_assets": [
+        {
+          "asset": "timesheet-devops-db",
+          "criticality": 8,
+          "env": "prod",
+          "owner": "platform",
+          "path_cost": 0.95,
+          "hops": 1,
+          "path": [
+            "timesheet-devops-app",
+            "timesheet-devops-db"
+          ]
+        }
+      ],
+      "affected_asset_count": 1,
+      "crown_jewel_reachable": 0,
+      "nearest_critical_asset_hops": 99,
+      "shortest_attack_path": [],
+      "blast_radius_score": 24.6
+    }
+  ]
+}

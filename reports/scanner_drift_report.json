@@ -1,0 +1,31 @@
+{
+  "status": "insufficient_history",
+  "history_size": 2,
+  "min_history": 6,
+  "current_snapshot": {
+    "timestamp": "2026-09-03T11:10:22.699325",
+    "total_findings": 156,
+    "tool_count": 7,
+    "avg_risk_score": 47.203,
+    "kev_count": 3,
+    "tool_grype_count": 86,
+    "tool_grype_avg_risk": 42.502,
+    "tool_hashicorp_vault_count": 1,
+    "tool_hashicorp_vault_avg_risk": 32.9,
+    "tool_nikto_count": 1,
+    "tool_nikto_avg_risk": 25.7,
+    "tool_owasp_zap_count": 4,
+    "tool_owasp_zap_avg_risk": 24.275,
+    "tool_semgrep_sast_count": 1,
+    "tool_semgrep_sast_avg_risk": 32.9,
+    "tool_snyk_count": 47,
+    "tool_snyk_avg_risk": 64.294,
+    "tool_trivy_count": 16,
+    "tool_trivy_avg_risk": 31.131,
+    "sev_critical": 18,
+    "sev_high": 90,
+    "sev_medium": 38,
+    "sev_low": 10
+  },
+  "alerts": []
+}

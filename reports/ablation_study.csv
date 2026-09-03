@@ -1,0 +1,6 @@
+version,precision,recall,f1,fp_rate,cost,cost_savings_vs_baseline,notes
+Rule-based only,0.864,0.974,0.916,0.15,22.0,0.0,
++ ML scoring (Layer 5),0.864,0.974,0.916,0.15,22.0,0.0,evalue sur risk_score_oof (out_of_fold)
++ Calibration (Layer 5B),0.864,0.974,0.916,0.15,22.0,0.0,cible de calibration: analyst_label
++ SHAP explainability (5B/P2),0.864,0.974,0.916,0.15,22.0,0.0,explanation coverage 100% - detection metrics unchanged by design
++ Red-team agent (7B),0.864,0.974,0.916,0.15,22.0,0.0,"0 findings challenged as likely FP | false_positive_risk sur les 79 evalues: {'LOW': 65} | aucun HIGH: le red-team n a signale aucun faux positif explicite sur cet echantillon — resultat, pas panne"

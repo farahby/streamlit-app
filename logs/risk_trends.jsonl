@@ -1,0 +1,1 @@
+{"timestamp": "2026-09-02T22:09:04.534632", "pipeline_version": "v7", "total_findings": 156, "critical_count": 18, "high_count": 90, "medium_count": 38, "low_count": 10, "kev_count": 3, "avg_risk_score": 47.2, "max_risk_score": 86.7, "p0_fix_now": 0, "p1_24h": 3, "internet_facing": 0, "has_exploit": 4}

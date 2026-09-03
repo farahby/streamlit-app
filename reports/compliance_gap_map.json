@@ -1,0 +1,6684 @@
+{
+  "gap_map": [
+    {
+      "control_id": "T1190",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 141,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2016-1000027",
+        "CVE-2022-22965",
+        "CVE-2023-20873",
+        "CVE-2023-20860",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "CVE-2026-22733",
+        "CVE-2025-66614",
+        "CVE-2025-24813",
+        "CVE-2024-50379",
+        "CVE-2024-56337",
+        "CVE-2024-56337",
+        "CVE-2024-52316",
+        "GHSA-7phw-cxx7-q9vq",
+        "GHSA-4wrc-f8pq-fpqp",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-g5h3-w546-pj7f",
+        "CVE-2022-42004",
+        "CVE-2022-45143",
+        "CVE-2022-42003",
+        "CVE-2022-1471",
+        "CVE-2022-22968",
+        "CVE-2022-22970",
+        "CVE-2022-23181",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2021-46877",
+        "CVE-2020-36518",
+        "CVE-2024-23672",
+        "CVE-2024-22262",
+        "CVE-2024-22259",
+        "CVE-2024-22243",
+        "CVE-2023-6481",
+        "CVE-2023-6378",
+        "CVE-2023-46589",
+        "CVE-2023-44487",
+        "CVE-2023-24998",
+        "CVE-2023-22102",
+        "CVE-2023-20883",
+        "CVE-2023-20863",
+        "CVE-2022-42252",
+        "CVE-2024-38819",
+        "CVE-2024-38816",
+        "CVE-2025-22235",
+        "CVE-2025-52434",
+        "CVE-2025-49124",
+        "CVE-2025-52520",
+        "CVE-2025-52999",
+        "CVE-2025-55752",
+        "CVE-2025-53506",
+        "CVE-2026-0603",
+        "CVE-2026-22737",
+        "CVE-2026-22740",
+        "CVE-2026-24880",
+        "CVE-2025-41242",
+        "CVE-2025-41249",
+        "CVE-2025-48988",
+        "CVE-2025-48989",
+        "CVE-2024-34750",
+        "CVE-2024-38286",
+        "CVE-2026-40973",
+        "CVE-2026-40972",
+        "CVE-2026-34500",
+        "CVE-2026-34487",
+        "CVE-2026-34483",
+        "CVE-2026-29145",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-cx7f-g6mp-7hqm",
+        "GHSA-5j33-cvvr-w245",
+        "GHSA-g5vr-rgqm-vf78",
+        "GHSA-ccgv-vj62-xf9h",
+        "GHSA-hgjh-9rj2-g67j",
+        "GHSA-fccv-jmmp-qg76",
+        "GHSA-g5mm-vmx4-3rg7",
+        "GHSA-wm9w-rjj3-j356",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-wxqc-pxw9-g2p8",
+        "GHSA-27hp-xhwr-wr2m",
+        "GHSA-rq2w-37h9-vg94",
+        "GHSA-2wrp-6fg6-hmc5",
+        "GHSA-m6vm-37g8-gqvh",
+        "GHSA-jjjh-jjxp-wpff",
+        "GHSA-25xr-qj8w-c4vf",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-xf96-w227-r7c4",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-h3gc-qfqq-6h8f",
+        "CVE-2024-24549",
+        "GHSA-wmwf-9ccg-fff5",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-2p5w-cvg5-gc5c",
+        "GHSA-x4m4-345f-5h5g",
+        "10038",
+        "GHSA-mgvc-8q2h-5pgc",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-p22x-g9px-3945",
+        "GHSA-wr62-c79q-cv37",
+        "GHSA-3x8x-79m2-3w2w",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-558x-2xjg-6232",
+        "GHSA-q3mw-pvr8-9ggc",
+        "GHSA-r6j3-px5g-cq3x",
+        "GHSA-7w75-32cg-r6g2",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-564r-hj7v-mcr5",
+        "GHSA-g76j-4cxx-23h9",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-9cmq-m9j5-mvww",
+        "GHSA-pr98-23f8-jwxv",
+        "GHSA-2rmj-mq67-h97g",
+        "GHSA-6gf2-pvqw-37ph",
+        "GHSA-rfmp-97jj-h8m6",
+        "GHSA-42wg-hm62-jcwg",
+        "GHSA-hhhw-99gj-p3c3",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-9m3c-qcxr-9x87",
+        "GHSA-25qh-j22f-pwp8",
+        "GHSA-w37g-rhq8-7m4j",
+        "GHSA-r936-gwx5-v52f",
+        "GHSA-w3c8-7r8f-9jp8",
+        "VAULT-STATUS",
+        "10063",
+        "NIKTO-FINDING",
+        "GHSA-wf8f-6423-gfxg",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-4wp7-92pw-q264",
+        "GHSA-6hcq-hmm3-jj3c",
+        "GHSA-h2fw-rfh5-95r3",
+        "GHSA-hgrr-935x-pq79",
+        "GHSA-qqpg-mvqg-649v",
+        "GHSA-6v67-2wr5-gvf4"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A.8.8",
+      "framework": "ISO 27001",
+      "finding_count": 123,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-22965",
+        "CVE-2023-20873",
+        "CVE-2023-20860",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "CVE-2026-22733",
+        "CVE-2025-66614",
+        "CVE-2025-24813",
+        "CVE-2024-50379",
+        "CVE-2024-56337",
+        "CVE-2024-52316",
+        "GHSA-7phw-cxx7-q9vq",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-g5h3-w546-pj7f",
+        "CVE-2022-42004",
+        "CVE-2022-45143",
+        "CVE-2022-1471",
+        "CVE-2022-22970",
+        "CVE-2022-23181",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2021-46877",
+        "CVE-2020-36518",
+        "CVE-2024-23672",
+        "CVE-2024-22262",
+        "CVE-2024-22259",
+        "CVE-2024-22243",
+        "CVE-2023-6481",
+        "CVE-2023-6378",
+        "CVE-2023-22102",
+        "CVE-2023-20883",
+        "CVE-2022-42252",
+        "CVE-2024-38819",
+        "CVE-2024-38816",
+        "CVE-2025-52434",
+        "CVE-2025-49124",
+        "CVE-2025-52520",
+        "CVE-2025-52999",
+        "CVE-2025-55752",
+        "CVE-2025-53506",
+        "CVE-2026-0603",
+        "CVE-2026-22737",
+        "CVE-2026-22740",
+        "CVE-2026-24880",
+        "CVE-2025-41242",
+        "CVE-2025-41249",
+        "CVE-2025-48988",
+        "CVE-2025-48989",
+        "CVE-2024-34750",
+        "CVE-2024-38286",
+        "CVE-2026-40973",
+        "CVE-2026-34500",
+        "CVE-2026-34487",
+        "CVE-2026-29145",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-cx7f-g6mp-7hqm",
+        "GHSA-g5vr-rgqm-vf78",
+        "GHSA-ccgv-vj62-xf9h",
+        "GHSA-fccv-jmmp-qg76",
+        "GHSA-g5mm-vmx4-3rg7",
+        "GHSA-wm9w-rjj3-j356",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-wxqc-pxw9-g2p8",
+        "GHSA-m6vm-37g8-gqvh",
+        "GHSA-3mc7-4q67-w48m",
+        "GHSA-jjjh-jjxp-wpff",
+        "GHSA-rgv9-q543-rqg4",
+        "GHSA-25xr-qj8w-c4vf",
+        "GHSA-rc42-6c7j-7h5r",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-57j2-w4cx-62h2",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-h3gc-qfqq-6h8f",
+        "CVE-2024-24549",
+        "GHSA-wmwf-9ccg-fff5",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-2p5w-cvg5-gc5c",
+        "10038",
+        "GHSA-mgvc-8q2h-5pgc",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-hh26-6xwr-ggv7",
+        "GHSA-wr62-c79q-cv37",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-q3mw-pvr8-9ggc",
+        "GHSA-r6j3-px5g-cq3x",
+        "GHSA-w6f2-8wx4-47r5",
+        "GHSA-qppj-fm5r-hxr3",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-564r-hj7v-mcr5",
+        "GHSA-g76j-4cxx-23h9",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-9cmq-m9j5-mvww",
+        "GHSA-pr98-23f8-jwxv",
+        "GHSA-2rmj-mq67-h97g",
+        "GHSA-42wg-hm62-jcwg",
+        "GHSA-hhhw-99gj-p3c3",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-fpj8-gq4v-p354",
+        "GHSA-25qh-j22f-pwp8",
+        "GHSA-4773-3jfm-qmx3",
+        "GHSA-r936-gwx5-v52f",
+        "GHSA-w3c8-7r8f-9jp8",
+        "VAULT-STATUS",
+        "NIKTO-FINDING",
+        "GHSA-72hv-8253-57qq",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-4wp7-92pw-q264",
+        "GHSA-6hcq-hmm3-jj3c",
+        "GHSA-h2fw-rfh5-95r3",
+        "GHSA-hgrr-935x-pq79",
+        "GHSA-qqpg-mvqg-649v",
+        "GHSA-6v67-2wr5-gvf4",
+        "10049",
+        "10049"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1059",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 120,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2016-1000027",
+        "CVE-2022-22965",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "CVE-2026-22733",
+        "CVE-2025-66614",
+        "CVE-2025-24813",
+        "CVE-2024-50379",
+        "CVE-2024-52316",
+        "GHSA-7phw-cxx7-q9vq",
+        "GHSA-4wrc-f8pq-fpqp",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-g5h3-w546-pj7f",
+        "CVE-2022-42004",
+        "CVE-2022-45143",
+        "CVE-2022-42003",
+        "CVE-2022-1471",
+        "CVE-2022-22968",
+        "CVE-2022-22970",
+        "CVE-2022-23181",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2021-46877",
+        "CVE-2020-36518",
+        "CVE-2024-23672",
+        "CVE-2024-22262",
+        "CVE-2024-22259",
+        "CVE-2024-22243",
+        "CVE-2023-6481",
+        "CVE-2023-6378",
+        "CVE-2023-46589",
+        "CVE-2023-22102",
+        "CVE-2023-20883",
+        "CVE-2023-20863",
+        "CVE-2022-42252",
+        "CVE-2024-38819",
+        "CVE-2024-38816",
+        "CVE-2025-52434",
+        "CVE-2025-49124",
+        "CVE-2025-52520",
+        "CVE-2025-52999",
+        "CVE-2025-55752",
+        "CVE-2025-53506",
+        "CVE-2026-0603",
+        "CVE-2026-22737",
+        "CVE-2026-22740",
+        "CVE-2026-24880",
+        "CVE-2025-41242",
+        "CVE-2025-41249",
+        "CVE-2025-48988",
+        "CVE-2024-34750",
+        "CVE-2026-40973",
+        "CVE-2026-40972",
+        "CVE-2026-34500",
+        "CVE-2026-34487",
+        "CVE-2026-34483",
+        "CVE-2026-29145",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-cx7f-g6mp-7hqm",
+        "GHSA-g5vr-rgqm-vf78",
+        "GHSA-hgjh-9rj2-g67j",
+        "GHSA-fccv-jmmp-qg76",
+        "GHSA-g5mm-vmx4-3rg7",
+        "GHSA-wm9w-rjj3-j356",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-wxqc-pxw9-g2p8",
+        "GHSA-rq2w-37h9-vg94",
+        "GHSA-2wrp-6fg6-hmc5",
+        "GHSA-jjjh-jjxp-wpff",
+        "GHSA-25xr-qj8w-c4vf",
+        "GHSA-rc42-6c7j-7h5r",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-xf96-w227-r7c4",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-h3gc-qfqq-6h8f",
+        "CVE-2024-24549",
+        "GHSA-wmwf-9ccg-fff5",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-2p5w-cvg5-gc5c",
+        "10038",
+        "GHSA-mgvc-8q2h-5pgc",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-p22x-g9px-3945",
+        "GHSA-wr62-c79q-cv37",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-q3mw-pvr8-9ggc",
+        "GHSA-r6j3-px5g-cq3x",
+        "GHSA-7w75-32cg-r6g2",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-g76j-4cxx-23h9",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-9cmq-m9j5-mvww",
+        "GHSA-pr98-23f8-jwxv",
+        "GHSA-2rmj-mq67-h97g",
+        "GHSA-6gf2-pvqw-37ph",
+        "GHSA-rfmp-97jj-h8m6",
+        "GHSA-42wg-hm62-jcwg",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-9m3c-qcxr-9x87",
+        "GHSA-25qh-j22f-pwp8",
+        "GHSA-r936-gwx5-v52f",
+        "GHSA-w3c8-7r8f-9jp8",
+        "VAULT-STATUS",
+        "NIKTO-FINDING",
+        "GHSA-wf8f-6423-gfxg",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-4wp7-92pw-q264",
+        "GHSA-6hcq-hmm3-jj3c",
+        "GHSA-h2fw-rfh5-95r3",
+        "GHSA-qqpg-mvqg-649v",
+        "GHSA-6v67-2wr5-gvf4"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A03:2021",
+      "framework": "OWASP Top 10",
+      "finding_count": 119,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-22965",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "CVE-2026-22733",
+        "CVE-2025-66614",
+        "CVE-2025-24813",
+        "CVE-2024-50379",
+        "CVE-2024-52316",
+        "GHSA-7phw-cxx7-q9vq",
+        "GHSA-4wrc-f8pq-fpqp",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-g5h3-w546-pj7f",
+        "CVE-2022-42004",
+        "CVE-2022-45143",
+        "CVE-2022-42003",
+        "CVE-2022-1471",
+        "CVE-2022-22968",
+        "CVE-2022-22970",
+        "CVE-2022-23181",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2021-46877",
+        "CVE-2020-36518",
+        "CVE-2024-23672",
+        "CVE-2024-22262",
+        "CVE-2024-22259",
+        "CVE-2024-22243",
+        "CVE-2023-6481",
+        "CVE-2023-6378",
+        "CVE-2023-46589",
+        "CVE-2023-22102",
+        "CVE-2023-20883",
+        "CVE-2023-20863",
+        "CVE-2022-42252",
+        "CVE-2024-38819",
+        "CVE-2024-38816",
+        "CVE-2025-52434",
+        "CVE-2025-49124",
+        "CVE-2025-52520",
+        "CVE-2025-52999",
+        "CVE-2025-55752",
+        "CVE-2025-53506",
+        "CVE-2026-0603",
+        "CVE-2026-22737",
+        "CVE-2026-22740",
+        "CVE-2026-24880",
+        "CVE-2025-41242",
+        "CVE-2025-41249",
+        "CVE-2025-48988",
+        "CVE-2024-34750",
+        "CVE-2026-40973",
+        "CVE-2026-40972",
+        "CVE-2026-34500",
+        "CVE-2026-34487",
+        "CVE-2026-34483",
+        "CVE-2026-29145",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-cx7f-g6mp-7hqm",
+        "GHSA-g5vr-rgqm-vf78",
+        "GHSA-hgjh-9rj2-g67j",
+        "GHSA-fccv-jmmp-qg76",
+        "GHSA-g5mm-vmx4-3rg7",
+        "GHSA-wm9w-rjj3-j356",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-wxqc-pxw9-g2p8",
+        "GHSA-rq2w-37h9-vg94",
+        "GHSA-2wrp-6fg6-hmc5",
+        "GHSA-jjjh-jjxp-wpff",
+        "GHSA-25xr-qj8w-c4vf",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-xf96-w227-r7c4",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-h3gc-qfqq-6h8f",
+        "CVE-2024-24549",
+        "GHSA-wmwf-9ccg-fff5",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-2p5w-cvg5-gc5c",
+        "10038",
+        "GHSA-mgvc-8q2h-5pgc",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-p22x-g9px-3945",
+        "GHSA-wr62-c79q-cv37",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-q3mw-pvr8-9ggc",
+        "GHSA-r6j3-px5g-cq3x",
+        "GHSA-7w75-32cg-r6g2",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-g76j-4cxx-23h9",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-9cmq-m9j5-mvww",
+        "GHSA-pr98-23f8-jwxv",
+        "GHSA-2rmj-mq67-h97g",
+        "GHSA-6gf2-pvqw-37ph",
+        "GHSA-rfmp-97jj-h8m6",
+        "GHSA-rfmp-97jj-h8m6",
+        "GHSA-42wg-hm62-jcwg",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-9m3c-qcxr-9x87",
+        "GHSA-25qh-j22f-pwp8",
+        "GHSA-r936-gwx5-v52f",
+        "GHSA-w3c8-7r8f-9jp8",
+        "VAULT-STATUS",
+        "NIKTO-FINDING",
+        "GHSA-wf8f-6423-gfxg",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-4wp7-92pw-q264",
+        "GHSA-6hcq-hmm3-jj3c",
+        "GHSA-h2fw-rfh5-95r3",
+        "GHSA-qqpg-mvqg-649v",
+        "GHSA-6v67-2wr5-gvf4"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A.8.2",
+      "framework": "ISO 27001",
+      "finding_count": 114,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-22965",
+        "CVE-2023-20873",
+        "CVE-2023-20860",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "CVE-2026-22733",
+        "CVE-2025-66614",
+        "CVE-2025-24813",
+        "CVE-2024-50379",
+        "CVE-2024-52316",
+        "GHSA-7phw-cxx7-q9vq",
+        "GHSA-4wrc-f8pq-fpqp",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-g5h3-w546-pj7f",
+        "CVE-2022-42004",
+        "CVE-2022-45143",
+        "CVE-2022-42003",
+        "CVE-2022-1471",
+        "CVE-2022-22968",
+        "CVE-2022-22970",
+        "CVE-2022-23181",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2021-46877",
+        "CVE-2020-36518",
+        "CVE-2024-23672",
+        "CVE-2024-22262",
+        "CVE-2024-22259",
+        "CVE-2024-22243",
+        "CVE-2023-6481",
+        "CVE-2023-6378",
+        "CVE-2023-46589",
+        "CVE-2023-22102",
+        "CVE-2023-20883",
+        "CVE-2022-42252",
+        "CVE-2024-38819",
+        "CVE-2024-38816",
+        "CVE-2025-52434",
+        "CVE-2025-49124",
+        "CVE-2025-52520",
+        "CVE-2025-52999",
+        "CVE-2025-55752",
+        "CVE-2025-53506",
+        "CVE-2026-0603",
+        "CVE-2026-22737",
+        "CVE-2026-22740",
+        "CVE-2026-24880",
+        "CVE-2025-41242",
+        "CVE-2025-41249",
+        "CVE-2025-48988",
+        "CVE-2025-48989",
+        "CVE-2024-34750",
+        "CVE-2024-38286",
+        "CVE-2026-40973",
+        "CVE-2026-40972",
+        "CVE-2026-34500",
+        "CVE-2026-34487",
+        "CVE-2026-29145",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-cx7f-g6mp-7hqm",
+        "GHSA-hgjh-9rj2-g67j",
+        "GHSA-fccv-jmmp-qg76",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-wxqc-pxw9-g2p8",
+        "GHSA-rq2w-37h9-vg94",
+        "GHSA-2wrp-6fg6-hmc5",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-h3gc-qfqq-6h8f",
+        "CVE-2024-24549",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-jmp9-x22r-554x",
+        "10038",
+        "GHSA-mgvc-8q2h-5pgc",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-gqp3-2cvr-x8m3",
+        "GHSA-p22x-g9px-3945",
+        "GHSA-wr62-c79q-cv37",
+        "GHSA-h46c-h94j-95f3",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-558x-2xjg-6232",
+        "GHSA-q3mw-pvr8-9ggc",
+        "GHSA-r6j3-px5g-cq3x",
+        "GHSA-7w75-32cg-r6g2",
+        "GHSA-qppj-fm5r-hxr3",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-564r-hj7v-mcr5",
+        "GHSA-g76j-4cxx-23h9",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-9cmq-m9j5-mvww",
+        "GHSA-pr98-23f8-jwxv",
+        "GHSA-2rmj-mq67-h97g",
+        "GHSA-42wg-hm62-jcwg",
+        "GHSA-hhhw-99gj-p3c3",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-25qh-j22f-pwp8",
+        "GHSA-r936-gwx5-v52f",
+        "GHSA-w3c8-7r8f-9jp8",
+        "VAULT-STATUS",
+        "GHSA-72hv-8253-57qq",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-6hcq-hmm3-jj3c",
+        "GHSA-h2fw-rfh5-95r3",
+        "GHSA-hgrr-935x-pq79",
+        "GHSA-qqpg-mvqg-649v",
+        "GHSA-6v67-2wr5-gvf4"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1195",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 66,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2023-20860",
+        "CVE-2026-22733",
+        "CVE-2025-66614",
+        "CVE-2025-24813",
+        "CVE-2024-50379",
+        "CVE-2024-56337",
+        "CVE-2024-52316",
+        "GHSA-83qj-6fr2-vhqg",
+        "CVE-2022-1471",
+        "CVE-2022-22970",
+        "CVE-2022-23181",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2021-46877",
+        "CVE-2020-36518",
+        "CVE-2024-23672",
+        "CVE-2024-22259",
+        "CVE-2024-22243",
+        "CVE-2023-6481",
+        "CVE-2023-6378",
+        "CVE-2023-46589",
+        "CVE-2023-44487",
+        "CVE-2023-20883",
+        "CVE-2024-38819",
+        "CVE-2024-38816",
+        "CVE-2025-52434",
+        "CVE-2025-49124",
+        "CVE-2025-52520",
+        "CVE-2025-55752",
+        "CVE-2026-22737",
+        "CVE-2026-22740",
+        "CVE-2026-24880",
+        "CVE-2025-41242",
+        "CVE-2025-41249",
+        "CVE-2025-48988",
+        "CVE-2025-48989",
+        "CVE-2026-40972",
+        "CVE-2026-34500",
+        "CVE-2026-29145",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-cx7f-g6mp-7hqm",
+        "GHSA-wxqc-pxw9-g2p8",
+        "GHSA-m6vm-37g8-gqvh",
+        "GHSA-25xr-qj8w-c4vf",
+        "GHSA-rc42-6c7j-7h5r",
+        "CVE-2024-24549",
+        "GHSA-wmwf-9ccg-fff5",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-x4m4-345f-5h5g",
+        "GHSA-wr62-c79q-cv37",
+        "GHSA-h46c-h94j-95f3",
+        "GHSA-3x8x-79m2-3w2w",
+        "GHSA-564r-hj7v-mcr5",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-9cmq-m9j5-mvww",
+        "GHSA-hhhw-99gj-p3c3",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-fpj8-gq4v-p354",
+        "GHSA-25qh-j22f-pwp8",
+        "GHSA-w37g-rhq8-7m4j",
+        "GHSA-w3c8-7r8f-9jp8",
+        "GHSA-wf8f-6423-gfxg",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-hgrr-935x-pq79"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1078",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 44,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2016-1000027",
+        "CVE-2023-20873",
+        "CVE-2023-20860",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "CVE-2026-22733",
+        "CVE-2025-24813",
+        "CVE-2024-52316",
+        "GHSA-7phw-cxx7-q9vq",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-g5h3-w546-pj7f",
+        "CVE-2022-22968",
+        "CVE-2022-23181",
+        "CVE-2024-22259",
+        "CVE-2024-22243",
+        "CVE-2023-24998",
+        "CVE-2022-42252",
+        "CVE-2025-22235",
+        "CVE-2025-52434",
+        "CVE-2026-22740",
+        "CVE-2026-24880",
+        "CVE-2025-41249",
+        "CVE-2024-34750",
+        "CVE-2026-34500",
+        "CVE-2026-34487",
+        "CVE-2026-29145",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-g5mm-vmx4-3rg7",
+        "GHSA-xf96-w227-r7c4",
+        "GHSA-jmp9-x22r-554x",
+        "10038",
+        "GHSA-mgvc-8q2h-5pgc",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-558x-2xjg-6232",
+        "GHSA-g76j-4cxx-23h9",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-w37g-rhq8-7m4j",
+        "GHSA-r936-gwx5-v52f",
+        "VAULT-STATUS",
+        "10063",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-h2fw-rfh5-95r3",
+        "10049",
+        "10049"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1498",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 43,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-42004",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2021-46877",
+        "CVE-2020-36518",
+        "CVE-2024-23672",
+        "CVE-2023-6481",
+        "CVE-2023-6378",
+        "CVE-2023-44487",
+        "CVE-2023-24998",
+        "CVE-2023-20883",
+        "CVE-2023-20863",
+        "CVE-2025-53506",
+        "CVE-2025-48988",
+        "CVE-2025-48989",
+        "GHSA-wm9w-rjj3-j356",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-wxqc-pxw9-g2p8",
+        "GHSA-jjjh-jjxp-wpff",
+        "GHSA-rgv9-q543-rqg4",
+        "GHSA-25xr-qj8w-c4vf",
+        "GHSA-h3gc-qfqq-6h8f",
+        "CVE-2024-24549",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-gqp3-2cvr-x8m3",
+        "GHSA-hh26-6xwr-ggv7",
+        "GHSA-wr62-c79q-cv37",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-564r-hj7v-mcr5",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-9cmq-m9j5-mvww",
+        "GHSA-2rmj-mq67-h97g",
+        "GHSA-hhhw-99gj-p3c3",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-w37g-rhq8-7m4j",
+        "GHSA-w3c8-7r8f-9jp8",
+        "GHSA-wf8f-6423-gfxg",
+        "GHSA-72hv-8253-57qq",
+        "GHSA-hgrr-935x-pq79"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1499",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 43,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-42004",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2021-46877",
+        "CVE-2020-36518",
+        "CVE-2024-23672",
+        "CVE-2023-6481",
+        "CVE-2023-6378",
+        "CVE-2023-44487",
+        "CVE-2023-24998",
+        "CVE-2023-20883",
+        "CVE-2023-20863",
+        "CVE-2025-53506",
+        "CVE-2025-48988",
+        "CVE-2025-48989",
+        "GHSA-wm9w-rjj3-j356",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-wxqc-pxw9-g2p8",
+        "GHSA-jjjh-jjxp-wpff",
+        "GHSA-rgv9-q543-rqg4",
+        "GHSA-25xr-qj8w-c4vf",
+        "GHSA-h3gc-qfqq-6h8f",
+        "CVE-2024-24549",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-gqp3-2cvr-x8m3",
+        "GHSA-hh26-6xwr-ggv7",
+        "GHSA-wr62-c79q-cv37",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-564r-hj7v-mcr5",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-9cmq-m9j5-mvww",
+        "GHSA-2rmj-mq67-h97g",
+        "GHSA-hhhw-99gj-p3c3",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-w37g-rhq8-7m4j",
+        "GHSA-w3c8-7r8f-9jp8",
+        "GHSA-wf8f-6423-gfxg",
+        "GHSA-72hv-8253-57qq",
+        "GHSA-hgrr-935x-pq79"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "RA-5",
+      "framework": "NIST 800-53",
+      "finding_count": 31,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-22965",
+        "CVE-2024-50379",
+        "GHSA-83qj-6fr2-vhqg",
+        "CVE-2024-22262",
+        "CVE-2023-22102",
+        "CVE-2025-49124",
+        "CVE-2025-52999",
+        "CVE-2026-0603",
+        "CVE-2026-34500",
+        "CVE-2026-29145",
+        "GHSA-5j33-cvvr-w245",
+        "GHSA-ccgv-vj62-xf9h",
+        "GHSA-fccv-jmmp-qg76",
+        "GHSA-27hp-xhwr-wr2m",
+        "GHSA-3mc7-4q67-w48m",
+        "GHSA-57j2-w4cx-62h2",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-x4m4-345f-5h5g",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-558x-2xjg-6232",
+        "GHSA-r6j3-px5g-cq3x",
+        "GHSA-w6f2-8wx4-47r5",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-9m3c-qcxr-9x87",
+        "GHSA-25qh-j22f-pwp8",
+        "GHSA-4773-3jfm-qmx3",
+        "VAULT-STATUS",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "GHSA-4wp7-92pw-q264",
+        "GHSA-6hcq-hmm3-jj3c",
+        "GHSA-qqpg-mvqg-649v"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1595",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 28,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2024-50379",
+        "GHSA-83qj-6fr2-vhqg",
+        "CVE-2022-23181",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2024-38819",
+        "CVE-2024-38816",
+        "CVE-2026-22737",
+        "CVE-2025-41242",
+        "GHSA-5j33-cvvr-w245",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-27hp-xhwr-wr2m",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-vmq6-5m68-f53m",
+        "CVE-2024-24549",
+        "GHSA-x4m4-345f-5h5g",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-q3mw-pvr8-9ggc",
+        "GHSA-qppj-fm5r-hxr3",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-pr98-23f8-jwxv",
+        "GHSA-rfmp-97jj-h8m6",
+        "GHSA-42wg-hm62-jcwg",
+        "GHSA-9m3c-qcxr-9x87",
+        "GHSA-r936-gwx5-v52f",
+        "GHSA-6v67-2wr5-gvf4"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "SI-2",
+      "framework": "NIST 800-53",
+      "finding_count": 27,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-22965",
+        "CVE-2024-50379",
+        "CVE-2024-56337",
+        "CVE-2024-22262",
+        "CVE-2025-49124",
+        "CVE-2025-52999",
+        "CVE-2026-0603",
+        "CVE-2026-34500",
+        "CVE-2026-29145",
+        "GHSA-ccgv-vj62-xf9h",
+        "GHSA-fccv-jmmp-qg76",
+        "GHSA-3mc7-4q67-w48m",
+        "GHSA-57j2-w4cx-62h2",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-2p5w-cvg5-gc5c",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-558x-2xjg-6232",
+        "GHSA-r6j3-px5g-cq3x",
+        "GHSA-w6f2-8wx4-47r5",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-25qh-j22f-pwp8",
+        "GHSA-4773-3jfm-qmx3",
+        "VAULT-STATUS",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "GHSA-4wp7-92pw-q264",
+        "GHSA-6hcq-hmm3-jj3c",
+        "GHSA-qqpg-mvqg-649v"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1592",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 26,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2024-50379",
+        "GHSA-83qj-6fr2-vhqg",
+        "CVE-2022-25857",
+        "CVE-2022-38749",
+        "CVE-2024-38819",
+        "CVE-2024-38816",
+        "CVE-2026-22737",
+        "CVE-2025-41242",
+        "GHSA-5j33-cvvr-w245",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-27hp-xhwr-wr2m",
+        "GHSA-vmq6-5m68-f53m",
+        "CVE-2024-24549",
+        "GHSA-x4m4-345f-5h5g",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-v682-8vv8-vpwr",
+        "GHSA-q3mw-pvr8-9ggc",
+        "GHSA-qppj-fm5r-hxr3",
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-pr98-23f8-jwxv",
+        "GHSA-rfmp-97jj-h8m6",
+        "GHSA-42wg-hm62-jcwg",
+        "GHSA-9m3c-qcxr-9x87",
+        "GHSA-r936-gwx5-v52f",
+        "VAULT-STATUS",
+        "GHSA-6v67-2wr5-gvf4"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1562",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 23,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2023-20873",
+        "CVE-2023-20860",
+        "CVE-2026-22733",
+        "CVE-2025-24813",
+        "GHSA-7phw-cxx7-q9vq",
+        "GHSA-g5h3-w546-pj7f",
+        "CVE-2022-22968",
+        "CVE-2024-22243",
+        "CVE-2023-24998",
+        "CVE-2022-42252",
+        "CVE-2025-22235",
+        "CVE-2026-22740",
+        "CVE-2025-41249",
+        "CVE-2026-34487",
+        "CVE-2026-29145",
+        "10038",
+        "GHSA-4gc7-5j7h-4qph",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-r936-gwx5-v52f",
+        "10063",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-h2fw-rfh5-95r3"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "SC-5",
+      "framework": "NIST 800-53",
+      "finding_count": 19,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-42004",
+        "CVE-2022-42003",
+        "CVE-2023-6481",
+        "CVE-2023-44487",
+        "CVE-2023-24998",
+        "CVE-2023-20863",
+        "CVE-2025-48989",
+        "GHSA-rgv9-q543-rqg4",
+        "GHSA-mgvc-8q2h-5pgc",
+        "GHSA-gqp3-2cvr-x8m3",
+        "GHSA-hh26-6xwr-ggv7",
+        "GHSA-h46c-h94j-95f3",
+        "GHSA-564r-hj7v-mcr5",
+        "GHSA-c4r9-r8fh-9vj2",
+        "GHSA-2rmj-mq67-h97g",
+        "GHSA-hhhw-99gj-p3c3",
+        "GHSA-98wm-3w3q-mw94",
+        "GHSA-72hv-8253-57qq",
+        "GHSA-hgrr-935x-pq79"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A06:2021",
+      "framework": "OWASP Top 10",
+      "finding_count": 11,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2024-56337",
+        "CVE-2023-44487",
+        "CVE-2025-48989",
+        "GHSA-m6vm-37g8-gqvh",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "GHSA-x4m4-345f-5h5g",
+        "GHSA-3x8x-79m2-3w2w",
+        "GHSA-hhhw-99gj-p3c3",
+        "GHSA-w37g-rhq8-7m4j",
+        "GHSA-wf8f-6423-gfxg",
+        "GHSA-hgrr-935x-pq79"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "AC-6",
+      "framework": "NIST 800-53",
+      "finding_count": 9,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-22965",
+        "CVE-2024-22262",
+        "CVE-2025-49124",
+        "CVE-2025-52999",
+        "CVE-2026-34500",
+        "CVE-2026-29145",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "GHSA-25qh-j22f-pwp8",
+        "VAULT-STATUS"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1213",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 8,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "GHSA-83qj-6fr2-vhqg",
+        "CVE-2022-22970",
+        "CVE-2026-34487",
+        "GHSA-p22x-g9px-3945",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-wf8f-6423-gfxg",
+        "10049",
+        "10049"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1203",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 7,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-22965",
+        "CVE-2024-50379",
+        "CVE-2024-56337",
+        "CVE-2024-56337",
+        "GHSA-g5vr-rgqm-vf78",
+        "GHSA-m6vm-37g8-gqvh",
+        "GHSA-g8pj-r55q-5c2v"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1539",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 7,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2016-1000027",
+        "CVE-2024-52316",
+        "CVE-2025-52434",
+        "CVE-2024-34750",
+        "CVE-2026-34500",
+        "CVE-2026-29145",
+        "GHSA-mgvc-8q2h-5pgc"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1005",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 6,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "GHSA-83qj-6fr2-vhqg",
+        "CVE-2026-34487",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-wf8f-6423-gfxg",
+        "10049",
+        "10049"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1068",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 6,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2022-22965",
+        "CVE-2024-50379",
+        "CVE-2024-56337",
+        "CVE-2024-56337",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-g8pj-r55q-5c2v"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1548",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 6,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2023-20860",
+        "CVE-2025-41249",
+        "10038",
+        "GHSA-mgvc-8q2h-5pgc",
+        "GHSA-g76j-4cxx-23h9",
+        "10063"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A05:2021",
+      "framework": "OWASP Top 10",
+      "finding_count": 5,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2023-20873",
+        "CVE-2023-20860",
+        "CVE-2023-24998",
+        "CVE-2025-22235",
+        "10063"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "SC-8",
+      "framework": "NIST 800-53",
+      "finding_count": 5,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2025-66614",
+        "CVE-2022-22968",
+        "CVE-2024-38286",
+        "GHSA-27hp-xhwr-wr2m",
+        "GHSA-qqpg-mvqg-649v"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1110",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 5,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2016-1000027",
+        "CVE-2026-34500",
+        "CVE-2026-29145",
+        "GHSA-mgvc-8q2h-5pgc",
+        "VAULT-STATUS"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1133",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 5,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-wmwf-9ccg-fff5",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "SC-28",
+      "framework": "NIST 800-53",
+      "finding_count": 4,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "GHSA-83qj-6fr2-vhqg",
+        "CVE-2026-34487",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-wf8f-6423-gfxg"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1021",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 4,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "GHSA-36p3-wjmg-h94x",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1574",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 4,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2023-20873",
+        "CVE-2023-20860",
+        "CVE-2023-24998",
+        "CVE-2025-22235"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1556",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 2,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2016-1000027",
+        "GHSA-mgvc-8q2h-5pgc"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A.8.5",
+      "framework": "ISO 27001",
+      "finding_count": 1,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2016-1000027"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "A04:",
+      "framework": "unrecognized",
+      "finding_count": 1,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "GHSA-83qj-6fr2-vhqg"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "A07:2021",
+      "framework": "OWASP Top 10",
+      "finding_count": 1,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "CVE-2016-1000027"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "CC9.1",
+      "framework": "SOC 2",
+      "finding_count": 1,
+      "worst_severity": "CRITICAL",
+      "finding_ids": [
+        "GHSA-83qj-6fr2-vhqg"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "T1070",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 21,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2021-46877",
+        "CVE-2023-6378",
+        "CVE-2025-53506",
+        "CVE-2024-34750",
+        "CVE-2026-34487",
+        "CVE-2026-34483",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-x4m4-345f-5h5g",
+        "GHSA-h46c-h94j-95f3",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-qppj-fm5r-hxr3",
+        "GHSA-g76j-4cxx-23h9",
+        "GHSA-6gf2-pvqw-37ph",
+        "GHSA-rfmp-97jj-h8m6",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-w3c8-7r8f-9jp8",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-h2fw-rfh5-95r3",
+        "GHSA-qqpg-mvqg-649v"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1562.006",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 20,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2021-46877",
+        "CVE-2025-53506",
+        "CVE-2024-34750",
+        "CVE-2026-34487",
+        "CVE-2026-34483",
+        "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-x4m4-345f-5h5g",
+        "GHSA-h46c-h94j-95f3",
+        "GHSA-668q-qrv7-99fm",
+        "GHSA-qppj-fm5r-hxr3",
+        "GHSA-g76j-4cxx-23h9",
+        "GHSA-6gf2-pvqw-37ph",
+        "GHSA-rfmp-97jj-h8m6",
+        "GHSA-wc4r-xq3c-5cf3",
+        "GHSA-w3c8-7r8f-9jp8",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "GHSA-qq5r-98hh-rxc9",
+        "GHSA-h2fw-rfh5-95r3",
+        "GHSA-qqpg-mvqg-649v"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1046",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 17,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2023-20863",
+        "CVE-2025-55752",
+        "GHSA-cx7f-g6mp-7hqm",
+        "GHSA-hfrx-6qgj-fp6c",
+        "GHSA-m6vm-37g8-gqvh",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-wmwf-9ccg-fff5",
+        "GHSA-q3mw-pvr8-9ggc",
+        "GHSA-jjfh-589g-3hjx",
+        "GHSA-pr98-23f8-jwxv",
+        "GHSA-42wg-hm62-jcwg",
+        "GHSA-9m3c-qcxr-9x87",
+        "GHSA-r936-gwx5-v52f",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-6v67-2wr5-gvf4"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1040",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 10,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2024-38286",
+        "GHSA-g5mm-vmx4-3rg7",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-gqp3-2cvr-x8m3",
+        "GHSA-h46c-h94j-95f3",
+        "GHSA-qppj-fm5r-hxr3",
+        "GHSA-fpj8-gq4v-p354",
+        "GHSA-72hv-8253-57qq",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-hgrr-935x-pq79"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1557",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 10,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2024-38286",
+        "GHSA-g5mm-vmx4-3rg7",
+        "GHSA-rv64-5gf8-9qq8",
+        "GHSA-gqp3-2cvr-x8m3",
+        "GHSA-h46c-h94j-95f3",
+        "GHSA-qppj-fm5r-hxr3",
+        "GHSA-fpj8-gq4v-p354",
+        "GHSA-72hv-8253-57qq",
+        "GHSA-vfww-5hm6-hx2j",
+        "GHSA-hgrr-935x-pq79"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1204",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 6,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2022-1471",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-rc42-6c7j-7h5r",
+        "GHSA-jmp9-x22r-554x",
+        "GHSA-9w3m-gqgf-c4p9",
+        "GHSA-25qh-j22f-pwp8"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1486",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 6,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2022-23181",
+        "CVE-2025-52434",
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-g5mm-vmx4-3rg7",
+        "10049",
+        "10049"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A.8.15",
+      "framework": "ISO 27001",
+      "finding_count": 5,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2026-34483",
+        "GHSA-x4m4-345f-5h5g",
+        "GHSA-6gf2-pvqw-37ph",
+        "GHSA-rfmp-97jj-h8m6",
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A.5.23",
+      "framework": "ISO 27001",
+      "finding_count": 4,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2025-22235",
+        "GHSA-xf96-w227-r7c4",
+        "GHSA-3x8x-79m2-3w2w",
+        "GHSA-w37g-rhq8-7m4j"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "IR-5",
+      "framework": "NIST 800-53",
+      "finding_count": 4,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "GHSA-mjmj-j48q-9wg2",
+        "GHSA-5j33-cvvr-w245",
+        "GHSA-vmq6-5m68-f53m",
+        "GHSA-vmq6-5m68-f53m"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "CM-2",
+      "framework": "NIST 800-53",
+      "finding_count": 3,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2025-41249",
+        "GHSA-h3gc-qfqq-6h8f",
+        "GHSA-42wg-hm62-jcwg"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "T1553",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 3,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "GHSA-h46c-h94j-95f3",
+        "GHSA-fpj8-gq4v-p354",
+        "GHSA-25qh-j22f-pwp8"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A10:2021",
+      "framework": "OWASP Top 10",
+      "finding_count": 2,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "GHSA-ccgv-vj62-xf9h",
+        "GHSA-558x-2xjg-6232"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "CM-6",
+      "framework": "NIST 800-53",
+      "finding_count": 2,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "GHSA-g5vr-rgqm-vf78",
+        "GHSA-w3c8-7r8f-9jp8"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "SI-10",
+      "framework": "NIST 800-53",
+      "finding_count": 2,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "CVE-2022-45143",
+        "GHSA-rq2w-37h9-vg94"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "SI-3",
+      "framework": "NIST 800-53",
+      "finding_count": 2,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "GHSA-rc42-6c7j-7h5r",
+        "GHSA-jmp9-x22r-554x"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A02:2021",
+      "framework": "OWASP Top 10",
+      "finding_count": 1,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "GHSA-h46c-h94j-95f3"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "IA-5",
+      "framework": "NIST 800-53",
+      "finding_count": 1,
+      "worst_severity": "HIGH",
+      "finding_ids": [
+        "GHSA-p22x-g9px-3945"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "A01:2021",
+      "framework": "OWASP Top 10",
+      "finding_count": 2,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "10063",
+        "10063"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "CC7.1",
+      "framework": "SOC 2",
+      "finding_count": 2,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "GHSA-g8pj-r55q-5c2v",
+        "GHSA-9m3c-qcxr-9x87"
+      ],
+      "is_shared_gap": true
+    },
+    {
+      "control_id": "A.8.20",
+      "framework": "ISO 27001",
+      "finding_count": 1,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "A09:2021",
+      "framework": "OWASP Top 10",
+      "finding_count": 1,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "AC-3",
+      "framework": "NIST 800-53",
+      "finding_count": 1,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "10063"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "CC6.6",
+      "framework": "SOC 2",
+      "finding_count": 1,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "GHSA-9m3c-qcxr-9x87"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "CIS-8",
+      "framework": "unrecognized",
+      "finding_count": 1,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "GHSA-6gf2-pvqw-37ph"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "T1098",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 1,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "GHSA-558x-2xjg-6232"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "T1552",
+      "framework": "MITRE ATT&CK",
+      "finding_count": 1,
+      "worst_severity": "MEDIUM",
+      "finding_ids": [
+        "VAULT-STATUS"
+      ],
+      "is_shared_gap": false
+    },
+    {
+      "control_id": "A.5.26",
+      "framework": "ISO 27001",
+      "finding_count": 2,
+      "worst_severity": "LOW",
+      "finding_ids": [
+        "10049",
+        "10049"
+      ],
+      "is_shared_gap": true
+    }
+  ],
+  "control_index": {
+    "A.8.5": [
+      {
+        "finding_id": "CVE-2016-1000027",
+        "severity": "CRITICAL"
+      }
+    ],
+    "A07:2021": [
+      {
+        "finding_id": "CVE-2016-1000027",
+        "severity": "CRITICAL"
+      }
+    ],
+    "T1059": [
+      {
+        "finding_id": "CVE-2016-1000027",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-22733",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-66614",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-24813",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-52316",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-7phw-cxx7-q9vq",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-4wrc-f8pq-fpqp",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-g5h3-w546-pj7f",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-42004",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-45143",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42003",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-1471",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22968",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22970",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2020-36518",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-23672",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22262",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22259",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22243",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-46589",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-22102",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20883",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20863",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42252",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38819",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38816",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52520",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52999",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-55752",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-0603",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22737",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22740",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-24880",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41242",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48988",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40973",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40972",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34483",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-cx7f-g6mp-7hqm",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5vr-rgqm-vf78",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hgjh-9rj2-g67j",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-fccv-jmmp-qg76",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5mm-vmx4-3rg7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wm9w-rjj3-j356",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wxqc-pxw9-g2p8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rq2w-37h9-vg94",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2wrp-6fg6-hmc5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jjjh-jjxp-wpff",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-25xr-qj8w-c4vf",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rc42-6c7j-7h5r",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-xf96-w227-r7c4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h3gc-qfqq-6h8f",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wmwf-9ccg-fff5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2p5w-cvg5-gc5c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10038",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-p22x-g9px-3945",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wr62-c79q-cv37",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-q3mw-pvr8-9ggc",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r6j3-px5g-cq3x",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-7w75-32cg-r6g2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9cmq-m9j5-mvww",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-pr98-23f8-jwxv",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-2rmj-mq67-h97g",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-6gf2-pvqw-37ph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "NIKTO-FINDING",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-4wp7-92pw-q264",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6hcq-hmm3-jj3c",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6v67-2wr5-gvf4",
+        "severity": "LOW"
+      }
+    ],
+    "T1078": [
+      {
+        "finding_id": "CVE-2016-1000027",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20873",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-22733",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-24813",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-52316",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-7phw-cxx7-q9vq",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-g5h3-w546-pj7f",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-22968",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22259",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22243",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-24998",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42252",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-22235",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22740",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-24880",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5mm-vmx4-3rg7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-xf96-w227-r7c4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10038",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-558x-2xjg-6232",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w37g-rhq8-7m4j",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "10063",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      }
+    ],
+    "T1110": [
+      {
+        "finding_id": "CVE-2016-1000027",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1190": [
+      {
+        "finding_id": "CVE-2016-1000027",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20873",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-22733",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-66614",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-24813",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-52316",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-7phw-cxx7-q9vq",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-4wrc-f8pq-fpqp",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-g5h3-w546-pj7f",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-42004",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-45143",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42003",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-1471",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22968",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22970",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2020-36518",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-23672",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22262",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22259",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22243",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-46589",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-44487",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-24998",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-22102",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20883",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20863",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42252",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38819",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38816",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-22235",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52520",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52999",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-55752",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-0603",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22737",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22740",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-24880",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41242",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48988",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48989",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38286",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40973",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40972",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34483",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-cx7f-g6mp-7hqm",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-5j33-cvvr-w245",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5vr-rgqm-vf78",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-ccgv-vj62-xf9h",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hgjh-9rj2-g67j",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-fccv-jmmp-qg76",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5mm-vmx4-3rg7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wm9w-rjj3-j356",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wxqc-pxw9-g2p8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-27hp-xhwr-wr2m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rq2w-37h9-vg94",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2wrp-6fg6-hmc5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-m6vm-37g8-gqvh",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jjjh-jjxp-wpff",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-25xr-qj8w-c4vf",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-xf96-w227-r7c4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h3gc-qfqq-6h8f",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wmwf-9ccg-fff5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2p5w-cvg5-gc5c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10038",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-p22x-g9px-3945",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wr62-c79q-cv37",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-3x8x-79m2-3w2w",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-558x-2xjg-6232",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-q3mw-pvr8-9ggc",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r6j3-px5g-cq3x",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-7w75-32cg-r6g2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-564r-hj7v-mcr5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9cmq-m9j5-mvww",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-pr98-23f8-jwxv",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-2rmj-mq67-h97g",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-6gf2-pvqw-37ph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hhhw-99gj-p3c3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w37g-rhq8-7m4j",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "10063",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "NIKTO-FINDING",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-4wp7-92pw-q264",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6hcq-hmm3-jj3c",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6v67-2wr5-gvf4",
+        "severity": "LOW"
+      }
+    ],
+    "T1539": [
+      {
+        "finding_id": "CVE-2016-1000027",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-52316",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      }
+    ],
+    "T1556": [
+      {
+        "finding_id": "CVE-2016-1000027",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      }
+    ],
+    "A.8.8": [
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20873",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-22733",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-66614",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-24813",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-52316",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-7phw-cxx7-q9vq",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-g5h3-w546-pj7f",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-42004",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-45143",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-1471",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22970",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2020-36518",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-23672",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22262",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22259",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22243",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-22102",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20883",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42252",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38819",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38816",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52520",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52999",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-55752",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-0603",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22737",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22740",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-24880",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41242",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48988",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48989",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38286",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40973",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-cx7f-g6mp-7hqm",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5vr-rgqm-vf78",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-ccgv-vj62-xf9h",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-fccv-jmmp-qg76",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5mm-vmx4-3rg7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wm9w-rjj3-j356",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wxqc-pxw9-g2p8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-m6vm-37g8-gqvh",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-3mc7-4q67-w48m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jjjh-jjxp-wpff",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rgv9-q543-rqg4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-25xr-qj8w-c4vf",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rc42-6c7j-7h5r",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-57j2-w4cx-62h2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h3gc-qfqq-6h8f",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wmwf-9ccg-fff5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2p5w-cvg5-gc5c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10038",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hh26-6xwr-ggv7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wr62-c79q-cv37",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-q3mw-pvr8-9ggc",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r6j3-px5g-cq3x",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w6f2-8wx4-47r5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qppj-fm5r-hxr3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-564r-hj7v-mcr5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9cmq-m9j5-mvww",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-pr98-23f8-jwxv",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-2rmj-mq67-h97g",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hhhw-99gj-p3c3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-fpj8-gq4v-p354",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4773-3jfm-qmx3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "NIKTO-FINDING",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-72hv-8253-57qq",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-4wp7-92pw-q264",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6hcq-hmm3-jj3c",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6v67-2wr5-gvf4",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      }
+    ],
+    "A.8.2": [
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20873",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-22733",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-66614",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-24813",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-52316",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-7phw-cxx7-q9vq",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-4wrc-f8pq-fpqp",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-g5h3-w546-pj7f",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-42004",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-45143",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42003",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-1471",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22968",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22970",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2020-36518",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-23672",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22262",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22259",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22243",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-46589",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-22102",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20883",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42252",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38819",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38816",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52520",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52999",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-55752",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-0603",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22737",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22740",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-24880",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41242",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48988",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48989",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38286",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40973",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40972",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-cx7f-g6mp-7hqm",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hgjh-9rj2-g67j",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-fccv-jmmp-qg76",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wxqc-pxw9-g2p8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rq2w-37h9-vg94",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2wrp-6fg6-hmc5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h3gc-qfqq-6h8f",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10038",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-gqp3-2cvr-x8m3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-p22x-g9px-3945",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wr62-c79q-cv37",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-558x-2xjg-6232",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-q3mw-pvr8-9ggc",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r6j3-px5g-cq3x",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-7w75-32cg-r6g2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qppj-fm5r-hxr3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-564r-hj7v-mcr5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9cmq-m9j5-mvww",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-pr98-23f8-jwxv",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-2rmj-mq67-h97g",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hhhw-99gj-p3c3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-72hv-8253-57qq",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6hcq-hmm3-jj3c",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6v67-2wr5-gvf4",
+        "severity": "LOW"
+      }
+    ],
+    "SI-2": [
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-22262",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52999",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-0603",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-ccgv-vj62-xf9h",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-fccv-jmmp-qg76",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-3mc7-4q67-w48m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-57j2-w4cx-62h2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2p5w-cvg5-gc5c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-558x-2xjg-6232",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r6j3-px5g-cq3x",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w6f2-8wx4-47r5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4773-3jfm-qmx3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4wp7-92pw-q264",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6hcq-hmm3-jj3c",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      }
+    ],
+    "RA-5": [
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-22262",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-22102",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52999",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-0603",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-5j33-cvvr-w245",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-ccgv-vj62-xf9h",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-fccv-jmmp-qg76",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-27hp-xhwr-wr2m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-3mc7-4q67-w48m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-57j2-w4cx-62h2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-558x-2xjg-6232",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r6j3-px5g-cq3x",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w6f2-8wx4-47r5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4773-3jfm-qmx3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4wp7-92pw-q264",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6hcq-hmm3-jj3c",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      }
+    ],
+    "AC-6": [
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-22262",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52999",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      }
+    ],
+    "A03:2021": [
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-22733",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-66614",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-24813",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-52316",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-7phw-cxx7-q9vq",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-4wrc-f8pq-fpqp",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-g5h3-w546-pj7f",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-42004",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-45143",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42003",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-1471",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22968",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22970",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2020-36518",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-23672",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22262",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22259",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22243",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-46589",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-22102",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20883",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20863",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42252",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38819",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38816",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52520",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52999",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-55752",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-0603",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22737",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22740",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-24880",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41242",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48988",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40973",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40972",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34483",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-cx7f-g6mp-7hqm",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5vr-rgqm-vf78",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hgjh-9rj2-g67j",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-fccv-jmmp-qg76",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5mm-vmx4-3rg7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wm9w-rjj3-j356",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wxqc-pxw9-g2p8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rq2w-37h9-vg94",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2wrp-6fg6-hmc5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jjjh-jjxp-wpff",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-25xr-qj8w-c4vf",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-xf96-w227-r7c4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h3gc-qfqq-6h8f",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wmwf-9ccg-fff5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-2p5w-cvg5-gc5c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10038",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-p22x-g9px-3945",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wr62-c79q-cv37",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-q3mw-pvr8-9ggc",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r6j3-px5g-cq3x",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-7w75-32cg-r6g2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9cmq-m9j5-mvww",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-pr98-23f8-jwxv",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-2rmj-mq67-h97g",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-6gf2-pvqw-37ph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "NIKTO-FINDING",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-4wp7-92pw-q264",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6hcq-hmm3-jj3c",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6v67-2wr5-gvf4",
+        "severity": "LOW"
+      }
+    ],
+    "T1068": [
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1203": [
+      {
+        "finding_id": "CVE-2022-22965",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-g5vr-rgqm-vf78",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-m6vm-37g8-gqvh",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      }
+    ],
+    "A05:2021": [
+      {
+        "finding_id": "CVE-2023-20873",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-24998",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-22235",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10063",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1562": [
+      {
+        "finding_id": "CVE-2023-20873",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-22733",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-24813",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-7phw-cxx7-q9vq",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-g5h3-w546-pj7f",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-22968",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22243",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-24998",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42252",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-22235",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22740",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10038",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-4gc7-5j7h-4qph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "10063",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      }
+    ],
+    "T1574": [
+      {
+        "finding_id": "CVE-2023-20873",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-24998",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-22235",
+        "severity": "HIGH"
+      }
+    ],
+    "T1195": [
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-22733",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-66614",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-24813",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2024-52316",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-1471",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-22970",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2020-36518",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-23672",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22259",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-22243",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-46589",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-44487",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-20883",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38819",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38816",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-49124",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52520",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-55752",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22737",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22740",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-24880",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41242",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48988",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48989",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-40972",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34500",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-29145",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-cx7f-g6mp-7hqm",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wxqc-pxw9-g2p8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-m6vm-37g8-gqvh",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-25xr-qj8w-c4vf",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rc42-6c7j-7h5r",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wmwf-9ccg-fff5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wr62-c79q-cv37",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-3x8x-79m2-3w2w",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-564r-hj7v-mcr5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9cmq-m9j5-mvww",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hhhw-99gj-p3c3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-fpj8-gq4v-p354",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w37g-rhq8-7m4j",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      }
+    ],
+    "T1548": [
+      {
+        "finding_id": "CVE-2023-20860",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10038",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "10063",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1021": [
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1133": [
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-36p3-wjmg-h94x",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-wmwf-9ccg-fff5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      }
+    ],
+    "SC-8": [
+      {
+        "finding_id": "CVE-2025-66614",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-22968",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38286",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-27hp-xhwr-wr2m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      }
+    ],
+    "T1592": [
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38819",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38816",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22737",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41242",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-5j33-cvvr-w245",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-27hp-xhwr-wr2m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-q3mw-pvr8-9ggc",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qppj-fm5r-hxr3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-pr98-23f8-jwxv",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-6v67-2wr5-gvf4",
+        "severity": "LOW"
+      }
+    ],
+    "T1595": [
+      {
+        "finding_id": "CVE-2024-50379",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38819",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-38816",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-22737",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-41242",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-5j33-cvvr-w245",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-27hp-xhwr-wr2m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-q3mw-pvr8-9ggc",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qppj-fm5r-hxr3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-pr98-23f8-jwxv",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-6v67-2wr5-gvf4",
+        "severity": "LOW"
+      }
+    ],
+    "A06:2021": [
+      {
+        "finding_id": "CVE-2024-56337",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-44487",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2025-48989",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-m6vm-37g8-gqvh",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-3x8x-79m2-3w2w",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hhhw-99gj-p3c3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w37g-rhq8-7m4j",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      }
+    ],
+    "SC-28": [
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      }
+    ],
+    "CC9.1": [
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      }
+    ],
+    "A04:": [
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      }
+    ],
+    "T1005": [
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      }
+    ],
+    "T1213": [
+      {
+        "finding_id": "GHSA-83qj-6fr2-vhqg",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2022-22970",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-p22x-g9px-3945",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      }
+    ],
+    "SC-5": [
+      {
+        "finding_id": "CVE-2022-42004",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-42003",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-44487",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-24998",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20863",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48989",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rgv9-q543-rqg4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mgvc-8q2h-5pgc",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-gqp3-2cvr-x8m3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hh26-6xwr-ggv7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-564r-hj7v-mcr5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-2rmj-mq67-h97g",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hhhw-99gj-p3c3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-72hv-8253-57qq",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      }
+    ],
+    "T1498": [
+      {
+        "finding_id": "CVE-2022-42004",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2020-36518",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-23672",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-44487",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-24998",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20883",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20863",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48988",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48989",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wm9w-rjj3-j356",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wxqc-pxw9-g2p8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jjjh-jjxp-wpff",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rgv9-q543-rqg4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-25xr-qj8w-c4vf",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h3gc-qfqq-6h8f",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-gqp3-2cvr-x8m3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hh26-6xwr-ggv7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wr62-c79q-cv37",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-564r-hj7v-mcr5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9cmq-m9j5-mvww",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-2rmj-mq67-h97g",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hhhw-99gj-p3c3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w37g-rhq8-7m4j",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-72hv-8253-57qq",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      }
+    ],
+    "T1499": [
+      {
+        "finding_id": "CVE-2022-42004",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-25857",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2022-38749",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2020-36518",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-23672",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6481",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-44487",
+        "severity": "CRITICAL"
+      },
+      {
+        "finding_id": "CVE-2023-24998",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20883",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-20863",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48988",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-48989",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wm9w-rjj3-j356",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wxqc-pxw9-g2p8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jjjh-jjxp-wpff",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rgv9-q543-rqg4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-25xr-qj8w-c4vf",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h3gc-qfqq-6h8f",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-24549",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-gqp3-2cvr-x8m3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hh26-6xwr-ggv7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wr62-c79q-cv37",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-v682-8vv8-vpwr",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-564r-hj7v-mcr5",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-c4r9-r8fh-9vj2",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9cmq-m9j5-mvww",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-2rmj-mq67-h97g",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hhhw-99gj-p3c3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-98wm-3w3q-mw94",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w37g-rhq8-7m4j",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wf8f-6423-gfxg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-72hv-8253-57qq",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      }
+    ],
+    "SI-10": [
+      {
+        "finding_id": "CVE-2022-45143",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rq2w-37h9-vg94",
+        "severity": "HIGH"
+      }
+    ],
+    "T1204": [
+      {
+        "finding_id": "CVE-2022-1471",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rc42-6c7j-7h5r",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-9w3m-gqgf-c4p9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1486": [
+      {
+        "finding_id": "CVE-2022-23181",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-52434",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5mm-vmx4-3rg7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      }
+    ],
+    "T1070": [
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2023-6378",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34483",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qppj-fm5r-hxr3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-6gf2-pvqw-37ph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      }
+    ],
+    "T1562.006": [
+      {
+        "finding_id": "CVE-2021-46877",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-53506",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2024-34750",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34487",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2026-34483",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-668q-qrv7-99fm",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qppj-fm5r-hxr3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-g76j-4cxx-23h9",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-6gf2-pvqw-37ph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-wc4r-xq3c-5cf3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-qq5r-98hh-rxc9",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-h2fw-rfh5-95r3",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-qqpg-mvqg-649v",
+        "severity": "LOW"
+      }
+    ],
+    "T1046": [
+      {
+        "finding_id": "CVE-2023-20863",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "CVE-2025-55752",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-cx7f-g6mp-7hqm",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-hfrx-6qgj-fp6c",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-m6vm-37g8-gqvh",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-wmwf-9ccg-fff5",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-q3mw-pvr8-9ggc",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-jjfh-589g-3hjx",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-pr98-23f8-jwxv",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-r936-gwx5-v52f",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-6v67-2wr5-gvf4",
+        "severity": "LOW"
+      }
+    ],
+    "A.5.23": [
+      {
+        "finding_id": "CVE-2025-22235",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-xf96-w227-r7c4",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-3x8x-79m2-3w2w",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-w37g-rhq8-7m4j",
+        "severity": "MEDIUM"
+      }
+    ],
+    "CM-2": [
+      {
+        "finding_id": "CVE-2025-41249",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h3gc-qfqq-6h8f",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-42wg-hm62-jcwg",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1557": [
+      {
+        "finding_id": "CVE-2024-38286",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5mm-vmx4-3rg7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-gqp3-2cvr-x8m3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-qppj-fm5r-hxr3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-fpj8-gq4v-p354",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-72hv-8253-57qq",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      }
+    ],
+    "T1040": [
+      {
+        "finding_id": "CVE-2024-38286",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-g5mm-vmx4-3rg7",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-rv64-5gf8-9qq8",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-gqp3-2cvr-x8m3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-qppj-fm5r-hxr3",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-fpj8-gq4v-p354",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-72hv-8253-57qq",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-vfww-5hm6-hx2j",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "GHSA-hgrr-935x-pq79",
+        "severity": "LOW"
+      }
+    ],
+    "A.8.15": [
+      {
+        "finding_id": "CVE-2026-34483",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-x4m4-345f-5h5g",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-6gf2-pvqw-37ph",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-rfmp-97jj-h8m6",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      }
+    ],
+    "IR-5": [
+      {
+        "finding_id": "GHSA-mjmj-j48q-9wg2",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-5j33-cvvr-w245",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH"
+      }
+    ],
+    "CM-6": [
+      {
+        "finding_id": "GHSA-g5vr-rgqm-vf78",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-w3c8-7r8f-9jp8",
+        "severity": "MEDIUM"
+      }
+    ],
+    "A10:2021": [
+      {
+        "finding_id": "GHSA-ccgv-vj62-xf9h",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-558x-2xjg-6232",
+        "severity": "MEDIUM"
+      }
+    ],
+    "SI-3": [
+      {
+        "finding_id": "GHSA-rc42-6c7j-7h5r",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-jmp9-x22r-554x",
+        "severity": "HIGH"
+      }
+    ],
+    "IA-5": [
+      {
+        "finding_id": "GHSA-p22x-g9px-3945",
+        "severity": "HIGH"
+      }
+    ],
+    "A02:2021": [
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      }
+    ],
+    "T1553": [
+      {
+        "finding_id": "GHSA-h46c-h94j-95f3",
+        "severity": "HIGH"
+      },
+      {
+        "finding_id": "GHSA-fpj8-gq4v-p354",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-25qh-j22f-pwp8",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1098": [
+      {
+        "finding_id": "GHSA-558x-2xjg-6232",
+        "severity": "MEDIUM"
+      }
+    ],
+    "CC7.1": [
+      {
+        "finding_id": "GHSA-g8pj-r55q-5c2v",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      }
+    ],
+    "CIS-8": [
+      {
+        "finding_id": "GHSA-6gf2-pvqw-37ph",
+        "severity": "MEDIUM"
+      }
+    ],
+    "CC6.6": [
+      {
+        "finding_id": "GHSA-9m3c-qcxr-9x87",
+        "severity": "MEDIUM"
+      }
+    ],
+    "T1552": [
+      {
+        "finding_id": "VAULT-STATUS",
+        "severity": "MEDIUM"
+      }
+    ],
+    "A01:2021": [
+      {
+        "finding_id": "10063",
+        "severity": "MEDIUM"
+      },
+      {
+        "finding_id": "10063",
+        "severity": "MEDIUM"
+      }
+    ],
+    "AC-3": [
+      {
+        "finding_id": "10063",
+        "severity": "MEDIUM"
+      }
+    ],
+    "A.8.20": [
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      }
+    ],
+    "A09:2021": [
+      {
+        "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+        "severity": "MEDIUM"
+      }
+    ],
+    "A.5.26": [
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      },
+      {
+        "finding_id": "10049",
+        "severity": "LOW"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5805 @@
+{
+  "calibration": {
+    "calibration_target": "analyst_label",
+    "positive_threshold": 50.0,
+    "positive_rate": 0.4699,
+    "n_calibration_rows": 83,
+    "brier_score": 0.0656,
+    "curve": [
+      {
+        "predicted_probability": 0.045,
+        "observed_rate": 0.027
+      },
+      {
+        "predicted_probability": 0.5,
+        "observed_rate": 0.0
+      },
+      {
+        "predicted_probability": 0.615,
+        "observed_rate": 0.4167
+      },
+      {
+        "predicted_probability": 0.661,
+        "observed_rate": 1.0
+      },
+      {
+        "predicted_probability": 0.848,
+        "observed_rate": 1.0
+      }
+    ]
+  },
+  "explanations": [
+    {
+      "finding_id": "CVE-2016-1000027",
+      "risk_score": 30.2,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -33.01,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -7.589,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -4.34,
+          "feature_value": 0.3226,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.972,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.355,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-22965",
+      "risk_score": 70.8,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -14.675,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -11.728,
+          "feature_value": 0.9964,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 4.651,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.358,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.954,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-20873",
+      "risk_score": 29.2,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -34.488,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -8.376,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -5.905,
+          "feature_value": 0.0112,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.572,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 2.88,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-20860",
+      "risk_score": 79.5,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 13.741,
+          "feature_value": 9.1,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 10.189,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.495,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 4.169,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.959,
+          "feature_value": 0.0351,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-36p3-wjmg-h94x",
+      "risk_score": 61.2,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.303,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.312,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.708,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.958,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.732,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-36p3-wjmg-h94x",
+      "risk_score": 61.2,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.303,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.312,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.708,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.958,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.732,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-22733",
+      "risk_score": 83.0,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 14.421,
+          "feature_value": 9.2,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 9.599,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.772,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 3.944,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.811,
+          "feature_value": 0.0036,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-66614",
+      "risk_score": 76.2,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 17.998,
+          "feature_value": 9.1,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 9.823,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.269,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.646,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.102,
+          "feature_value": 0.0024,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-24813",
+      "risk_score": 83.9,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 18.071,
+          "feature_value": 0.4432,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 13.875,
+          "feature_value": 0.9993,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 8.461,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 6.51,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.635,
+          "feature_value": 9.8,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-50379",
+      "risk_score": 86.7,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 13.564,
+          "feature_value": 9.2,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 9.18,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.784,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 4.893,
+          "feature_value": 0.4431,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 4.129,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-56337",
+      "risk_score": 79.5,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 13.453,
+          "feature_value": 9.2,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 9.972,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.545,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 3.507,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 2.072,
+          "feature_value": 0.0903,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-52316",
+      "risk_score": 72.9,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 16.425,
+          "feature_value": 9.2,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 10.211,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 8.043,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 2.415,
+          "feature_value": 0.0625,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.54,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-7phw-cxx7-q9vq",
+      "risk_score": 67.0,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 15.231,
+          "feature_value": 9.1,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 9.081,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.677,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.886,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.569,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-4wrc-f8pq-fpqp",
+      "risk_score": 61.2,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.303,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.312,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.708,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.958,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.732,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-36p3-wjmg-h94x",
+      "risk_score": 61.2,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.303,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.312,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.708,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.958,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.732,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-g5h3-w546-pj7f",
+      "risk_score": 61.2,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.303,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.312,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.708,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.958,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.732,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-83qj-6fr2-vhqg",
+      "risk_score": 61.2,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.303,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.312,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.708,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.958,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.732,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-42004",
+      "risk_score": 18.1,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -35.386,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -4.339,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -4.085,
+          "feature_value": 0.0277,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.277,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.777,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-45143",
+      "risk_score": 64.0,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.405,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.863,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.602,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.251,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.946,
+          "feature_value": 0.025,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-42003",
+      "risk_score": 18.1,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -35.386,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -4.339,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -4.085,
+          "feature_value": 0.0277,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.277,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.777,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-1471",
+      "risk_score": 30.9,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -30.316,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -7.935,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -5.706,
+          "feature_value": 0.9957,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.014,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.376,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-22968",
+      "risk_score": 22.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -26.45,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.369,
+          "feature_value": 5.3,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.202,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.579,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.866,
+          "feature_value": 0.0567,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-22970",
+      "risk_score": 22.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -24.717,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.097,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 2.738,
+          "feature_value": 5.3,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.612,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.181,
+          "feature_value": 0.0196,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-23181",
+      "risk_score": 52.1,
+      "calibrated_probability": 0.595,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 6.569,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.453,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.448,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.097,
+          "feature_value": 7.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.38,
+          "feature_value": 0.0069,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-25857",
+      "risk_score": 63.7,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.402,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.807,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.547,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.315,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.407,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-38749",
+      "risk_score": 53.7,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.644,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.644,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.454,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -1.316,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.042,
+          "feature_value": 0.0206,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2021-46877",
+      "risk_score": 18.1,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -34.949,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -4.776,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -4.16,
+          "feature_value": 0.0112,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.286,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.709,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2020-36518",
+      "risk_score": 62.8,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.235,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.517,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 4.95,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -2.325,
+          "feature_value": 0.0486,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -1.811,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-23672",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.5,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.593,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.574,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -5.548,
+          "feature_value": 0.0231,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.985,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.034,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-22262",
+      "risk_score": 25.6,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -28.677,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 6.943,
+          "feature_value": 0.0119,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.559,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.977,
+          "feature_value": 8.1,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.115,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-22259",
+      "risk_score": 63.5,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.422,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.888,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.606,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -1.313,
+          "feature_value": 7.1,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.937,
+          "feature_value": 0.0257,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-22243",
+      "risk_score": 63.5,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.421,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.887,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.615,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -1.052,
+          "feature_value": 7.1,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.669,
+          "feature_value": 0.0397,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-6481",
+      "risk_score": 52.7,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 6.639,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.013,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.448,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.724,
+          "feature_value": 0.0068,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -0.919,
+          "feature_value": 7.1,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-6378",
+      "risk_score": 62.9,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.293,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.847,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.227,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -1.806,
+          "feature_value": 7.1,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.438,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-46589",
+      "risk_score": 68.2,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.534,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.276,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.322,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.944,
+          "feature_value": 8.6,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.49,
+          "feature_value": 0.0265,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-44487",
+      "risk_score": 79.1,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 8.505,
+          "feature_value": 90.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.185,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 5.656,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 3.728,
+          "feature_value": 1.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.519,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-24998",
+      "risk_score": 18.1,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -36.654,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -4.63,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.35,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -2.735,
+          "feature_value": 0.4879,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.642,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-22102",
+      "risk_score": 26.5,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -27.908,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 8.517,
+          "feature_value": 0.0087,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.52,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 2.583,
+          "feature_value": 8.4,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.034,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-20883",
+      "risk_score": 63.1,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.285,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.825,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.054,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.395,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.196,
+          "feature_value": 0.0091,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2023-20863",
+      "risk_score": 24.6,
+      "calibrated_probability": 0.01,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -26.007,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.17,
+          "feature_value": 6.5,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.132,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.598,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.303,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2022-42252",
+      "risk_score": 26.5,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": -26.274,
+          "feature_value": 0.25,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 11.0,
+          "feature_value": 0.0154,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 3.433,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -0.971,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-38819",
+      "risk_score": 74.9,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.083,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.932,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.288,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 5.898,
+          "feature_value": 0.5486,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.359,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-38816",
+      "risk_score": 68.2,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 6.627,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.599,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 5.042,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 4.575,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.718,
+          "feature_value": 0.1472,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-22235",
+      "risk_score": 44.1,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.756,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.482,
+          "feature_value": 0.4935,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.929,
+          "feature_value": 7.3,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.494,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -2.243,
+          "feature_value": 0.0042,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-52434",
+      "risk_score": 60.6,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 9.569,
+          "feature_value": 8.9,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.602,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.138,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.644,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.893,
+          "feature_value": 0.0191,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-49124",
+      "risk_score": 55.5,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.97,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.687,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.701,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.478,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.84,
+          "feature_value": 0.0034,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-52520",
+      "risk_score": 68.2,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.513,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.283,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.076,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.9,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.79,
+          "feature_value": 0.0206,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-52999",
+      "risk_score": 68.2,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 6.294,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 5.23,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.098,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.895,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 2.035,
+          "feature_value": 0.0066,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-55752",
+      "risk_score": 77.2,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.242,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.467,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.764,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 2.018,
+          "feature_value": 7.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.067,
+          "feature_value": 0.6653,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-53506",
+      "risk_score": 68.2,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.513,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.283,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.076,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.9,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.79,
+          "feature_value": 0.0199,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-0603",
+      "risk_score": 53.6,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.093,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.335,
+          "feature_value": 0.7709,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.168,
+          "feature_value": 8.3,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.441,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.5,
+          "feature_value": 0.008,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-22737",
+      "risk_score": 58.8,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.166,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.412,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 5.088,
+          "feature_value": 8.2,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.519,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 0.69,
+          "feature_value": 0.0039,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-22740",
+      "risk_score": 54.8,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.968,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.69,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.468,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.349,
+          "feature_value": 7.1,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.954,
+          "feature_value": 0.0034,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-24880",
+      "risk_score": 55.1,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.281,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.471,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.164,
+          "feature_value": 8.2,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.499,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.98,
+          "feature_value": 0.0052,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-41242",
+      "risk_score": 55.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.284,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.11,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.067,
+          "feature_value": 8.2,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.452,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.066,
+          "feature_value": 0.0205,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-41249",
+      "risk_score": 68.2,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 6.294,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 5.231,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.098,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.895,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 2.034,
+          "feature_value": 0.0046,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-48988",
+      "risk_score": 76.7,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "epss_numeric",
+          "impact": 10.819,
+          "feature_value": 0.5696,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.141,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 7.036,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.584,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.965,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2025-48989",
+      "risk_score": 67.9,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.531,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.195,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 5.244,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.659,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.411,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-34750",
+      "risk_score": 64.6,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "epss_numeric",
+          "impact": -7.922,
+          "feature_value": 0.046,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 6.21,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.677,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 3.962,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": 3.657,
+          "feature_value": 2.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-38286",
+      "risk_score": 61.3,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 6.615,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.352,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.421,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 3.418,
+          "feature_value": 0.0169,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.064,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-40973",
+      "risk_score": 56.7,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.661,
+          "feature_value": 0.0014,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 0.969,
+          "feature_value": 7.3,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-40972",
+      "risk_score": 57.8,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 6.781,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.219,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 3.174,
+          "feature_value": 7.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.504,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.42,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-34500",
+      "risk_score": 55.1,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 7.281,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.471,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.164,
+          "feature_value": 8.3,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.499,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.98,
+          "feature_value": 0.0047,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-34487",
+      "risk_score": 59.3,
+      "calibrated_probability": 0.661,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 17.139,
+          "feature_value": 0.849,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.19,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 2.543,
+          "feature_value": 0.0045,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.232,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.415,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-34483",
+      "risk_score": 59.0,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 16.789,
+          "feature_value": 0.849,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.184,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 1.961,
+          "feature_value": 0.0046,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.246,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.413,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2026-29145",
+      "risk_score": 60.9,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 10.029,
+          "feature_value": 8.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.616,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.393,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 2.018,
+          "feature_value": 0.0072,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.511,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-mjmj-j48q-9wg2",
+      "risk_score": 51.4,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.821,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.976,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.573,
+          "feature_value": 8.3,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.514,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-cx7f-g6mp-7hqm",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-5j33-cvvr-w245",
+      "risk_score": 51.7,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.906,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -3.885,
+          "feature_value": 9.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -2.981,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 2.684,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.165,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-g5vr-rgqm-vf78",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-ccgv-vj62-xf9h",
+      "risk_score": 51.4,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.821,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.976,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.573,
+          "feature_value": 8.1,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.514,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-hgjh-9rj2-g67j",
+      "risk_score": 51.4,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.821,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.976,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.573,
+          "feature_value": 8.1,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.514,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-fccv-jmmp-qg76",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-g5mm-vmx4-3rg7",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-wm9w-rjj3-j356",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-hfrx-6qgj-fp6c",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-wxqc-pxw9-g2p8",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-27hp-xhwr-wr2m",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.841,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.696,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.201,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.759,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.502,
+          "feature_value": 7.2,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-rq2w-37h9-vg94",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-2wrp-6fg6-hmc5",
+      "risk_score": 51.4,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.821,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.976,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.573,
+          "feature_value": 8.1,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.514,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-m6vm-37g8-gqvh",
+      "risk_score": 52.8,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.821,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.976,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.573,
+          "feature_value": 8.3,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.514,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-3mc7-4q67-w48m",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-jjjh-jjxp-wpff",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-rgv9-q543-rqg4",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-25xr-qj8w-c4vf",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-rc42-6c7j-7h5r",
+      "risk_score": 51.2,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.661,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 0.969,
+          "feature_value": 7.3,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-vmq6-5m68-f53m",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.841,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.696,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.201,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.759,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.502,
+          "feature_value": 7.1,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-57j2-w4cx-62h2",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-xf96-w227-r7c4",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-vmq6-5m68-f53m",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.841,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.696,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.201,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.759,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.502,
+          "feature_value": 7.1,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-h3gc-qfqq-6h8f",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "CVE-2024-24549",
+      "risk_score": 54.0,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 7.972,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 6.747,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": 2.403,
+          "feature_value": 0.2307,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.4,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.164,
+          "feature_value": 7.5,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-wmwf-9ccg-fff5",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538",
+      "risk_score": 57.1,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.98,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.143,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.733,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.462,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.091,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551",
+      "risk_score": 57.1,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.98,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.143,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.733,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.462,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.091,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924",
+      "risk_score": 57.1,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.98,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.143,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.733,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.462,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.091,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-jmp9-x22r-554x",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-2p5w-cvg5-gc5c",
+      "risk_score": 51.4,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.821,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.976,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.573,
+          "feature_value": 8.3,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.514,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-x4m4-345f-5h5g",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "10038",
+      "risk_score": 44.0,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -12.422,
+          "feature_value": 5.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 9.321,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -5.539,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": -3.822,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.691,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-mgvc-8q2h-5pgc",
+      "risk_score": 51.4,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": 5.821,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.976,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 4.573,
+          "feature_value": 8.2,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.514,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-rv64-5gf8-9qq8",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-gqp3-2cvr-x8m3",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-hh26-6xwr-ggv7",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-p22x-g9px-3945",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-wr62-c79q-cv37",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-h46c-h94j-95f3",
+      "risk_score": 57.1,
+      "calibrated_probability": 0.848,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 6.98,
+          "feature_value": 8.7,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.143,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.733,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -3.462,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.091,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-3x8x-79m2-3w2w",
+      "risk_score": 51.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "time_decay_factor",
+          "impact": 5.838,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": 5.689,
+          "feature_value": 70.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.21,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.641,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 1.154,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-v682-8vv8-vpwr",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-668q-qrv7-99fm",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-4gc7-5j7h-4qph",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-4gc7-5j7h-4qph",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-558x-2xjg-6232",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-q3mw-pvr8-9ggc",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-r6j3-px5g-cq3x",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-w6f2-8wx4-47r5",
+      "risk_score": 35.0,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-7w75-32cg-r6g2",
+      "risk_score": 35.2,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.964,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.464,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.518,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.664,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": 0.691,
+          "feature_value": 7.5,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-qppj-fm5r-hxr3",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-g8pj-r55q-5c2v",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-564r-hj7v-mcr5",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-g76j-4cxx-23h9",
+      "risk_score": 35.7,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-c4r9-r8fh-9vj2",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-jjfh-589g-3hjx",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-9cmq-m9j5-mvww",
+      "risk_score": 32.1,
+      "calibrated_probability": 0.051,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -6.682,
+          "feature_value": 4.3,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.176,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": -2.519,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 1.894,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.592,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-pr98-23f8-jwxv",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-2rmj-mq67-h97g",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-6gf2-pvqw-37ph",
+      "risk_score": 32.1,
+      "calibrated_probability": 0.051,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -6.682,
+          "feature_value": 4.3,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.176,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": -2.519,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 1.894,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.592,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-rfmp-97jj-h8m6",
+      "risk_score": 32.1,
+      "calibrated_probability": 0.051,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -6.682,
+          "feature_value": 4.3,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.176,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": -2.519,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 1.894,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.592,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-42wg-hm62-jcwg",
+      "risk_score": 22.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -29.598,
+          "feature_value": 4.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": -8.769,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.464,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.701,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.886,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-hhhw-99gj-p3c3",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-9w3m-gqgf-c4p9",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-98wm-3w3q-mw94",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-wc4r-xq3c-5cf3",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-fpj8-gq4v-p354",
+      "risk_score": 42.3,
+      "calibrated_probability": 0.615,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": 14.403,
+          "feature_value": 9.1,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": -7.379,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 4.342,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -1.643,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-9m3c-qcxr-9x87",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-25qh-j22f-pwp8",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-4773-3jfm-qmx3",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-w37g-rhq8-7m4j",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-r936-gwx5-v52f",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-w3c8-7r8f-9jp8",
+      "risk_score": 34.1,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.547,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.857,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.673,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.807,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "VAULT-STATUS",
+      "risk_score": 32.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -8.483,
+          "feature_value": 5.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.262,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 2.745,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "requires_auth",
+          "impact": 2.356,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 2.164,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "10063",
+      "risk_score": 25.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -11.016,
+          "feature_value": 5.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": -10.301,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": -7.881,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.272,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.599,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "NIKTO-FINDING",
+      "risk_score": 25.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -11.016,
+          "feature_value": 5.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": -10.301,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": -7.881,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.272,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.599,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled",
+      "risk_score": 32.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -8.483,
+          "feature_value": 5.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.262,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 2.745,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "requires_auth",
+          "impact": 2.356,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 2.164,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-wf8f-6423-gfxg",
+      "risk_score": 33.2,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -4.259,
+          "feature_value": 4.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.161,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 1.994,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.59,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.573,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-72hv-8253-57qq",
+      "risk_score": 34.9,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -6.578,
+          "feature_value": 45.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 3.907,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.508,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.677,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -0.781,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-qq5r-98hh-rxc9",
+      "risk_score": 19.1,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -15.295,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -5.981,
+          "feature_value": 2.7,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.262,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.606,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.096,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-vfww-5hm6-hx2j",
+      "risk_score": 23.6,
+      "calibrated_probability": 0.111,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -19.907,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -2.709,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -2.329,
+          "feature_value": 9.6,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "time_decay_factor",
+          "impact": 2.259,
+          "feature_value": 0.8,
+          "direction": "raises_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.09,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-4wp7-92pw-q264",
+      "risk_score": 19.1,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -15.295,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -5.981,
+          "feature_value": 3.1,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.262,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.606,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.096,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-6hcq-hmm3-jj3c",
+      "risk_score": 18.2,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -15.53,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -8.662,
+          "feature_value": 2.6,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.324,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.615,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.094,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-h2fw-rfh5-95r3",
+      "risk_score": 13.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "cvss_numeric",
+          "impact": -20.71,
+          "feature_value": 1.7,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "severity_score",
+          "impact": -17.283,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.647,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.711,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 0.706,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-hgrr-935x-pq79",
+      "risk_score": 19.1,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -15.147,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -6.165,
+          "feature_value": 2.3,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.272,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.607,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.109,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-qqpg-mvqg-649v",
+      "risk_score": 19.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -14.761,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -4.574,
+          "feature_value": 1.8,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.272,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.607,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.128,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "GHSA-6v67-2wr5-gvf4",
+      "risk_score": 19.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -14.775,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -4.562,
+          "feature_value": 2.4,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.272,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.607,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": 1.13,
+          "feature_value": 0.0,
+          "direction": "raises_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "10049",
+      "risk_score": 13.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -18.576,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -12.331,
+          "feature_value": 5.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": -7.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.479,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.653,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    },
+    {
+      "finding_id": "10049",
+      "risk_score": 13.7,
+      "calibrated_probability": 0.0,
+      "top_drivers": [
+        {
+          "feature": "severity_score",
+          "impact": -18.576,
+          "feature_value": 20.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "cvss_numeric",
+          "impact": -12.331,
+          "feature_value": 5.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "network_exposed",
+          "impact": -7.465,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "tool_count",
+          "impact": -3.479,
+          "feature_value": 1.0,
+          "direction": "lowers_risk"
+        },
+        {
+          "feature": "epss_numeric",
+          "impact": -1.653,
+          "feature_value": 0.0,
+          "direction": "lowers_risk"
+        }
+      ]
+    }
+  ]
+}

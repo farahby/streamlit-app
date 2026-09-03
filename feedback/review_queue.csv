@@ -1,0 +1,73 @@
+id,tool,severity,risk_score,ml_risk_score,model_uncertainty,title,in_kev,confidence_score,priority
+CVE-2025-41242,Snyk,HIGH,55.3,45.36721634380968,28.286928464724394,Relative Path Traversal,0,0.8,P3_7D
+CVE-2026-24880,Snyk,HIGH,55.1,45.033581013609485,27.61965846472439,HTTP Request Smuggling,0,0.8,P3_7D
+CVE-2026-34500,Snyk,HIGH,55.1,45.033581013609485,27.61965846472439,Improper Authentication,0,0.8,P3_7D
+CVE-2026-0603,Trivy,HIGH,53.6,44.15947365276964,25.871444464724394,org.hibernate/hibernate-core: Hibernate: Information disclosure and data deletion via second-order SQL injection,0,0.8,P3_7D
+CVE-2023-6481,Snyk,HIGH,52.7,41.07396076887768,24.80107721102392,Uncontrolled Resource Consumption ('Resource Exhaustion'),0,0.8,P3_7D
+CVE-2024-38286,Snyk,HIGH,61.3,55.41091060094166,13.541772825704562,Allocation of Resources Without Limits or Throttling,0,0.8,P3_7D
+CVE-2022-23181,Snyk,HIGH,52.1,39.99841259688061,22.649979211023922,Privilege Escalation,0,0.8,P3_7D
+CVE-2026-22737,Snyk,HIGH,58.8,51.242674399688966,14.07207061224316,Directory Traversal,0,0.8,P3_7D
+GHSA-fpj8-gq4v-p354,Grype,MEDIUM,42.3,43.619945565165445,17.657356526895676,Apache Tomcat - Client certificate verification bypass,0,0.5,P4_30D
+CVE-2025-52520,Snyk,HIGH,68.2,63.55470322369828,4.890792734732344,Integer Overflow or Wraparound,0,1.0,P3_7D
+GHSA-2p5w-cvg5-gc5c,Grype,HIGH,51.4,43.88562352359804,15.901627178145702,Hibernate vulnerable to SQL Injection,0,0.5,P3_7D
+GHSA-2wrp-6fg6-hmc5,Grype,HIGH,51.4,43.88562352359804,15.901627178145702,Spring Framework URL Parsing with Host Validation,0,0.5,P3_7D
+GHSA-hgjh-9rj2-g67j,Grype,HIGH,51.4,43.88562352359804,15.901627178145702,Spring Framework URL Parsing with Host Validation Vulnerability,0,0.5,P3_7D
+GHSA-ccgv-vj62-xf9h,Grype,HIGH,51.4,43.88562352359804,15.901627178145702,Spring Web vulnerable to Open Redirect or Server Side Request Forgery,0,0.5,P3_7D
+GHSA-m6vm-37g8-gqvh,Grype,HIGH,52.8,43.88562352359804,15.901627178145702,MySQL Connectors takeover vulnerability,0,0.5,P3_7D
+GHSA-mjmj-j48q-9wg2,Grype,HIGH,51.4,43.88562352359804,15.901627178145702,SnakeYaml Constructor Deserialization Remote Code Execution,0,0.5,P3_7D
+GHSA-mgvc-8q2h-5pgc,Grype,HIGH,51.4,43.88562352359804,15.901627178145702,Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints,0,0.5,P3_7D
+GHSA-vmq6-5m68-f53m,Grype,HIGH,51.3,43.645966991161934,15.793530256445663,logback serialization vulnerability,0,0.5,P3_7D
+GHSA-27hp-xhwr-wr2m,Grype,HIGH,51.3,43.645966991161934,15.793530256445663,Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability,0,0.5,P3_7D
+GHSA-wr62-c79q-cv37,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits,0,0.5,P3_7D
+GHSA-p22x-g9px-3945,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat may reject request containing invalid Content-Length header,0,0.5,P3_7D
+GHSA-wm9w-rjj3-j356,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat - Denial of Service,0,0.5,P3_7D
+GHSA-g5mm-vmx4-3rg7,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Improper handling of case sensitivity in Spring Framework,0,0.5,P3_7D
+GHSA-fccv-jmmp-qg76,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat Improper Input Validation vulnerability,0,0.5,P3_7D
+GHSA-h3gc-qfqq-6h8f,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat - DoS in multipart upload,0,0.5,P3_7D
+GHSA-25xr-qj8w-c4vf,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams,0,0.5,P3_7D
+GHSA-wxqc-pxw9-g2p8,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Spring Framework vulnerable to denial of service,0,0.5,P3_7D
+GHSA-hfrx-6qgj-fp6c,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Commons FileUpload denial of service vulnerability,0,0.5,P3_7D
+GHSA-jjjh-jjxp-wpff,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Uncontrolled Resource Consumption in Jackson-databind,0,0.5,P3_7D
+GHSA-rgv9-q543-rqg4,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Uncontrolled Resource Consumption in FasterXML jackson-databind,0,0.5,P3_7D
+GHSA-rq2w-37h9-vg94,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat improperly escapes input from JsonErrorReportValve,0,0.5,P3_7D
+GHSA-3mc7-4q67-w48m,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Uncontrolled Resource Consumption in snakeyaml,0,0.5,P3_7D
+GHSA-jmp9-x22r-554x,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Spring Framework annotation detection mechanism may result in improper authorization,0,0.5,P3_7D
+GHSA-wmwf-9ccg-fff5,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat Vulnerable to Relative Path Traversal,0,0.5,P3_7D
+GHSA-xf96-w227-r7c4,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Spring Boot Welcome Page Denial of Service,0,0.5,P3_7D
+GHSA-57j2-w4cx-62h2,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Deeply nested json in jackson-databind,0,0.5,P3_7D
+GHSA-x4m4-345f-5h5g,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File,0,0.5,P3_7D
+GHSA-gqp3-2cvr-x8m3,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat Improper Resource Shutdown or Release vulnerability,0,0.5,P3_7D
+GHSA-g5vr-rgqm-vf78,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Spring Framework Path Traversal vulnerability,0,0.5,P3_7D
+GHSA-cx7f-g6mp-7hqm,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Path traversal vulnerability in functional web frameworks,0,0.5,P3_7D
+GHSA-hh26-6xwr-ggv7,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Denial of service in Spring Framework,0,0.5,P3_7D
+GHSA-rv64-5gf8-9qq8,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve,0,0.5,P3_7D
+GHSA-3x8x-79m2-3w2w,Grype,HIGH,51.3,43.60516698062929,15.340714178145703,jackson-databind possible Denial of Service if using JDK serialization to serialize JsonNode,0,0.5,P3_7D
+GHSA-rc42-6c7j-7h5r,Grype,HIGH,51.2,43.49931866825136,15.129018178145706,Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed,0,0.5,P3_7D
+CVE-2026-40972,Snyk,HIGH,57.8,49.575186301544434,10.737093612243164,Timing Attack,0,0.8,P3_7D
+CVE-2026-40973,Snyk,HIGH,56.7,47.63523345120264,6.857188612243164,Insecure Temporary File,0,0.8,P3_7D
+GHSA-g8pj-r55q-5c2v,Grype,MEDIUM,34.1,29.94484319497827,16.11003246624463,Apache Tomcat Incomplete Cleanup vulnerability,0,0.5,P4_30D
+GHSA-25qh-j22f-pwp8,Grype,MEDIUM,34.1,29.94484319497827,16.11003246624463,QOS.CH logback-core is vulnerable to Arbitrary Code Execution through file processing,0,0.5,P4_30D
+GHSA-2rmj-mq67-h97g,Grype,MEDIUM,34.1,29.94484319497827,16.11003246624463,Spring Framework DoS via conditional HTTP request,0,0.5,P4_30D
+GHSA-hhhw-99gj-p3c3,Grype,MEDIUM,34.1,29.94484319497827,16.11003246624463,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write,0,0.5,P4_30D
+GHSA-4773-3jfm-qmx3,Grype,MEDIUM,34.1,29.94484319497827,16.11003246624463,Spring Framework Improper Path Limitation with Script View Templates,0,0.5,P4_30D
+GHSA-r936-gwx5-v52f,Grype,MEDIUM,34.1,29.94484319497827,16.11003246624463,Spring Framework MVC Applications Path Traversal Vulnerability,0,0.5,P4_30D
+GHSA-pr98-23f8-jwxv,Grype,MEDIUM,34.1,29.94484319497827,16.11003246624463,QOS.CH logback-core Expression Language Injection vulnerability,0,0.5,P4_30D
+GHSA-w6f2-8wx4-47r5,Grype,MEDIUM,35.0,29.94484319497827,16.11003246624463,Incorrect Authorization in MySQL Connector Java,0,0.5,P4_30D
+GHSA-7w75-32cg-r6g2,Grype,MEDIUM,35.2,31.847664020582634,14.324264101412854,Apache Tomcat Denial of Service due to improper input validation vulnerability for HTTP/2 requests,0,0.5,P4_30D
+CVE-2026-22740,Snyk,HIGH,54.8,44.50156573637807,5.690509358542691,Incomplete Cleanup,0,0.8,P3_7D
+GHSA-9w3m-gqgf-c4p9,Grype,MEDIUM,34.9,31.260805187121143,13.521763179712792,snakeYAML before 1.32 vulnerable to Denial of Service due to Out-of-bounds Write,0,0.5,P4_30D
+GHSA-w37g-rhq8-7m4j,Grype,MEDIUM,34.9,31.260805187121143,13.521763179712792,Snakeyaml vulnerable to Stack overflow leading to denial of service,0,0.5,P4_30D
+GHSA-72hv-8253-57qq,Grype,MEDIUM,34.9,31.260805187121143,13.521763179712792,jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition,0,0.5,P4_30D
+GHSA-g76j-4cxx-23h9,Grype,MEDIUM,35.7,31.260805187121143,13.521763179712792,Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java,0,0.5,P4_30D
+GHSA-668q-qrv7-99fm,Grype,MEDIUM,34.9,31.260805187121143,13.521763179712792,Deserialization of Untrusted Data in logback,0,0.5,P4_30D
+GHSA-564r-hj7v-mcr5,Grype,MEDIUM,34.9,31.260805187121143,13.521763179712792,Spring Framework vulnerable to denial of service via specially crafted SpEL expression,0,0.5,P4_30D
+GHSA-558x-2xjg-6232,Grype,MEDIUM,34.9,31.260805187121143,13.521763179712792,Allocation of Resources Without Limits or Throttling in Spring Framework,0,0.5,P4_30D
+GHSA-c4r9-r8fh-9vj2,Grype,MEDIUM,34.9,31.260805187121143,13.521763179712792,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write,0,0.5,P4_30D
+GHSA-98wm-3w3q-mw94,Grype,MEDIUM,34.9,31.260805187121143,13.521763179712792,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write,0,0.5,P4_30D
+GHSA-9m3c-qcxr-9x87,Grype,MEDIUM,34.9,31.24989133824419,13.49993617971279,Apache Tomcat has an Open Redirect vulnerability,0,0.5,P4_30D
+GHSA-q3mw-pvr8-9ggc,Grype,MEDIUM,34.9,31.24989133824419,13.49993617971279,Apache Tomcat Open Redirect vulnerability,0,0.5,P4_30D
+GHSA-v682-8vv8-vpwr,Grype,MEDIUM,34.9,31.24989133824419,13.49993617971279,Denial of Service via incomplete cleanup vulnerability in Apache Tomcat,0,0.5,P4_30D
+GHSA-wc4r-xq3c-5cf3,Grype,MEDIUM,34.9,31.24989133824419,13.49993617971279,Apache Tomcat - Security constraint bypass for pre/post-resources,0,0.5,P4_30D
+CVE-2025-49124,Snyk,HIGH,55.5,45.643126059845216,2.8729736122431646,Untrusted Search Path,0,0.8,P3_7D
+java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled,Semgrep SAST,MEDIUM,32.9,27.9430140476394,12.106372466244633,java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled,0,0.5,P4_30D
+GHSA-6gf2-pvqw-37ph,Grype,MEDIUM,32.1,26.69476594735864,9.609876466244632,Log entry injection in Spring Framework,0,0.5,P4_30D

@@ -1,0 +1,30 @@
+{
+  "status": "stable",
+  "alerts": [],
+  "baseline": {
+    "risk_mean": 47.204,
+    "risk_std": 16.977,
+    "risk_p90": 68.2,
+    "severity_dist": {
+      "HIGH": 0.577,
+      "MEDIUM": 0.244,
+      "CRITICAL": 0.115,
+      "LOW": 0.064
+    },
+    "abstention_rate": 0.0,
+    "verifier_flag_rate": 0.0
+  },
+  "current": {
+    "risk_mean": 47.203,
+    "risk_std": 16.975,
+    "risk_p90": 68.2,
+    "severity_dist": {
+      "HIGH": 0.577,
+      "MEDIUM": 0.244,
+      "CRITICAL": 0.115,
+      "LOW": 0.064
+    },
+    "abstention_rate": 0.0,
+    "verifier_flag_rate": 0.0
+  }
+}

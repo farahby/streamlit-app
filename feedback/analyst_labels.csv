@@ -1,0 +1,80 @@
+id,analyst_id,analyst_score,adjusted_severity,is_fp,context,review_status
+VAULT-STATUS,analyst_soc_lead,34,INFORMATIONAL,0,,approved
+GHSA-g5h3-w546-pj7f,analyst_soc_lead,70,,0,,approved
+CVE-2023-44487,analyst_soc_lead,65,HIGH,0,"Real KEV, but a DoS, not RCE — shouldn't tie Spring4Shell's 91. Lower if internal-only",approved
+CVE-2022-22965,analyst_soc_lead,29,MEDIUM,0,"Only triggers on WAR-on-Tomcat + JDK9+. Spring Boot fat-JAR is typically NOT exploitable. CONFIRM packaging — if WAR, set back to 95/CRITICAL.",approved
+CVE-2016-1000027,analyst_soc_lead,0,LOW,1,Only if you expose HttpInvokerServiceExporter — legacy remoting nobody uses. Not applicable.,approved
+CVE-2022-1471,analyst_soc_lead,0,LOW,1,Only via yaml.load() on untrusted YAML. Spring config YAML is trusted/yours. Not reachable unless you parse user YAML.,approved
+CVE-2025-55752,analyst_soc_lead,65,HIGH,0,Plausibly reachable; agree it's serious. Verify the specific Tomcat config condition applies.,approved
+CVE-2020-36518,analyst_soc_lead,55,HIGH,0,"Reachable — your REST endpoints parse untrusted JSON. Agree, roughly.",approved
+CVE-2023-22102,analyst_soc_lead,28,LOW,0,"Reachable — your REST endpoints parse untrusted JSON. Agree, roughly.",approved
+GHSA-4wrc-f8pq-fpqp,analyst_soc_lead,35,HIGH,0,"Deserialization, reachability-gated; scanner confidence only 0.5. Over-ranked as CRITICAL",approved
+GHSA-36p3-wjmg-h94x,analyst_soc_lead,30,MEDIUM,0,Flag as dupe,approved
+GHSA-h46c-h94j-95f3,analyst_soc_lead,50,HIGH,0,"DoS, reachable via untrusted JSON. Agree, roughly.",approved
+GHSA-5j33-cvvr-w245,analyst_soc_lead,40,MEDIUM,0,hard to exploit in practice,approved
+10038,analyst_soc_lead,30,MEDIUM,0,"Missing header = defense-in-depth, not directly exploitable. ZAP over-weights headers.",approved
+GHSA-vfww-5hm6-hx2j,analyst_soc_lead,20,LOW,0,,approved
+GHSA-6hcq-hmm3-jj3c,analyst_soc_lead,15,LOW,0,Reliability bug more than security. Agree it's low.,approved
+10049,analyst_soc_lead,0,LOW,1,"Informational ZAP alert, not a vulnerability. Noise.",approved
+NIKTO-FINDING,analyst_soc_lead,0,LOW,1,"this is a Nikto banner line ingested as a finding, not a vuln. Clean FP.",approved
+10063,analyst_soc_lead,20,LOW,0,"Hardening header, low real risk",approved
+CVE-2025-24813,analyst_soc_lead,91,,0,Actively exploited (KEV) - treat as top priority regardless of ML score. High-impact class (RCE/auth-bypass/injection) - kept elevated.,approved
+CVE-2025-66614,analyst_soc_lead,76,HIGH,0,,approved
+CVE-2024-52316,analyst_soc_lead,78,HIGH,0,,approved
+CVE-2024-38819,analyst_soc_lead,74,,0,,approved
+CVE-2025-48988,analyst_soc_lead,80,CRITICAL,0,,approved
+CVE-2026-34487,analyst_soc_lead,67,,0,,approved
+CVE-2026-34483,analyst_soc_lead,66,,0,,approved
+CVE-2023-6378,analyst_soc_lead,58,MEDIUM,0,,approved
+CVE-2024-23672,analyst_soc_lead,46,MEDIUM,0,,approved
+GHSA-7phw-cxx7-q9vq,analyst_soc_lead,67,HIGH,0,,approved
+CVE-2024-50379,analyst_soc_lead,82,CRITICAL,0,,approved
+CVE-2026-22733,analyst_soc_lead,78,,0,,approved
+CVE-2024-56337,analyst_soc_lead,79,,0,,approved
+CVE-2023-20860,analyst_soc_lead,79,,0,,approved
+CVE-2022-42004,analyst_soc_lead,0,LOW,1,,approved
+CVE-2022-42003,analyst_soc_lead,0,LOW,1,,approved
+CVE-2023-24998,analyst_soc_lead,0,LOW,1,,approved
+CVE-2025-22235,analyst_soc_lead,45,,0,,approved
+CVE-2022-42252,analyst_soc_lead,28,LOW,0,,approved
+CVE-2022-25857,analyst_soc_lead,58,,0,,approved
+CVE-2022-45143,analyst_soc_lead,59,,0,,approved
+CVE-2022-38749,analyst_soc_lead,54,,0,,approved
+CVE-2024-22243,analyst_soc_lead,60,,0,,approved
+CVE-2024-22259,analyst_soc_lead,60,,0,,approved
+CVE-2023-20883,analyst_soc_lead,56,,0,,approved
+GHSA-hgrr-935x-pq79,analyst_soc_lead,18,,0,,approved
+GHSA-4wp7-92pw-q264,analyst_soc_lead,18,,0,,approved
+GHSA-qqpg-mvqg-649v,analyst_soc_lead,20,,0,,approved
+GHSA-6v67-2wr5-gvf4,analyst_soc_lead,20,,0,,approved
+GHSA-qq5r-98hh-rxc9,analyst_soc_lead,18,,0,,approved
+GHSA-h2fw-rfh5-95r3,analyst_soc_lead,0,,1,,approved
+CVE-2022-22968,analyst_soc_lead,23,,0,,approved
+CVE-2023-20863,analyst_soc_lead,24,,0,,approved
+CVE-2022-22970,analyst_soc_lead,23,,0,,approved
+SNYK-JAVA-COMFASTERXMLJACKSONCORE-15365924,analyst_soc_lead,55,,0,,approved
+SNYK-JAVA-COMFASTERXMLJACKSONCORE-15907551,analyst_soc_lead,55,,0,,approved
+SNYK-JAVA-COMFASTERXMLJACKSONCORE-7569538,analyst_soc_lead,55,,0,,approved
+GHSA-83qj-6fr2-vhqg,analyst_soc_lead,91,,0,,approved
+GHSA-wf8f-6423-gfxg,analyst_soc_lead,35,,0,,approved
+GHSA-w3c8-7r8f-9jp8,analyst_soc_lead,38,,0,,approved
+GHSA-4gc7-5j7h-4qph,analyst_soc_lead,25,LOW,0,,approved
+GHSA-r6j3-px5g-cq3x,analyst_soc_lead,35,,0,,approved
+GHSA-rfmp-97jj-h8m6,analyst_soc_lead,28,LOW,0,,approved
+GHSA-42wg-hm62-jcwg,analyst_soc_lead,0,LOW,1,,approved
+GHSA-jjfh-589g-3hjx,analyst_soc_lead,40,,0,,approved
+GHSA-9cmq-m9j5-mvww,analyst_soc_lead,35,,0,,approved
+GHSA-qppj-fm5r-hxr3,analyst_soc_lead,65,HIGH,0,,approved
+CVE-2024-34750,analyst_soc_lead,54,,0,"DoS HTTP/2 Tomcat, cohérent avec CVE-2024-2454",approved
+CVE-2024-22262,analyst_soc_lead,25,,0,,approved
+CVE-2021-46877,analyst_soc_lead,0,,1,,approved
+CVE-2024-24549,analyst_soc_lead,55,,0,,approved
+CVE-2023-20873,analyst_soc_lead,0,MEDIUM,1,Cloud Foundry only — not applicable to our deployment,approved
+CVE-2025-41249,analyst_soc_lead,66,HIGH,0,,approved
+CVE-2024-38816,analyst_soc_lead,66,HIGH,0,,approved
+CVE-2025-52999,analyst_soc_lead,66,HIGH,0,,approved
+CVE-2023-46589,analyst_soc_lead,66,HIGH,0,,approved
+CVE-2025-53506,analyst_soc_lead,66,HIGH,0,,approved
+CVE-2025-48989,analyst_soc_lead,65,HIGH,0,,approved
+CVE-2026-29145,analyst_soc_lead,65,HIGH,0,,approved
+CVE-2025-52434,analyst_soc_lead,64,HIGH,0,,approved

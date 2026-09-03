@@ -1,0 +1,55 @@
+{
+  "risk_model_metrics": {
+    "label_source": "analyst_feedback",
+    "eval_protocol": "out_of_fold",
+    "score_column": "risk_score_oof",
+    "cases": 79,
+    "ci95_bootstrap": {
+      "f1": [
+        0.847,
+        0.9677
+      ],
+      "precision": [
+        0.7561,
+        0.9535
+      ],
+      "recall": [
+        0.9143,
+        1.0
+      ],
+      "n_resamples_valides": 2000
+    },
+    "positive_cases": 39,
+    "prediction_threshold": 50.0,
+    "accuracy": 0.9114,
+    "precision": 0.8636,
+    "recall": 0.9744,
+    "f1": 0.9157,
+    "confusion_matrix": [
+      [
+        34,
+        6
+      ],
+      [
+        1,
+        38
+      ]
+    ]
+  },
+  "red_team_summary": {
+    "available": false,
+    "reviewed_findings": 0,
+    "verdict_accept": 0,
+    "verdict_revise": 0,
+    "verdict_escalate": 0
+  },
+  "abstention_and_verifier_summary": {
+    "available": true,
+    "abstained_outputs": 0,
+    "verifier_flagged_outputs": 0
+  },
+  "notes": [
+    "Use analyst_feedback label_source for final report numbers.",
+    "pseudo_ground_truth is acceptable for demos only and must be described as heuristic labels."
+  ]
+}

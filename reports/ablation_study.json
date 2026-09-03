@@ -1,0 +1,61 @@
+{
+  "label_source": "analyst_feedback",
+  "eval_protocol": "out_of_fold",
+  "ml_score_column": "risk_score_oof",
+  "n_findings": 79,
+  "cost_false_negative": 10.0,
+  "cost_false_positive": 2.0,
+  "positive_threshold": 50.0,
+  "rows": [
+    {
+      "version": "Rule-based only",
+      "precision": 0.864,
+      "recall": 0.974,
+      "f1": 0.916,
+      "fp_rate": 0.15,
+      "cost": 22.0,
+      "cost_savings_vs_baseline": 0.0,
+      "notes": ""
+    },
+    {
+      "version": "+ ML scoring (Layer 5)",
+      "precision": 0.864,
+      "recall": 0.974,
+      "f1": 0.916,
+      "fp_rate": 0.15,
+      "cost": 22.0,
+      "cost_savings_vs_baseline": 0.0,
+      "notes": "evalue sur risk_score_oof (out_of_fold)"
+    },
+    {
+      "version": "+ Calibration (Layer 5B)",
+      "precision": 0.864,
+      "recall": 0.974,
+      "f1": 0.916,
+      "fp_rate": 0.15,
+      "cost": 22.0,
+      "cost_savings_vs_baseline": 0.0,
+      "notes": "cible de calibration: analyst_label"
+    },
+    {
+      "version": "+ SHAP explainability (5B/P2)",
+      "precision": 0.864,
+      "recall": 0.974,
+      "f1": 0.916,
+      "fp_rate": 0.15,
+      "cost": 22.0,
+      "cost_savings_vs_baseline": 0.0,
+      "notes": "explanation coverage 100% - detection metrics unchanged by design"
+    },
+    {
+      "version": "+ Red-team agent (7B)",
+      "precision": 0.864,
+      "recall": 0.974,
+      "f1": 0.916,
+      "fp_rate": 0.15,
+      "cost": 22.0,
+      "cost_savings_vs_baseline": 0.0,
+      "notes": "0 findings challenged as likely FP | false_positive_risk sur les 79 evalues: {'LOW': 65} | aucun HIGH: le red-team n a signale aucun faux positif explicite sur cet echantillon \u2014 resultat, pas panne"
+    }
+  ]
+}

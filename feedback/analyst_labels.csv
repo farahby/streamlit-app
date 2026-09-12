@@ -1,0 +1,72 @@
+id,analyst_id,analyst_score,adjusted_severity,is_fp,context,review_status,feedback_time
+GHSA-g5h3-w546-pj7f,analyst_soc_lead,70,,0,,approved,2026-06-23T08:33:19.598215+00:00
+GHSA-4wrc-f8pq-fpqp,analyst_soc_lead,35,HIGH,0,"Deserialization, reachability-gated; scanner confidence only 0.5. Over-ranked as CRITICAL",approved,2026-06-29T13:45:28.863957+00:00
+GHSA-36p3-wjmg-h94x,analyst_soc_lead,30,MEDIUM,0,Flag as dupe,approved,2026-06-29T13:46:23.403555+00:00
+GHSA-h46c-h94j-95f3,analyst_soc_lead,50,HIGH,0,"DoS, reachable via untrusted JSON. Agree, roughly.",approved,2026-06-29T13:46:53.525932+00:00
+GHSA-5j33-cvvr-w245,analyst_soc_lead,40,MEDIUM,0,hard to exploit in practice,approved,2026-06-29T13:47:20.189557+00:00
+GHSA-vfww-5hm6-hx2j,analyst_soc_lead,20,LOW,0,,approved,2026-06-29T13:48:09.460017+00:00
+GHSA-6hcq-hmm3-jj3c,analyst_soc_lead,15,LOW,0,Reliability bug more than security. Agree it's low.,approved,2026-06-29T13:48:36.478966+00:00
+CVE-2025-24813,analyst_soc_lead,91,,0,Actively exploited (KEV) - treat as top priority regardless of ML score. High-impact class (RCE/auth-bypass/injection) - kept elevated.,approved,2026-07-24T14:10:32.544928+00:00
+CVE-2025-66614,analyst_soc_lead,76,HIGH,0,,approved,2026-07-24T14:14:50.159055+00:00
+CVE-2024-52316,analyst_soc_lead,78,HIGH,0,,approved,2026-07-24T14:15:14.094478+00:00
+CVE-2024-38819,analyst_soc_lead,74,,0,,approved,2026-07-24T14:18:29.741598+00:00
+CVE-2025-48988,analyst_soc_lead,80,CRITICAL,0,,approved,2026-07-24T14:18:49.521621+00:00
+CVE-2026-34487,analyst_soc_lead,67,,0,,approved,2026-07-24T14:19:12.910826+00:00
+CVE-2026-34483,analyst_soc_lead,66,,0,,approved,2026-07-24T14:19:31.845817+00:00
+CVE-2023-6378,analyst_soc_lead,58,MEDIUM,0,,approved,2026-07-24T14:19:52.72608+00:00
+CVE-2024-23672,analyst_soc_lead,46,MEDIUM,0,,approved,2026-07-24T14:20:17.572985+00:00
+GHSA-7phw-cxx7-q9vq,analyst_soc_lead,67,HIGH,0,,approved,2026-07-24T14:20:45.925233+00:00
+CVE-2024-50379,analyst_soc_lead,82,CRITICAL,0,,approved,2026-07-24T14:26:59.489858+00:00
+CVE-2026-22733,analyst_soc_lead,78,,0,,approved,2026-07-24T14:27:20.932169+00:00
+CVE-2024-56337,analyst_soc_lead,79,,0,,approved,2026-07-24T14:27:38.89346+00:00
+CVE-2023-20860,analyst_soc_lead,79,,0,,approved,2026-07-24T14:27:51.729751+00:00
+CVE-2022-42004,analyst_soc_lead,0,LOW,1,,approved,2026-07-24T14:28:59.455619+00:00
+CVE-2022-42003,analyst_soc_lead,0,LOW,1,,approved,2026-07-24T14:31:05.358701+00:00
+CVE-2023-24998,analyst_soc_lead,0,LOW,1,,approved,2026-07-24T14:31:25.604064+00:00
+CVE-2025-22235,analyst_soc_lead,45,,0,,approved,2026-07-24T14:31:56.973104+00:00
+CVE-2022-42252,analyst_soc_lead,28,LOW,0,,approved,2026-07-24T14:32:32.580447+00:00
+CVE-2022-25857,analyst_soc_lead,58,,0,,approved,2026-07-24T14:33:24.461127+00:00
+CVE-2022-45143,analyst_soc_lead,59,,0,,approved,2026-07-24T14:33:39.126953+00:00
+CVE-2022-38749,analyst_soc_lead,54,,0,,approved,2026-07-24T14:34:00.081602+00:00
+CVE-2024-22243,analyst_soc_lead,60,,0,,approved,2026-07-24T14:34:24.548421+00:00
+CVE-2024-22259,analyst_soc_lead,60,,0,,approved,2026-07-24T14:34:38.961747+00:00
+CVE-2023-20883,analyst_soc_lead,56,,0,,approved,2026-07-24T14:35:10.89008+00:00
+GHSA-wf8f-6423-gfxg,analyst_soc_lead,35,,0,,approved,2026-07-28T09:29:59.00583+00:00
+GHSA-w3c8-7r8f-9jp8,analyst_soc_lead,38,,0,,approved,2026-07-28T09:30:17.86568+00:00
+GHSA-hgrr-935x-pq79,analyst_soc_lead,18,,0,,approved,2026-07-28T09:24:38.840419+00:00
+GHSA-4wp7-92pw-q264,analyst_soc_lead,18,,0,,approved,2026-07-28T09:25:16.3247+00:00
+GHSA-qqpg-mvqg-649v,analyst_soc_lead,20,,0,,approved,2026-07-28T09:25:34.49706+00:00
+GHSA-6v67-2wr5-gvf4,analyst_soc_lead,20,,0,,approved,2026-07-28T09:25:50.265311+00:00
+GHSA-qq5r-98hh-rxc9,analyst_soc_lead,18,,0,,approved,2026-07-28T09:26:26.940809+00:00
+CVE-2023-44487,analyst_soc_lead,65,HIGH,0,"Real KEV, but a DoS, not RCE — shouldn't tie Spring4Shell's 91. Lower if internal-only",approved,2026-06-29T13:38:18.035038+00:00
+CVE-2022-22965,analyst_soc_lead,29,MEDIUM,0,"Only triggers on WAR-on-Tomcat + JDK9+. Spring Boot fat-JAR is typically NOT exploitable. CONFIRM packaging — if WAR, set back to 95/CRITICAL.",approved,2026-06-29T13:39:37.687206+00:00
+CVE-2016-1000027,analyst_soc_lead,0,LOW,1,Only if you expose HttpInvokerServiceExporter — legacy remoting nobody uses. Not applicable.,approved,2026-06-29T13:42:52.390181+00:00
+CVE-2022-1471,analyst_soc_lead,0,LOW,1,Only via yaml.load() on untrusted YAML. Spring config YAML is trusted/yours. Not reachable unless you parse user YAML.,approved,2026-06-29T13:43:23.121281+00:00
+CVE-2025-55752,analyst_soc_lead,65,HIGH,0,Plausibly reachable; agree it's serious. Verify the specific Tomcat config condition applies.,approved,2026-06-29T13:44:02.623942+00:00
+CVE-2020-36518,analyst_soc_lead,55,HIGH,0,"Reachable — your REST endpoints parse untrusted JSON. Agree, roughly.",approved,2026-06-29T13:44:33.467463+00:00
+CVE-2023-22102,analyst_soc_lead,28,LOW,0,"Reachable — your REST endpoints parse untrusted JSON. Agree, roughly.",approved,2026-06-29T13:45:03.94741+00:00
+GHSA-h2fw-rfh5-95r3,analyst_soc_lead,0,,1,,approved,2026-07-28T09:26:54.559315+00:00
+CVE-2022-22968,analyst_soc_lead,23,,0,,approved,2026-07-28T09:27:19.909165+00:00
+CVE-2023-20863,analyst_soc_lead,24,,0,,approved,2026-07-28T09:27:39.890751+00:00
+CVE-2022-22970,analyst_soc_lead,23,,0,,approved,2026-07-28T09:28:04.316856+00:00
+GHSA-83qj-6fr2-vhqg,analyst_soc_lead,91,,0,,approved,2026-07-28T09:29:31.615278+00:00
+GHSA-4gc7-5j7h-4qph,analyst_soc_lead,25,LOW,0,,approved,2026-07-28T09:30:56.020079+00:00
+GHSA-r6j3-px5g-cq3x,analyst_soc_lead,35,,0,,approved,2026-07-28T09:31:30.777738+00:00
+GHSA-rfmp-97jj-h8m6,analyst_soc_lead,28,LOW,0,,approved,2026-07-28T09:31:59.826638+00:00
+GHSA-42wg-hm62-jcwg,analyst_soc_lead,0,LOW,1,,approved,2026-07-28T09:32:42.419329+00:00
+GHSA-jjfh-589g-3hjx,analyst_soc_lead,40,,0,,approved,2026-07-28T09:33:16.529593+00:00
+GHSA-9cmq-m9j5-mvww,analyst_soc_lead,35,,0,,approved,2026-07-28T09:33:34.366015+00:00
+GHSA-qppj-fm5r-hxr3,analyst_soc_lead,65,HIGH,0,,approved,2026-07-28T09:33:56.412441+00:00
+CVE-2024-34750,analyst_soc_lead,54,,0,"DoS HTTP/2 Tomcat, cohérent avec CVE-2024-2454",approved,2026-07-28T09:34:28.634904+00:00
+CVE-2024-22262,analyst_soc_lead,25,,0,,approved,2026-07-28T09:37:47.176448+00:00
+CVE-2021-46877,analyst_soc_lead,0,,1,,approved,2026-07-28T09:38:11.094106+00:00
+CVE-2024-24549,analyst_soc_lead,55,,0,,approved,2026-07-28T09:41:12.430546+00:00
+CVE-2023-20873,analyst_soc_lead,0,MEDIUM,1,Cloud Foundry only — not applicable to our deployment,approved,2026-07-28T09:45:04.966516+00:00
+CVE-2025-41249,analyst_soc_lead,66,HIGH,0,,approved,2026-08-31T18:55:19.312731+00:00
+CVE-2024-38816,analyst_soc_lead,66,HIGH,0,,approved,2026-08-31T18:55:39.474512+00:00
+CVE-2025-52999,analyst_soc_lead,66,HIGH,0,,approved,2026-08-31T18:56:04.051957+00:00
+CVE-2023-46589,analyst_soc_lead,66,HIGH,0,,approved,2026-08-31T18:57:09.306444+00:00
+CVE-2025-53506,analyst_soc_lead,66,HIGH,0,,approved,2026-08-31T18:57:30.039086+00:00
+CVE-2025-48989,analyst_soc_lead,65,HIGH,0,,approved,2026-08-31T18:57:57.154083+00:00
+CVE-2026-29145,analyst_soc_lead,65,HIGH,0,,approved,2026-08-31T18:58:18.726615+00:00
+CVE-2025-52434,analyst_soc_lead,64,HIGH,0,,approved,2026-08-31T18:58:39.770015+00:00

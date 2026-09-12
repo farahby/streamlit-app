@@ -1,0 +1,13 @@
+{
+  "risk_mean": 38.195,
+  "risk_std": 16.094,
+  "risk_p90": 61.16,
+  "severity_dist": {
+    "MEDIUM": 0.461,
+    "HIGH": 0.362,
+    "CRITICAL": 0.121,
+    "LOW": 0.057
+  },
+  "abstention_rate": 0.0,
+  "verifier_flag_rate": 0.0
+}

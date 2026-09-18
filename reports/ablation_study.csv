@@ -1,0 +1,5 @@
+version,precision,recall,f1,fp_rate,cost,cost_savings_vs_baseline,notes
+Rule-based only,0.872,0.971,0.919,0.143,20.0,0.0,
++ ML scoring (Layer 5),0.868,0.943,0.904,0.143,30.0,-10.0,evalue sur risk_score_oof (out_of_fold)
++ Calibration (Layer 5B),0.872,0.971,0.919,0.143,20.0,0.0,cible de calibration: analyst_label
++ SHAP explainability (5B/P2),0.872,0.971,0.919,0.143,20.0,0.0,explanation coverage 100% - detection metrics unchanged by design

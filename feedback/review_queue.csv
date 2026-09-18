@@ -1,0 +1,213 @@
+id,tool,severity,risk_score,ml_risk_score,model_uncertainty,title,in_kev,confidence_score,priority
+CVE-2024-38286,Snyk,HIGH,54.5,50.7159087394502,28.87178458408787,Allocation of Resources Without Limits or Throttling,0,0.4,P3_7D
+CVE-2026-0603,Trivy,HIGH,52.9,50.24360892945055,25.231112332749298,org.hibernate/hibernate-core: Hibernate: Information disclosure and data deletion via second-order SQL injection,0,0.4,P3_7D
+CVE-2025-41242,Snyk,HIGH,54.2,50.11057191940704,24.448411993217157,Relative Path Traversal,0,0.4,P3_7D
+CVE-2025-48988,Snyk,HIGH,70.9,68.47379688939094,11.047005415554054,Allocation of Resources Without Limits or Throttling,0,0.6,P2_72H
+CVE-2022-23181,Snyk,HIGH,50.2,43.5664881707239,25.633411628278765,Privilege Escalation,0,0.4,P3_7D
+CVE-2023-6481,Snyk,HIGH,50.2,43.491763973336205,25.483963628278758,Uncontrolled Resource Consumption ('Resource Exhaustion'),0,0.4,P3_7D
+CVE-2026-34500,Snyk,HIGH,56.2,53.59011103787545,19.232688154961984,Improper Authentication,0,0.4,P3_7D
+CVE-2026-24880,Snyk,HIGH,56.2,53.59011103787545,19.232688154961984,HTTP Request Smuggling,0,0.4,P3_7D
+CVE-2025-52520,Snyk,HIGH,67.3,68.74076368713283,5.485006876218776,Integer Overflow or Wraparound,0,0.6,P3_7D
+CVE-2026-22737,Snyk,HIGH,55.4,52.19009827153511,11.953764200337986,Directory Traversal,0,0.4,P3_7D
+CVE-2026-40972,Snyk,HIGH,55.4,52.12393044011421,11.821429200337981,Timing Attack,0,0.4,P3_7D
+GHSA-36p3-wjmg-h94x#1b3bb3,Grype,CRITICAL,62.1,51.87725850247062,9.244536972597828,Remote Code Execution in Spring Framework,0,0.4,P3_7D
+GHSA-36p3-wjmg-h94x#851dc3,Grype,CRITICAL,62.1,51.87725850247062,9.244536972597828,Remote Code Execution in Spring Framework,0,0.4,P3_7D
+GHSA-27hp-xhwr-wr2m,Grype,HIGH,46.6,37.60771400033701,17.629481833310354,Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability,0,0.4,P4_30D
+GHSA-vmq6-5m68-f53m#953bc1,Grype,HIGH,46.6,37.60771400033701,17.629481833310354,logback serialization vulnerability,0,0.4,P4_30D
+GHSA-vmq6-5m68-f53m,Grype,HIGH,46.6,37.60771400033701,17.629481833310354,logback serialization vulnerability,0,0.4,P4_30D
+GHSA-mgvc-8q2h-5pgc,Grype,HIGH,49.6,42.58725251419064,13.832016537780838,Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints,0,0.4,P4_30D
+GHSA-2p5w-cvg5-gc5c,Grype,HIGH,49.6,42.58725251419064,13.832016537780838,Hibernate vulnerable to SQL Injection,0,0.4,P4_30D
+GHSA-hgjh-9rj2-g67j,Grype,HIGH,49.6,42.58725251419064,13.832016537780838,Spring Framework URL Parsing with Host Validation Vulnerability,0,0.4,P4_30D
+GHSA-ccgv-vj62-xf9h,Grype,HIGH,49.6,42.58725251419064,13.832016537780838,Spring Web vulnerable to Open Redirect or Server Side Request Forgery,0,0.4,P4_30D
+GHSA-mjmj-j48q-9wg2,Grype,HIGH,49.6,42.58725251419064,13.832016537780838,SnakeYaml Constructor Deserialization Remote Code Execution,0,0.4,P4_30D
+GHSA-2wrp-6fg6-hmc5,Grype,HIGH,49.6,42.58725251419064,13.832016537780838,Spring Framework URL Parsing with Host Validation,0,0.4,P4_30D
+GHSA-m6vm-37g8-gqvh,Grype,HIGH,49.6,42.58725251419064,13.832016537780838,MySQL Connectors takeover vulnerability,0,0.4,P4_30D
+SOC-IMAGEPKG-37059ea8ca1f,kube-score,CRITICAL,54.9,37.15102607309092,16.716106833310352,Container CPU Requests Equal Limits,0,0.4,P3_7D
+SOC-IMAGEPKG-966d4808300a,kube-score,CRITICAL,53.3,37.15102607309092,16.716106833310352,Container Ephemeral Storage Request and Limit,0,0.4,P3_7D
+SOC-IMAGEPKG-91f698a8bb3d,kube-score,CRITICAL,54.9,37.15102607309092,16.716106833310352,Container Security Context ReadOnlyRootFilesystem,0,0.4,P3_7D
+SOC-IMAGEPKG-a5e5a2eb7d41,kube-score,CRITICAL,53.3,37.15102607309092,16.716106833310352,Container Resource Requests Equal Limits,0,0.4,P3_7D
+SOC-IMAGEPKG-39548c69364b,kube-score,CRITICAL,54.9,37.15102607309092,16.716106833310352,Container Memory Requests Equal Limits,0,0.4,P3_7D
+SOC-IMAGEPKG-3c0e9eb54e08,kube-score,CRITICAL,53.3,37.15102607309092,16.716106833310352,Container Memory Requests Equal Limits,0,0.4,P3_7D
+SOC-IMAGEPKG-a302c31efaac,kube-score,CRITICAL,54.9,37.15102607309092,16.716106833310352,Container Security Context User Group ID,0,0.4,P3_7D
+SOC-IMAGEPKG-c888f344596a,kube-score,CRITICAL,53.3,37.15102607309092,16.716106833310352,Container Ephemeral Storage Request Equals Limit,0,0.4,P3_7D
+SOC-IMAGEPKG-417ca14a83cd,kube-score,CRITICAL,53.3,37.15102607309092,16.716106833310352,Container Resources,0,0.4,P3_7D
+SOC-IMAGEPKG-aa72d8ffd23e,kube-score,CRITICAL,53.3,37.15102607309092,16.716106833310352,Container CPU Requests Equal Limits,0,0.4,P3_7D
+SOC-IMAGEPKG-c8a8632de4cc,kube-score,CRITICAL,54.9,37.15102607309092,16.716106833310352,Container Resource Requests Equal Limits,0,0.4,P3_7D
+SOC-IMAGEPKG-503f8c0530c4,kube-score,CRITICAL,53.3,37.15102607309092,16.716106833310352,Container Security Context ReadOnlyRootFilesystem,0,0.4,P3_7D
+SOC-IMAGEPKG-6b0c5c065e72,kube-score,CRITICAL,53.3,37.15102607309092,16.716106833310352,Container Image Pull Policy,0,0.4,P3_7D
+SOC-IMAGEPKG-ee3062b33490,kube-score,CRITICAL,54.9,37.15102607309092,16.716106833310352,Container Image Pull Policy,0,0.4,P3_7D
+SOC-IMAGEPKG-b75fb9915a30,kube-score,CRITICAL,54.9,37.15102607309092,16.716106833310352,Container Ephemeral Storage Request and Limit,0,0.4,P3_7D
+SOC-IMAGEPKG-3f2c2a26a9e8,kube-score,CRITICAL,54.9,37.15102607309092,16.716106833310352,Pod NetworkPolicy,0,0.4,P3_7D
+CIS-5.7.3,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Apply SecurityContext to your Pods and Containers (Manual),0,0.4,P5_BACKLOG
+CKV_K8S_38,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Ensure that Service Account Tokens are only mounted where necessary,0,0.4,P5_BACKLOG
+CKV_K8S_29,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Apply security context to your pods and containers,0,0.4,P5_BACKLOG
+CKV_K8S_40,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Containers should run as a high UID to avoid host conflict,0,0.4,P5_BACKLOG
+CKV_K8S_20,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Containers should not run with allowPrivilegeEscalation,0,0.4,P5_BACKLOG
+CKV_K8S_13,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Memory limits should be set,0,0.4,P5_BACKLOG
+CKV_K8S_40#040589,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Containers should run as a high UID to avoid host conflict,0,0.4,P5_BACKLOG
+CKV_K8S_23,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Minimize the admission of root containers,0,0.4,P5_BACKLOG
+CKV_K8S_22,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Use read-only filesystem for containers where possible,0,0.4,P5_BACKLOG
+CKV_SECRET_6,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Base64 High Entropy String,0,0.4,P5_BACKLOG
+CKV2_K8S_6#4460e6,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Minimize the admission of pods which lack an associated NetworkPolicy,0,0.4,P5_BACKLOG
+CKV_K8S_8#67f99c,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Liveness Probe Should be Configured,0,0.4,P5_BACKLOG
+CKV_K8S_15#0f6bdd,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image Pull Policy should be Always,0,0.4,P5_BACKLOG
+CKV_K8S_13#2abfd7,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Memory limits should be set,0,0.4,P5_BACKLOG
+CKV_K8S_21#b3cc4f,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,The default namespace should not be used,0,0.4,P5_BACKLOG
+CKV_K8S_21#84d3db,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,The default namespace should not be used,0,0.4,P5_BACKLOG
+CKV_K8S_22#dc9907,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Use read-only filesystem for containers where possible,0,0.4,P5_BACKLOG
+CKV_K8S_43#7f080b,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image should use digest,0,0.4,P5_BACKLOG
+CKV_K8S_38#cedf6b,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Ensure that Service Account Tokens are only mounted where necessary,0,0.4,P5_BACKLOG
+CKV_K8S_35#c1cf3d,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Prefer using secrets as files over secrets as environment variables,0,0.4,P5_BACKLOG
+CKV_K8S_11#963f6e,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,CPU limits should be set,0,0.4,P5_BACKLOG
+CKV_K8S_21#45833b,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,The default namespace should not be used,0,0.4,P5_BACKLOG
+CKV_K8S_15#3205c7,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image Pull Policy should be Always,0,0.4,P5_BACKLOG
+CKV_K8S_35,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Prefer using secrets as files over secrets as environment variables,0,0.4,P5_BACKLOG
+CKV_K8S_21,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,The default namespace should not be used,0,0.4,P5_BACKLOG
+CKV_K8S_43#d86545,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image should use digest,0,0.4,P5_BACKLOG
+CKV_K8S_22#b6c936,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Use read-only filesystem for containers where possible,0,0.4,P5_BACKLOG
+CKV_K8S_10#7736e5,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,CPU requests should be set,0,0.4,P5_BACKLOG
+CKV_K8S_12#32123b,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Memory requests should be set,0,0.4,P5_BACKLOG
+CKV_K8S_13#bdba74,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Memory limits should be set,0,0.4,P5_BACKLOG
+CKV_K8S_38#cddede,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Ensure that Service Account Tokens are only mounted where necessary,0,0.4,P5_BACKLOG
+CKV_K8S_40#18b073,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Containers should run as a high UID to avoid host conflict,0,0.4,P5_BACKLOG
+CKV_K8S_8#22bc44,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Liveness Probe Should be Configured,0,0.4,P5_BACKLOG
+CKV2_K8S_6,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Minimize the admission of pods which lack an associated NetworkPolicy,0,0.4,P5_BACKLOG
+CKV2_K8S_6#c49326,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Minimize the admission of pods which lack an associated NetworkPolicy,0,0.4,P5_BACKLOG
+CKV_K8S_21#96e0ac,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,The default namespace should not be used,0,0.4,P5_BACKLOG
+CKV_K8S_35#594235,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Prefer using secrets as files over secrets as environment variables,0,0.4,P5_BACKLOG
+CKV_K8S_15#d3bde0,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image Pull Policy should be Always,0,0.4,P5_BACKLOG
+CKV_K8S_11#dadfff,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,CPU limits should be set,0,0.4,P5_BACKLOG
+CIS-DI-0005,Dockle,MEDIUM,24.1,14.398350672975369,28.789244987389644,Enable Content trust for Docker,0,0.4,P5_BACKLOG
+SOC-K8SPOLICY-16d1cf33b1b3,HashiCorp Vault,MEDIUM,22.5,14.398350672975369,28.789244987389644,Vault Status: vault_unavailable,0,0.4,P5_BACKLOG
+SOC-IMAGEPKG-bc0653f590b2,Semgrep SAST,MEDIUM,24.1,14.398350672975369,28.789244987389644,java.spring.security.audit.spring-actuator-non-health-enabled.spring-actuator-dangerous-endpoints-enabled,0,0.4,P5_BACKLOG
+SOC-IMAGEPKG-4ea41137f771,Nikto,MEDIUM,22.5,14.398350672975369,28.789244987389644,+ Target Host: localhost,0,0.4,P5_BACKLOG
+SOC-IMAGEPKG-faddad731e67,kube-score,MEDIUM,25.0,14.398350672975369,28.789244987389644,Pod Probes,0,0.4,P5_BACKLOG
+CIS-5.7.4,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,The default namespace should not be used (Manual),0,0.4,P5_BACKLOG
+CKV_K8S_22#3060c9,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Use read-only filesystem for containers where possible,0,0.4,P5_BACKLOG
+CKV_K8S_43#2881ff,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image should use digest,0,0.4,P5_BACKLOG
+CIS-4.2.9,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that the eventRecordQPS argument is set to a level which ensures appropriate event capture (Manual),0,0.4,P5_BACKLOG
+CKV_K8S_10#ccf43f,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,CPU requests should be set,0,0.4,P5_BACKLOG
+CIS-5.1.3,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize wildcard use in Roles and ClusterRoles (Manual),0,0.4,P5_BACKLOG
+CIS-5.1.2,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize access to secrets (Manual),0,0.4,P5_BACKLOG
+CIS-5.1.1,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that the cluster-admin role is only used where required (Manual),0,0.4,P5_BACKLOG
+CIS-4.2.13,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that the Kubelet only makes use of Strong Cryptographic Ciphers (Manual),0,0.4,P5_BACKLOG
+CIS-5.4.1,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Prefer using Secrets as files over Secrets as environment variables (Manual),0,0.4,P5_BACKLOG
+CIS-5.4.2,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Consider external secret storage (Manual),0,0.4,P5_BACKLOG
+CIS-5.5.1,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Configure Image Provenance using ImagePolicyWebhook admission controller (Manual),0,0.4,P5_BACKLOG
+CIS-5.7.1,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Create administrative boundaries between resources using namespaces (Manual),0,0.4,P5_BACKLOG
+CIS-5.2.12,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of HostPath volumes (Manual),0,0.4,P5_BACKLOG
+CIS-5.2.13,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of containers which use HostPorts (Manual),0,0.4,P5_BACKLOG
+CIS-5.3.1,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that the CNI in use supports NetworkPolicies (Manual),0,0.4,P5_BACKLOG
+CIS-5.3.2,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that all Namespaces have NetworkPolicies defined (Manual),0,0.4,P5_BACKLOG
+CIS-5.7.2,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that the seccomp profile is set to docker/default in your Pod definitions (Manual),0,0.4,P5_BACKLOG
+SOC-URLVULN-fb30f84e1b05,OWASP ZAP,MEDIUM,32.1,14.398350672975369,28.789244987389644,Permissions Policy Header Not Set,0,0.4,P4_30D
+CIS-5.2.2,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of privileged containers (Manual),0,0.4,P5_BACKLOG
+CIS-5.2.3,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of containers wishing to share the host process ID namespace (Automated),0,0.4,P5_BACKLOG
+CIS-5.2.4,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of containers wishing to share the host IPC namespace (Automated),0,0.4,P5_BACKLOG
+CIS-5.2.5,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of containers wishing to share the host network namespace (Automated),0,0.4,P5_BACKLOG
+CIS-5.2.6,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of containers with allowPrivilegeEscalation (Automated),0,0.4,P5_BACKLOG
+CIS-5.2.7,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of root containers (Automated),0,0.4,P5_BACKLOG
+CKV_K8S_15,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image Pull Policy should be Always,0,0.4,P5_BACKLOG
+CKV_K8S_21#df79a2,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,The default namespace should not be used,0,0.4,P5_BACKLOG
+CKV_K8S_12#54f4e2,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Memory requests should be set,0,0.4,P5_BACKLOG
+CKV_K8S_37,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Minimize the admission of containers with capabilities assigned,0,0.4,P5_BACKLOG
+CKV_K8S_9,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Readiness Probe Should be Configured,0,0.4,P5_BACKLOG
+CKV_K8S_11,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,CPU limits should be set,0,0.4,P5_BACKLOG
+CKV_K8S_8,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Liveness Probe Should be Configured,0,0.4,P5_BACKLOG
+CKV_K8S_28,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Minimize the admission of containers with the NET_RAW capability,0,0.4,P5_BACKLOG
+CIS-5.1.7,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Avoid use of system:masters group (Manual),0,0.4,P5_BACKLOG
+CIS-5.1.6,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that Service Account Tokens are only mounted where necessary (Manual),0,0.4,P5_BACKLOG
+CIS-5.1.5,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that default service accounts are not actively used. (Manual),0,0.4,P5_BACKLOG
+CIS-5.1.4,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize access to create pods (Manual),0,0.4,P5_BACKLOG
+CIS-5.2.11,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of Windows HostProcess containers (Manual),0,0.4,P5_BACKLOG
+CIS-5.2.10,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of containers with capabilities assigned (Manual),0,0.4,P5_BACKLOG
+CIS-5.2.9,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of containers with added capabilities (Automated),0,0.4,P5_BACKLOG
+CIS-5.2.8,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Minimize the admission of containers with the NET_RAW capability (Automated),0,0.4,P5_BACKLOG
+CKV_K8S_43#a1dbe9,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image should use digest,0,0.4,P5_BACKLOG
+CKV_SECRET_6#f5f70d,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Base64 High Entropy String,0,0.4,P5_BACKLOG
+CKV_K8S_15#3bfc0d,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image Pull Policy should be Always,0,0.4,P5_BACKLOG
+CKV_K8S_35#a14e16,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Prefer using secrets as files over secrets as environment variables,0,0.4,P5_BACKLOG
+CKV_K8S_31,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Ensure that the seccomp profile is set to docker/default or runtime/default,0,0.4,P5_BACKLOG
+CKV_K8S_43,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Image should use digest,0,0.4,P5_BACKLOG
+CIS-5.2.1,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,Ensure that the cluster has at least one active policy control mechanism in place (Manual),0,0.4,P5_BACKLOG
+CIS-5.1.8,kube-bench,MEDIUM,22.5,14.398350672975369,28.789244987389644,"Limit use of the Bind, Impersonate and Escalate permissions in the Kubernetes cluster (Manual)",0,0.4,P5_BACKLOG
+CKV_K8S_30,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Apply security context to your containers,0,0.4,P5_BACKLOG
+CKV_K8S_10,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,CPU requests should be set,0,0.4,P5_BACKLOG
+CKV_K8S_12,Checkov,MEDIUM,24.1,14.398350672975369,28.789244987389644,Memory requests should be set,0,0.4,P5_BACKLOG
+CIS-4.1.2,kube-bench,LOW,15.6,15.719918552033787,26.146109166689644,Ensure that the kubelet service file ownership is set to root:root (Automated),0,0.4,P5_BACKLOG
+CIS-4.2.8,kube-bench,LOW,15.6,15.719918552033787,26.146109166689644,Ensure that the --hostname-override argument is not set (Automated),0,0.4,P5_BACKLOG
+SOC-IMAGEPKG-0199d01fd976,Dockle,LOW,16.3,15.719918552033787,26.146109166689644,Avoid empty password,0,0.4,P5_BACKLOG
+CIS-4.1.10,kube-bench,LOW,15.6,15.719918552033787,26.146109166689644,If the kubelet config.yaml configuration file is being used validate file ownership is set to root:root (Automated),0,0.4,P5_BACKLOG
+CIS-4.1.1,kube-bench,LOW,15.6,15.719918552033787,26.146109166689644,Ensure that the kubelet service file permissions are set to 600 or more restrictive (Automated),0,0.4,P5_BACKLOG
+SOC-URLVULN-467249459688,OWASP ZAP,LOW,16.3,15.719918552033787,26.146109166689644,Non-Storable Content,0,0.4,P5_BACKLOG
+CIS-4.1.9,kube-bench,LOW,15.6,15.719918552033787,26.146109166689644,If the kubelet config.yaml configuration file is being used validate permissions set to 600 or more restrictive (Automated),0,0.4,P5_BACKLOG
+SOC-URLVULN-54a6dfe53a49,OWASP ZAP,LOW,25.2,15.719918552033787,26.146109166689644,Storable and Cacheable Content,0,0.4,P5_BACKLOG
+GHSA-p22x-g9px-3945,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat may reject request containing invalid Content-Length header,0,0.4,P4_30D
+GHSA-wxqc-pxw9-g2p8,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Spring Framework vulnerable to denial of service,0,0.4,P4_30D
+GHSA-xf96-w227-r7c4,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Spring Boot Welcome Page Denial of Service,0,0.4,P4_30D
+GHSA-wmwf-9ccg-fff5,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat Vulnerable to Relative Path Traversal,0,0.4,P4_30D
+GHSA-hfrx-6qgj-fp6c,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Commons FileUpload denial of service vulnerability,0,0.4,P4_30D
+GHSA-jmp9-x22r-554x,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Spring Framework annotation detection mechanism may result in improper authorization,0,0.4,P4_30D
+GHSA-rgv9-q543-rqg4,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Uncontrolled Resource Consumption in FasterXML jackson-databind,0,0.4,P4_30D
+GHSA-rv64-5gf8-9qq8,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve,0,0.4,P4_30D
+GHSA-3x8x-79m2-3w2w,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,jackson-databind possible Denial of Service if using JDK serialization to serialize JsonNode,0,0.4,P4_30D
+GHSA-3mc7-4q67-w48m,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Uncontrolled Resource Consumption in snakeyaml,0,0.4,P4_30D
+GHSA-fccv-jmmp-qg76,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat Improper Input Validation vulnerability,0,0.4,P4_30D
+GHSA-g5mm-vmx4-3rg7,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Improper handling of case sensitivity in Spring Framework,0,0.4,P4_30D
+GHSA-57j2-w4cx-62h2,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Deeply nested json in jackson-databind,0,0.4,P4_30D
+GHSA-h3gc-qfqq-6h8f,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat - DoS in multipart upload,0,0.4,P4_30D
+GHSA-jjjh-jjxp-wpff,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Uncontrolled Resource Consumption in Jackson-databind,0,0.4,P4_30D
+GHSA-gqp3-2cvr-x8m3,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat Improper Resource Shutdown or Release vulnerability,0,0.4,P4_30D
+GHSA-rq2w-37h9-vg94,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat improperly escapes input from JsonErrorReportValve,0,0.4,P4_30D
+GHSA-g5vr-rgqm-vf78,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Spring Framework Path Traversal vulnerability,0,0.4,P4_30D
+GHSA-wr62-c79q-cv37,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits,0,0.4,P4_30D
+GHSA-cx7f-g6mp-7hqm,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Path traversal vulnerability in functional web frameworks,0,0.4,P4_30D
+GHSA-wm9w-rjj3-j356,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat - Denial of Service,0,0.4,P4_30D
+GHSA-25xr-qj8w-c4vf,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams,0,0.4,P4_30D
+GHSA-hh26-6xwr-ggv7,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Denial of service in Spring Framework,0,0.4,P4_30D
+GHSA-x4m4-345f-5h5g,Grype,HIGH,48.6,40.84453016662564,10.695339373779973,Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File,0,0.4,P4_30D
+GHSA-rc42-6c7j-7h5r,Grype,HIGH,48.3,40.33426290893521,9.67480437377997,Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed,0,0.4,P4_30D
+GHSA-fpj8-gq4v-p354,Grype,MEDIUM,41.7,43.71661015652335,7.076760027402173,Apache Tomcat - Client certificate verification bypass,0,0.4,P4_30D
+CVE-2026-22740,Snyk,HIGH,49.8,42.89478102538168,7.119671495867493,Incomplete Cleanup,0,0.4,P4_30D
+GHSA-pr98-23f8-jwxv,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,QOS.CH logback-core Expression Language Injection vulnerability,0,0.4,P4_30D
+GHSA-2rmj-mq67-h97g,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Spring Framework DoS via conditional HTTP request,0,0.4,P4_30D
+GHSA-g8pj-r55q-5c2v,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Apache Tomcat Incomplete Cleanup vulnerability,0,0.4,P4_30D
+GHSA-q3mw-pvr8-9ggc,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Apache Tomcat Open Redirect vulnerability,0,0.4,P4_30D
+GHSA-w6f2-8wx4-47r5,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Incorrect Authorization in MySQL Connector Java,0,0.4,P4_30D
+GHSA-4gc7-5j7h-4qph#796a61,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Spring Framework DataBinder Case Sensitive Match Exception,0,0.4,P4_30D
+GHSA-v682-8vv8-vpwr,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Denial of Service via incomplete cleanup vulnerability in Apache Tomcat,0,0.4,P4_30D
+GHSA-wc4r-xq3c-5cf3,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Apache Tomcat - Security constraint bypass for pre/post-resources,0,0.4,P4_30D
+GHSA-25qh-j22f-pwp8,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,QOS.CH logback-core is vulnerable to Arbitrary Code Execution through file processing,0,0.4,P4_30D
+GHSA-9m3c-qcxr-9x87,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Apache Tomcat has an Open Redirect vulnerability,0,0.4,P4_30D
+GHSA-r936-gwx5-v52f,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Spring Framework MVC Applications Path Traversal Vulnerability,0,0.4,P4_30D
+GHSA-hhhw-99gj-p3c3,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write,0,0.4,P4_30D
+GHSA-4773-3jfm-qmx3,Grype,MEDIUM,36.3,34.69623595773447,11.806526833310354,Spring Framework Improper Path Limitation with Script View Templates,0,0.4,P4_30D
+GHSA-98wm-3w3q-mw94,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write,0,0.4,P4_30D
+GHSA-9w3m-gqgf-c4p9,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,snakeYAML before 1.32 vulnerable to Denial of Service due to Out-of-bounds Write,0,0.4,P4_30D
+GHSA-558x-2xjg-6232,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,Allocation of Resources Without Limits or Throttling in Spring Framework,0,0.4,P4_30D
+GHSA-564r-hj7v-mcr5,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,Spring Framework vulnerable to denial of service via specially crafted SpEL expression,0,0.4,P4_30D
+GHSA-668q-qrv7-99fm,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,Deserialization of Untrusted Data in logback,0,0.4,P4_30D
+GHSA-g76j-4cxx-23h9,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java,0,0.4,P4_30D
+GHSA-w37g-rhq8-7m4j,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,Snakeyaml vulnerable to Stack overflow leading to denial of service,0,0.4,P4_30D
+GHSA-c4r9-r8fh-9vj2,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write,0,0.4,P4_30D
+GHSA-72hv-8253-57qq,Grype,MEDIUM,36.3,34.67080909311045,11.755671833310355,jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition,0,0.4,P4_30D
+SOC-PKGVERSION-8d299e19021a,Snyk,HIGH,53.3,48.627100192534094,2.7442199725978256,Allocation of Resources Without Limits or Throttling,0,0.4,P3_7D
+SOC-PKGVERSION-28239cd93bf1,Snyk,HIGH,53.3,48.627100192534094,2.7442199725978256,Denial of Service (DoS),0,0.4,P3_7D
+SOC-PKGVERSION-80fa85760989,Snyk,HIGH,53.3,48.627100192534094,2.7442199725978256,Allocation of Resources Without Limits or Throttling,0,0.4,P3_7D
+CVE-2026-40973,Snyk,HIGH,51.4,45.60524907765664,0.8671679636628795,Insecure Temporary File,0,0.4,P3_7D
+CVE-2025-49124,Snyk,HIGH,51.8,46.20549741444863,0.3333270363371241,Untrusted Search Path,0,0.4,P3_7D
+SOC-IMAGEPKG-db07e636d027,kube-score,HIGH,43.7,32.71509200631846,7.844236833310358,Deployment Replicas,0,0.4,P4_30D
+SOC-IMAGEPKG-88a148fc456e,kube-score,HIGH,45.0,32.71509200631846,7.844236833310358,Deployment Strategy,0,0.4,P4_30D
+SOC-IMAGEPKG-b425c768d85a,kube-score,HIGH,43.7,32.71509200631846,7.844236833310358,Container Seccomp Profile,0,0.4,P4_30D
+SOC-IMAGEPKG-b6ebcb42f8e3,kube-score,HIGH,45.0,32.71509200631846,7.844236833310358,Container Seccomp Profile,0,0.4,P4_30D
+SOC-IMAGEPKG-a96162349222,kube-score,HIGH,45.0,32.71509200631846,7.844236833310358,Deployment Replicas,0,0.4,P4_30D
+CIS-4.2.2,kube-bench,HIGH,41.1,32.71509200631846,7.844236833310358,Ensure that the --authorization-mode argument is not set to AlwaysAllow (Automated),0,0.4,P4_30D
+CIS-4.2.10,kube-bench,HIGH,41.1,32.71509200631846,7.844236833310358,Ensure that the --tls-cert-file and --tls-private-key-file arguments are set as appropriate (Automated),0,0.4,P4_30D
+CIS-4.2.1,kube-bench,HIGH,41.1,32.71509200631846,7.844236833310358,Ensure that the --anonymous-auth argument is set to false (Automated),0,0.4,P4_30D
+CIS-4.2.6,kube-bench,HIGH,41.1,32.71509200631846,7.844236833310358,Ensure that the --protect-kernel-defaults argument is set to true (Automated),0,0.4,P4_30D
+CIS-4.2.4,kube-bench,HIGH,41.1,32.71509200631846,7.844236833310358,Verify that the --read-only-port argument is set to 0 (Automated),0,0.4,P4_30D
+CIS-4.2.3,kube-bench,HIGH,41.1,32.71509200631846,7.844236833310358,Ensure that the --client-ca-file argument is set as appropriate (Automated),0,0.4,P4_30D
+SOC-URLVULN-ff825b7d7c54,OWASP ZAP,HIGH,50.7,32.71509200631846,7.844236833310358,Content Security Policy (CSP) Header Not Set,0,0.4,P3_7D
+SOC-FILERULE-81dd947acfd5,OPA Gate,HIGH,43.7,32.71509200631846,7.844236833310358,Deployment/timesheet-devops-mysql container mysql must define a livenessProbe,0,0.4,P4_30D
+GHSA-7w75-32cg-r6g2,Grype,MEDIUM,37.9,37.300245346069,3.6067693737799758,Apache Tomcat Denial of Service due to improper input validation vulnerability for HTTP/2 requests,0,0.4,P4_30D
+GHSA-6gf2-pvqw-37ph,Grype,MEDIUM,33.6,30.146541896455176,2.7071368333103543,Log entry injection in Spring Framework,0,0.4,P4_30D

@@ -51,7 +51,7 @@ TRENDS_LOG   = os.path.join(BASE_DIR, "logs", "risk_trends.jsonl")
 FEEDBACK     = os.path.join(BASE_DIR, "feedback", "analyst_labels.csv")
 FP_LOG       = os.path.join(BASE_DIR, "feedback", "false_positives.csv")
 REVIEW_PATH  = os.path.join(BASE_DIR, "feedback", "review_queue.csv")
-AGENTS_JSON  = os.path.join(BASE_DIR, "reports", "agent_results.json")
+AGENTS_JSON = os.path.join(BASE_DIR, "reports", "agent_results_SFT_redteam.json")
 PR_MD        = os.path.join(BASE_DIR, "remediation", "pr_templates.md")
 
 COLORS = {
@@ -1346,7 +1346,7 @@ with tab9:
         except Exception as _e:
             st.caption(f"Drivers unavailable: {_e}")
 
-    _ag = _vload("agent_results.json")
+    _ag = _vload("agent_results_SFT_redteam.json")
     if _ag:
         _items = _ag if isinstance(_ag, list) else _ag.get("results", [])
         _verd = {}

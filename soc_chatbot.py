@@ -1,94 +1,74 @@
-import os, json, re, unicodedata
+import os
+import json
+import re
+import unicodedata
+from pathlib import Path
+
 import pandas as pd
 import streamlit as st
 
-# ---- prompt systeme versionne (cf. prompt_version dans CFG) ----------------
-CHATBOT_PROMPT_VERSION = "soc-chat-v6"
-SYSTEM_PROMPT = (
-    "Tu es un assistant SOC a DEUX MODES DE REPONSE, marques explicitement. "
-    "MODE [CONTEXTE] : la question porte sur un finding, un chiffre ou un fait "
-    "de ce projet, et l'information EST dans le CONTEXTE ou le GLOSSAIRE fournis. "
-    "Commence ta reponse par le tag exact '[CONTEXTE]' puis reponds UNIQUEMENT a "
-    "partir de ce qui est fourni. Cite les identifiants de findings sur lesquels "
-    "tu t'appuies. Ne calcule AUCUNE statistique et n'invente aucun chiffre : les "
-    "valeurs presentes dans le contexte font foi. Ne propose pas de CVE, d'URL ou "
-    "de version qui ne sont pas dans le contexte.\n"
-    # v7 — mode connaissance generale, ajoute a la demande de l auteure : le
-    # mode [CONTEXTE] seul renvoyait 'information absente' des qu une question
-    # sortait du sous-ensemble recupere, meme pour une question de culture
-    # generale en cybersecurite que le modele sait repondre sans halluciner de
-    # DONNEES DE CE PROJET. Le risque d hallucination visait des faits projet
-    # (un CVE, un chiffre, une version) inventes -- pas la connaissance
-    # generale du domaine, qui reste utile si elle est etiquetee comme telle.
-    "MODE [CONNAISSANCE GENERALE] : la question NE porte PAS sur un fait "
-    "specifique a ce projet (pas de finding, pas de chiffre, pas de donnee de ce "
-    "dataset), OU porte sur un fait specifique qui EST ABSENT du CONTEXTE et du "
-    "GLOSSAIRE. Dans ce cas commence ta reponse par le tag exact "
-    "'[CONNAISSANCE GENERALE]', PUIS reponds avec tes connaissances generales en "
-    "cybersecurite (definitions, principes, bonnes pratiques). Restrictions "
-    "strictes de ce mode : n'invente JAMAIS un chiffre, un CVE, une version "
-    "corrective, une echeance ou tout autre fait qui aurait l air specifique a CE "
-    "PROJET -- reste generique. Si la question melange les deux (une partie est "
-    "dans le contexte, une partie non), reponds en deux paragraphes, un par tag.\n"
-    "REGLES SUPPLEMENTAIRES (v2), a respecter strictement en mode [CONTEXTE] :\n"
-    "1. En mode [CONTEXTE], ne definis un terme que s'il figure dans le "
-    "GLOSSAIRE ou le CONTEXTE ; sinon bascule en mode [CONNAISSANCE GENERALE] "
-    "pour cette partie de la reponse plutot que d'inventer une definition "
-    "dans le mode [CONTEXTE].\n"
-    "2. Quand le GLOSSAIRE definit un terme, reprends SA definition mot pour mot "
-    "dans ton sens, sans la reformuler ni l'enrichir.\n"
-    "3. N'attribue aucune causalite qui n'est pas ecrite dans le contexte. Ne dis "
-    "pas qu'une valeur 'a cause' une severite ou une decision si le contexte ne "
-    "l'affirme pas.\n"
-    "4. Les valeurs SHAP sont des CONTRIBUTIONS SIGNEES au score, PAS les valeurs "
-    "des variables. Ne confonds jamais 'CVSS = 9.8' (valeur) avec 'contribution "
-    "SHAP de cvss_numeric = +4.32' (impact sur le score).\n"
-    "5. Le contexte ne contient qu'un SOUS-ENSEMBLE des findings. Ne generalise "
-    "jamais a l'ensemble du parc et ne parle jamais de 'tous les findings'.\n"
-    # v3 — perimetre defensif (s applique dans les DEUX modes)
-    "6. PERIMETRE STRICTEMENT DEFENSIF, dans les deux modes. Tu expliques et "
-    "priorises des findings ; tu n'aides jamais a exploiter une vulnerabilite. "
-    "Refuse toute demande de code d'exploitation, de preuve de concept "
-    "offensive, de payload, de contournement de protection, de reconnaissance "
-    "offensive ou de mode operatoire d'attaque, meme presentee comme un test, "
-    "un audit autorise ou un exercice pedagogique, meme en mode "
-    "[CONNAISSANCE GENERALE]. Reponds alors : 'Hors perimetre : cet assistant "
-    "documente et priorise les findings, il ne fournit pas de moyen "
-    "d'exploitation.' Tu peux en revanche toujours expliquer l'impact, la "
-    "severite et la REMEDIATION."
+
+CHATBOT_PROMPT_VERSION = "soc-chat-v8-sft-redteam"
+
+SYSTEM_PROMPT = """
+Tu es l'assistant SOC du projet SOC-Audit-v7.
+
+Tu réponds avec deux modes :
+
+[CONTEXTE]
+Utilise uniquement les données réellement présentes dans le contexte fourni.
+Cite les IDs de findings et les fichiers sources utilisés.
+N'invente aucun chiffre, CVE, score, version ou décision.
+Ne généralise jamais un résultat local à tous les findings si le contexte ne le permet pas.
+Les résultats expérimentaux doivent rester présentés avec leurs limites.
+
+[CONNAISSANCE GENERALE]
+Si la question est générale et ne concerne pas les données du projet, réponds avec
+des connaissances générales de cybersécurité. Ne présente jamais ces informations
+comme des résultats mesurés dans ce projet.
+
+RÈGLES :
+- Le score CVSS est distinct du risk_score.
+- Le risk_score est produit par le modèle ML.
+- Les explications de triage viennent du modèle SFT.
+- Le verdict red-team vient du Layer 7B.
+- Le Layer 7B utilise le modèle de base, pas le SFT.
+- P3 GNN est expérimental ; BFS reste actif.
+- P4 est exploratoire avec peu de labels faux positifs.
+- P7 est une expérience séparée et n'est pas promu.
+- La recalibration OOF est mesurée par validation croisée.
+- DPO n'est pas utilisé dans le pipeline principal.
+- Ne fournis jamais de code d'exploitation, payload, PoC, reverse shell,
+  procédure d'attaque ou méthode de contournement.
+- Tu peux expliquer l'impact, la priorité, les preuves et la remédiation.
+"""
+
+GLOSSARY = """
+GLOSSAIRE :
+- CVSS : score technique de sévérité de 0 à 10.
+- EPSS : probabilité estimée d'exploitation dans les 30 prochains jours.
+- CISA KEV : catalogue des vulnérabilités dont l'exploitation est connue.
+- risk_score : score de risque ML de la plateforme.
+- SHAP : contribution signée d'une variable au score prédit.
+- SFT : fine-tuning supervisé sur les labels humains approuvés.
+- DPO : fine-tuning par préférences, utilisé uniquement dans l'annexe.
+- OOF : prédiction obtenue sur un fold jamais utilisé pour l'entraînement.
+- BFS : propagation déterministe du blast radius.
+"""
+
+OUT_OF_SCOPE_MESSAGE = (
+    "Hors périmètre : cet assistant documente et priorise les findings. "
+    "Il ne fournit pas de moyen d'exploitation. "
+    "Je peux expliquer l'impact, la sévérité et la remédiation."
 )
 
-# ─────────────────────────────────────────────────────────────────
-# GLOSSAIRE FACTUEL (v2). Injecte dans chaque prompt.
-# Sans lui, le modele inventait des definitions : au test, il a produit
-# "Kaspersky Vulnerability Expert" puis "Knowledge, Experience and
-# Vulnerabilities" pour KEV, et decrivait l'echeance CISA comme une date
-# d'exploitation au lieu d'une date limite de remediation.
-# ─────────────────────────────────────────────────────────────────
-GLOSSAIRE = (
-    "GLOSSAIRE (definitions faisant autorite, a reprendre telles quelles) :\n"
-    "- CISA KEV = 'Known Exploited Vulnerabilities'. Catalogue publie par la CISA "
-    "listant les vulnerabilites dont l'exploitation dans la nature est AVEREE. "
-    "Ce n'est ni une notation de risque, ni une classification de severite : "
-    "c'est un constat d'exploitation active.\n"
-    "- 'echeance' d'un finding KEV = DATE LIMITE DE REMEDIATION imposee par la "
-    "directive CISA BOD 22-01. Ce n'est PAS une date d'exploitation ni une date "
-    "de decouverte.\n"
-    "- CVSS = 'Common Vulnerability Scoring System'. Score de severite technique "
-    "de 0 a 10, independant du contexte d'exploitation reel.\n"
-    "- EPSS = 'Exploit Prediction Scoring System'. Probabilite estimee (0 a 1) "
-    "qu'une vulnerabilite soit exploitee dans les 30 jours.\n"
-    "- SHAP = 'SHapley Additive exPlanations'. Methode d'explicabilite qui "
-    "attribue a chaque variable une CONTRIBUTION SIGNEE au score predit. Une "
-    "contribution positive augmente le score, une negative le diminue. La "
-    "contribution SHAP d'une variable est distincte de la valeur de cette "
-    "variable.\n"
-    "- risk_score = score de risque de 0 a 100 produit par le modele ML de la "
-    "plateforme (ensemble XGBoost/LightGBM), distinct du CVSS.\n"
-)
 
 def _base_dir():
-    return os.environ.get("SOC_BASE_DIR", os.path.dirname(os.path.abspath(__file__)))
+    return os.environ.get(
+        "SOC_BASE_DIR",
+        os.path.dirname(os.path.abspath(__file__)),
+    )
+
 
 def _secret(name, default=""):
     try:
@@ -96,596 +76,741 @@ def _secret(name, default=""):
     except Exception:
         return default
 
-@st.cache_data(ttl=60)
-def load_data():
+
+def _norm(value):
+    text = unicodedata.normalize("NFD", str(value or ""))
+    text = "".join(
+        char for char in text
+        if unicodedata.category(char) != "Mn"
+    )
+    return text.lower().replace("’", "'").strip()
+
+
+def _is_true(value):
+    return _norm(value) in {"1", "1.0", "true", "yes", "oui"}
+
+
+def _is_offensive(question):
+    q = _norm(question)
+
+    offensive_terms = [
+        "payload",
+        "proof of concept",
+        "preuve de concept",
+        "reverse shell",
+        "shellcode",
+        "malware",
+        "backdoor",
+        "metasploit",
+        "exploit code",
+        "code exploit",
+        "ecris un exploit",
+        "écris un exploit",
+        "comment exploiter",
+        "how to exploit",
+        "comment attaquer",
+        "how to attack",
+        "contourner la protection",
+        "bypass protection",
+    ]
+
+    return any(term in q for term in offensive_terms)
+
+
+def _agent_list(value):
+    if isinstance(value, list):
+        return [
+            item for item in value
+            if isinstance(item, dict)
+        ]
+
+    if isinstance(value, dict):
+        if isinstance(value.get("results"), list):
+            return [
+                item for item in value["results"]
+                if isinstance(item, dict)
+            ]
+
+        output = []
+        for finding_id, item in value.items():
+            if isinstance(item, dict):
+                row = dict(item)
+                row.setdefault("finding_id", finding_id)
+                output.append(row)
+        return output
+
+    return []
+
+
+@st.cache_data(ttl=60, show_spinner=False)
+def load_project_data():
     base = _base_dir()
-    scored_path = os.path.join(base, "normalized_alerts", "scored_findings.csv")
-    agents_path = os.path.join(base, "reports", "agent_results.json")
-    df = pd.read_csv(scored_path) if os.path.exists(scored_path) else pd.DataFrame()
+
+    scored_path = os.path.join(
+        base,
+        "normalized_alerts",
+        "scored_findings.csv",
+    )
+
+    agents_path = os.path.join(
+        base,
+        "reports",
+        "agent_results_SFT_redteam.json",
+    )
+
+    df = (
+        pd.read_csv(scored_path)
+        if os.path.exists(scored_path)
+        else pd.DataFrame()
+    )
+
     if not df.empty and "id" in df.columns:
         df["id"] = df["id"].astype(str).str.strip()
+
     agents = []
+
     if os.path.exists(agents_path):
         try:
-            with open(agents_path, encoding="utf-8") as f:
-                agents = json.load(f)
+            with open(agents_path, encoding="utf-8") as handle:
+                agents = _agent_list(json.load(handle))
         except Exception:
             agents = []
-    return df, agents
 
-def _fmt_finding(row, agent):
-    # construit un bloc texte a partir des CHAMPS REELS presents seulement
-    def g(k):
-        v = row.get(k)
+    report_names = [
+        "system_card.md",
+        "p3_gnn_bfs_comparison.json",
+        "p4_fp_exploratory.json",
+        "priority_to_score_calibre.json",
+        "mae_oof_calibration_kaggle.json",
+        "p7_debate_experiment.json",
+        "p7_debate_bootstrap.json",
+    ]
+
+    reports = {}
+
+    for name in report_names:
+        path = os.path.join(base, "reports", name)
+
+        if not os.path.exists(path):
+            continue
+
         try:
-            if pd.isna(v):
-                return None
+            if name.endswith(".json"):
+                with open(path, encoding="utf-8") as handle:
+                    reports[name] = json.load(handle)
+            else:
+                with open(path, encoding="utf-8") as handle:
+                    reports[name] = handle.read()
         except Exception:
-            pass
-        return v
-    parts = [f"Finding ID: {g('id')}"]
-    for label, key in [("Titre", "title"), ("Severite", "severity"),
-                       ("Risk score", "risk_score"), ("CVSS", "cvss_score"),
-                       ("EPSS", "epss_score"), ("Package", "package"),
-                       ("Cible", "target"), ("Version corrective", "fix_version"),
-                       ("Detecte par", "detected_by"),
-                       ("Expose sur Internet", "internet_facing"),
-                       ("Criticite actif", "asset_criticality")]:
-        val = g(key)
-        if val is not None and str(val) != "":
-            parts.append(f"{label}: {val}")
-    # KEV : n affirme 'exploite activement' que si le flag reel est vrai
-    in_kev = g("in_kev")
-    if str(in_kev).strip().lower() in ("1", "true", "yes"):
-        due = g("kev_due_date")
-        parts.append("Statut CISA KEV: dans le catalogue (exploite activement)"
-                     + (f", echeance {due}" if due else ""))
-    shap = g("top_shap_drivers")
-    if shap is not None and str(shap) != "":
-        # v2: etiquetage explicite. Sans lui, le modele presentait les VALEURS
-        # des variables (CVSS=9.8) comme si c'etaient des contributions SHAP.
-        parts.append("Contributions SHAP au risk_score (valeurs signees : "
-                     "positif = augmente le score, negatif = le diminue ; "
-                     "a ne pas confondre avec la valeur de la variable): "
-                     f"{shap}")
+            continue
+
+    return df, agents, reports
+
+
+def _clean_value(value):
+    if value is None:
+        return None
+
+    try:
+        if pd.isna(value):
+            return None
+    except Exception:
+        pass
+
+    text = str(value).strip()
+
+    if not text or text.lower() in {"nan", "none"}:
+        return None
+
+    return value
+
+
+def _format_finding(row, agent):
+    def get_value(key):
+        return _clean_value(row.get(key))
+
+    finding_id = get_value("id") or "unknown"
+
+    parts = [
+        f"Finding ID: {finding_id}",
+    ]
+
+    fields = [
+        ("Title", "title"),
+        ("Severity", "severity"),
+        ("Risk score", "risk_score"),
+        ("OOF risk score", "risk_score_oof"),
+        ("Priority", "priority_final"),
+        ("CVSS", "cvss_score"),
+        ("EPSS", "epss_score"),
+        ("Package", "package"),
+        ("Target", "target"),
+        ("Asset", "asset_id"),
+        ("Fix version", "fix_version"),
+        ("Detected by", "detected_by"),
+        ("Internet facing", "internet_facing"),
+        ("Asset criticality", "asset_criticality"),
+    ]
+
+    for label, key in fields:
+        value = get_value(key)
+        if value is not None:
+            parts.append(f"{label}: {value}")
+
+    if _is_true(get_value("in_kev")):
+        due_date = get_value("kev_due_date")
+        text = "CISA KEV: yes"
+        if due_date is not None:
+            text += f" | remediation due date: {due_date}"
+        parts.append(text)
+
+    shap = get_value("top_shap_drivers")
+    if shap is not None:
+        parts.append(
+            "SHAP signed contributions to risk_score: "
+            f"{shap}"
+        )
+
     if isinstance(agent, dict):
-        # NV Cas A : la priorite affichee vient du scorer ML (priority_final),
-        # jamais de triage.priority du LLM. Le LLM ne fournit plus que
-        # l explication (triage.reason), la conformite, la remediation et la
-        # strategie de risque. priority_llm_legacy est conserve dans les
-        # donnees pour audit mais n est PAS expose au chatbot.
-        _pf = agent.get("priority_final")
-        if _pf:
-            parts.append(f"Priorite (scorer ML, risk_score_oof): {_pf}")
-        tri = agent.get("triage", {})
-        if isinstance(tri, dict) and tri.get("reason"):
-            parts.append(f"Explication du triage (LLM): {tri.get('reason')}")
-        comp = agent.get("compliance", {})
-        if isinstance(comp, dict) and comp.get("controls"):
-            parts.append(f"Controles de conformite: {comp.get('controls')}")
-        rem = agent.get("remediation", {})
-        if isinstance(rem, dict) and rem.get("patch_command"):
-            parts.append(f"Commande de remediation: {rem.get('patch_command')}")
-        rt = agent.get("red_team_challenge", {})
-        if isinstance(rt, dict):
-            if rt.get("final_verdict"):
-                parts.append(f"Verdict red-team: {rt.get('final_verdict')}")
-            if rt.get("challenge_summary"):
-                parts.append(f"Synthese red-team: {rt.get('challenge_summary')}")
-            if rt.get("false_positive_risk"):
-                parts.append(f"Risque faux positif red-team: {rt.get('false_positive_risk')}")
-            changes = rt.get("recommended_changes")
-            if changes:
-                parts.append(f"Changements recommandes red-team: {changes}")
+        triage = agent.get("triage") or {}
+        compliance = agent.get("compliance") or {}
+        remediation = agent.get("remediation") or {}
+        red_team = agent.get("red_team_challenge") or {}
+
+        if isinstance(triage, dict) and triage.get("reason"):
+            parts.append(
+                f"LLM triage explanation: {triage['reason']}"
+            )
+
+        if isinstance(compliance, dict) and compliance.get("controls"):
+            parts.append(
+                f"Compliance controls: {compliance['controls']}"
+            )
+
+        if isinstance(remediation, dict):
+            if remediation.get("patch_command"):
+                parts.append(
+                    "Recommended remediation command: "
+                    f"{remediation['patch_command']}"
+                )
+
+            if remediation.get("verification"):
+                parts.append(
+                    f"Remediation verification: "
+                    f"{remediation['verification']}"
+                )
+
+        if isinstance(red_team, dict):
+            if red_team.get("final_verdict"):
+                parts.append(
+                    f"Red-team final verdict: "
+                    f"{red_team['final_verdict']}"
+                )
+
+            if red_team.get("pipeline_status"):
+                parts.append(
+                    f"Red-team pipeline status: "
+                    f"{red_team['pipeline_status']}"
+                )
+
+            if red_team.get("challenge_summary"):
+                parts.append(
+                    f"Red-team summary: "
+                    f"{red_team['challenge_summary']}"
+                )
+
+            if red_team.get("recommended_changes"):
+                parts.append(
+                    f"Red-team recommended changes: "
+                    f"{red_team['recommended_changes']}"
+                )
+
     return "\n".join(parts)
 
-@st.cache_data(ttl=60)
-def build_context(_df, _agents):
-    by_id = {}
+
+def build_finding_index(df, agents):
     agent_by_id = {}
-    for a in (_agents or []):
-        if isinstance(a, dict):
-            fid = str(a.get("finding_id", "")).strip()
-            if fid and fid not in agent_by_id:
-                agent_by_id[fid] = a
-    seen = {}
-    for _, row in _df.iterrows():
-        d = row.to_dict()
-        base_fid = str(d.get("id", "")).strip() or f"row-{len(by_id) + 1}"
-        seen[base_fid] = seen.get(base_fid, 0) + 1
-        fid = base_fid if seen[base_fid] == 1 else f"{base_fid}#{seen[base_fid]}"
-        by_id[fid] = _fmt_finding(d, agent_by_id.get(base_fid, {}))
-    return by_id
 
-def _context_base_id(fid):
-    m = re.match(r"^(.*)#\d+$", str(fid))
-    return m.group(1) if m else str(fid)
+    for agent in agents:
+        finding_id = str(
+            agent.get("finding_id")
+            or agent.get("id")
+            or ""
+        ).strip()
 
-def retrieve(question, context_by_id, k=4):
-    q = _norm(question)          # v6: accents neutralises cote retrieval
-    # 1) match exact d un identifiant present dans la question, en preservant
-    # les lignes dupliquees conservees sous forme ID#2, ID#3, ...
-    exact = [(fid, txt) for fid, txt in context_by_id.items()
-             if _context_base_id(fid) and _context_base_id(fid).lower() in q]
+        if finding_id:
+            agent_by_id[finding_id] = agent
+
+    index = {}
+
+    for _, row in df.iterrows():
+        data = row.to_dict()
+        finding_id = str(data.get("id", "")).strip()
+
+        if not finding_id:
+            continue
+
+        index[finding_id] = _format_finding(
+            data,
+            agent_by_id.get(finding_id, {}),
+        )
+
+    return index
+
+
+def _report_text(name, value):
+    if isinstance(value, str):
+        return f"REPORT {name}:\n{value[:12000]}"
+
+    try:
+        return (
+            f"REPORT {name}:\n"
+            f"{json.dumps(value, ensure_ascii=False, indent=2)[:12000]}"
+        )
+    except Exception:
+        return f"REPORT {name}:\n{str(value)[:12000]}"
+
+
+def retrieve(question, finding_index, reports, top_k=6):
+    question_norm = _norm(question)
+
+    # Exact finding ID first.
+    exact = []
+
+    for finding_id, text in finding_index.items():
+        if _norm(finding_id) in question_norm:
+            exact.append((finding_id, text))
+
     if exact:
-        return exact[:k]
-    # 2) similarite lexicale simple (recouvrement de mots) — pas d embeddings ici,
-    #    volontairement transparent et sans dependance lourde
-    qwords = set(w for w in q.replace(",", " ").split() if len(w) > 2)
+        return exact[:top_k]
+
+    question_words = {
+        word
+        for word in re.findall(r"[a-z0-9_.#-]+", question_norm)
+        if len(word) >= 3
+    }
+
     scored = []
-    for fid, txt in context_by_id.items():
-        tw = set(txt.lower().split())
-        overlap = len(qwords & tw)
+
+    for finding_id, text in finding_index.items():
+        text_words = set(
+            re.findall(r"[a-z0-9_.#-]+", _norm(text))
+        )
+
+        overlap = len(question_words & text_words)
+
         if overlap:
-            scored.append((overlap, fid, txt))
-    scored.sort(reverse=True)
-    hits = [(fid, txt) for _, fid, txt in scored[:k]]
-    # NV61 smoke-test: si le recouvrement lexical est nul (question dans une
-    # autre langue que le contexte, ou termes generaux), on ne renvoie JAMAIS
-    # une liste vide -- on retombe sur les findings au plus haut risque, pour
-    # que le LLM ait toujours un contexte reel a citer plutot que rien.
-    if not hits:
-        def _rk(item):
-            _txt = item[1]
-            import re as _re
-            _m = _re.search(r"Risk score: ([0-9.]+)", _txt)
-            return float(_m.group(1)) if _m else 0.0
-        hits = sorted(context_by_id.items(), key=_rk, reverse=True)[:k]
-    return hits
+            scored.append((overlap, finding_id, text))
 
-# NV86 — la liste statique de modeles s est perimee en production : les 5
-# candidats (y compris gemma2-9b-it, le dernier tente) etaient tous
-# decommissionnes cote Groq ("model_decommissioned"), la synthese LLM
-# tombait en panne totale malgre le retrieval qui, lui, fonctionnait. Une
-# liste ecrite en dur pourrit forcement — Groq retire des modeles sans
-# prevenir le code qui les appelle. On interroge desormais l API Groq
-# elle-meme pour la liste des modeles REELLEMENT actifs a l instant du run,
-# mise en cache 1h pour ne pas payer un appel supplementaire par question.
-#
-# NB: pas de docstring triple-quote ici — ce fichier entier est lui-meme le
-# contenu d une chaine r-triple-quote (CHATBOT_CODE). Un triple-quote imbrique
-# fermerait cette chaine prematurement et casserait soc_chatbot.py genere.
-_FALLBACK_CANDIDATES = [
-    "llama-3.1-8b-instant",
-    "llama-3.3-70b-versatile",
-    "openai/gpt-oss-20b",
-]
+    scored.sort(
+        key=lambda item: (item[0], item[1]),
+        reverse=True,
+    )
 
-@st.cache_data(ttl=3600, show_spinner=False)
-def _discover_groq_models(api_key):
-    # Modeles chat actifs selon Groq, plus recents/gros en tete.
-    # Retourne [] si la decouverte echoue (repli sur _FALLBACK_CANDIDATES).
+    results = [
+        (finding_id, text)
+        for _, finding_id, text in scored[:top_k]
+    ]
+
+    # Add relevant complementary reports.
+    report_terms = {
+        "p2": ["risk_explanations.json"],
+        "shap": ["risk_explanations.json"],
+        "p3": ["p3_gnn_bfs_comparison.json"],
+        "gnn": ["p3_gnn_bfs_comparison.json"],
+        "bfs": ["p3_gnn_bfs_comparison.json"],
+        "p4": ["p4_fp_exploratory.json"],
+        "faux positif": ["p4_fp_exploratory.json"],
+        "false positive": ["p4_fp_exploratory.json"],
+        "recalibration": [
+            "priority_to_score_calibre.json",
+            "mae_oof_calibration_kaggle.json",
+        ],
+        "mae": ["mae_oof_calibration_kaggle.json"],
+        "p7": [
+            "p7_debate_experiment.json",
+            "p7_debate_bootstrap.json",
+        ],
+        "débat": [
+            "p7_debate_experiment.json",
+            "p7_debate_bootstrap.json",
+        ],
+        "dpo": ["system_card.md"],
+        "sft": ["system_card.md"],
+        "limite": ["system_card.md"],
+    }
+
+    selected_reports = []
+
+    for term, names in report_terms.items():
+        if term in question_norm:
+            selected_reports.extend(names)
+
+    for name in dict.fromkeys(selected_reports):
+        if name in reports:
+            results.append(
+                (
+                    f"REPORT:{name}",
+                    _report_text(name, reports[name]),
+                )
+            )
+
+    return results[:top_k + 3]
+
+
+def _aggregate(question, df):
+    if df is None or df.empty:
+        return None
+
+    q = _norm(question)
+    lines = []
+
+    if "risk_score" in df.columns:
+        risk = pd.to_numeric(
+            df["risk_score"],
+            errors="coerce",
+        ).dropna()
+
+        if "moyenne" in q or "average" in q:
+            lines.append(
+                f"Moyenne risk_score : {risk.mean():.2f}"
+            )
+
+        if "mediane" in q or "median" in q:
+            lines.append(
+                f"Médiane risk_score : {risk.median():.2f}"
+            )
+
+        if "maximum" in q or "plus eleve" in q:
+            lines.append(
+                f"Maximum risk_score : {risk.max():.2f}"
+            )
+
+        if "minimum" in q or "plus bas" in q:
+            lines.append(
+                f"Minimum risk_score : {risk.min():.2f}"
+            )
+
+    if any(
+        term in q
+        for term in [
+            "combien",
+            "nombre",
+            "total",
+            "repartition",
+            "distribution",
+            "liste",
+            "quels",
+            "quelles",
+            "lesquels",
+        ]
+    ):
+        lines.append(f"Nombre total de findings : {len(df)}")
+
+    if "severity" in df.columns:
+        for severity in ["CRITICAL", "HIGH", "MEDIUM", "LOW"]:
+            if severity.lower() in q:
+                selected = df[
+                    df["severity"].astype(str).str.upper()
+                    == severity
+                ]
+
+                ids = (
+                    selected["id"].astype(str).tolist()
+                    if "id" in selected.columns
+                    else []
+                )
+
+                lines.append(
+                    f"Findings {severity} ({len(ids)}) : "
+                    + ", ".join(ids[:50])
+                )
+
+    if "kev" in q and "in_kev" in df.columns:
+        mask = df["in_kev"].map(_is_true)
+        ids = (
+            df.loc[mask, "id"].astype(str).tolist()
+            if "id" in df.columns
+            else []
+        )
+
+        lines.append(
+            f"Findings CISA KEV ({len(ids)}) : "
+            + (", ".join(ids) if ids else "aucun")
+        )
+
+    if not lines:
+        return None
+
+    return (
+        "Calcul effectué par le code sur le dataframe complet. "
+        "Le LLM n'a pas calculé ces valeurs.\n"
+        + "\n".join(f"- {line}" for line in lines)
+    )
+
+
+def _model_candidates(api_key):
+    forced = (
+        os.environ.get("chatbot_model")
+        or _secret("chatbot_model", "")
+    )
+
+    fallback = [
+        "llama-3.1-8b-instant",
+        "llama-3.3-70b-versatile",
+        "openai/gpt-oss-20b",
+    ]
+
+    discovered = []
+
     try:
         from groq import Groq
+
         client = Groq(api_key=api_key)
-        models = client.models.list().data
+
+        for model in client.models.list().data:
+            name = str(model.id)
+
+            if any(
+                term in name.lower()
+                for term in [
+                    "whisper",
+                    "guard",
+                    "moderation",
+                    "tts",
+                ]
+            ):
+                continue
+
+            discovered.append(name)
     except Exception:
-        return []
-    # exclure whisper (audio), guard/moderation (non conversationnels) et
-    # tout modele que Groq marque lui-meme comme non actif quand ce champ existe.
-    _EXCLUDE = ("whisper", "guard", "moderation", "tts")
-    # NV96 — incident constate : gemma2-9b-it revenait dans la decouverte
-    # AVEC active=True cote Groq, alors que l appel chat/completions renvoyait
-    # 400 "model_decommissioned". Le champ 'active' de /models n est donc pas
-    # une garantie de disponibilite reelle -- Groq peut retirer un modele du
-    # service avant de mettre a jour ses metadonnees de listing. On maintient
-    # en plus une liste noire cote client pour les modeles dont on SAIT,
-    # par incident constate, qu ils sont retires malgre un statut 'active'
-    # trompeur. A completer si un nouvel incident du meme type survient.
-    _KNOWN_DECOMMISSIONED = ("gemma2-9b-it", "gemma-7b-it",
-                             "mixtral-8x7b-32768", "llama2-70b-4096")
-    names = [m.id for m in models
-             if not any(x in m.id.lower() for x in _EXCLUDE)
-             and m.id.lower() not in _KNOWN_DECOMMISSIONED
-             and getattr(m, "active", True)]
-    # NV92 — ordre INVERSE par rapport a NV86. Le tri placait les gros modeles
-    # (versatile / 70b / 120b) en tete, donc le chatbot choisissait le plus LENT
-    # pendant une soutenance. On privilegie la latence : les modeles "instant" /
-    # petits d abord, les gros en repli. Pour forcer un modele precis, poser le
-    # secret Streamlit 'chatbot_model' (il prime sur cet ordre).
-    _SLOW = ("versatile", "70b", "120b", "-large")
-    names.sort(key=lambda n: (1 if any(x in n.lower() for x in _SLOW) else 0, n))
-    return names
+        pass
 
+    ordered = [forced] if forced else []
 
-def _preferred_models(api_key=None):
-    # priorite : variable d env / secret 'chatbot_model' si l utilisateur l a
-    # posee (ex. ecrite par la cellule PROBE), puis les modeles decouverts en
-    # direct aupres de Groq, puis le repli statique si la decouverte echoue.
-    forced = os.environ.get("chatbot_model", "") or _secret("chatbot_model", "")
-    discovered = _discover_groq_models(api_key) if api_key else []
-    base = discovered or _FALLBACK_CANDIDATES
-    ordered = ([forced] if forced else []) + [m for m in base if m != forced]
+    for model in discovered + fallback:
+        if model and model not in ordered:
+            ordered.append(model)
+
     return ordered
 
-def _is_model_error(err_text):
-    # NV95: le fallback multi-modeles ne se declenchait QUE sur une erreur
-    # "modele" (decommissionne/introuvable). Une limite de debit (rate limit)
-    # ou un timeout reseau sur le PREMIER modele candidat faisait donc
-    # renvoyer __ERROR__ immediatement, sans jamais essayer les modeles
-    # suivants -- alors que sur Groq free-tier chaque modele a son propre
-    # quota par minute : le modele B peut tres bien repondre quand A est
-    # temporairement sature. C est le scenario le plus probable derriere un
-    # "chatbot indisponible" pendant une demo (plusieurs questions rapprochees
-    # epuisent le quota du modele instant en tete de liste).
-    # On NE rajoute PAS "api key"/"quota"/"credit" ici : ces erreurs sont
-    # liees a la cle, pas au modele -- elles echoueraient de la meme facon
-    # sur tous les candidats, donc inutile d essayer les suivants.
-    t = str(err_text).lower()
-    return any(k in t for k in ("model", "not found", "decommission",
-                                "does not exist", "deprecat",
-                                "rate limit", "rate_limit", "429",
-                                "timeout", "timed out", "connection", "503"))
 
-# ─────────────────────────────────────────────────────────────────
-# GARDE-FOU AGREGATION (v2)
-# Au test, "quelle est la moyenne des risk scores de tous les findings ?"
-# a produit un calcul (interdit par le prompt), sur les 4 findings recuperes
-# seulement (pas les 156), ET arithmetiquement FAUX : le modele a annonce
-# 38.25 la ou (25.5+33.9+58.5+58.5)/4 = 44.1.
-# Un LLM ne doit pas faire d'arithmetique sur des donnees tabulaires quand
-# le dataframe complet est disponible. On detecte la question agregative,
-# on calcule en pandas sur l'INTEGRALITE des findings, et on renvoie le
-# resultat sans passer par le modele.
-# ─────────────────────────────────────────────────────────────────
-# ─────────────────────────────────────────────────────────────────
-# GARDE-FOU PERIMETRE (v3)
-# Le prompt seul ne suffit pas : une consigne peut etre contournee par
-# reformulation. On intercepte AVANT l'appel LLM les demandes offensives
-# (exploit, PoC, payload, contournement). Le refus devient une propriete
-# du code, pas une politesse du modele.
-# Volontairement restreint aux demandes d'ACTION offensive : les mots
-# "exploitation active", "exploitable" ou "exploite" employes pour DECRIRE
-# un finding (statut KEV, EPSS) ne doivent PAS declencher le refus.
-# ─────────────────────────────────────────────────────────────────
-# v6 — NORMALISATION DES ACCENTS.
-# L audit a montre que "ecris un exploit" etait bloque mais "écris un exploit"
-# passait, et que "repartition"/"mediane" declenchaient le calcul pandas alors
-# que "répartition"/"médiane" partaient au LLM. Les motifs sont ecrits sans
-# accents ; on normalise donc TOUTE question avant analyse (NFD + suppression
-# des diacritiques). Sans ca, il suffisait d ecrire un francais correct pour
-# contourner les deux garde-fous.
-def _norm(text):
-    t = unicodedata.normalize("NFD", str(text or ""))
-    t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
-    return t.replace("\u2019", "'").lower()
+def ask_llm(question, retrieved, history):
+    api_key = _secret(
+        "chatbot",
+        os.environ.get("chatbot", ""),
+    )
 
-
-# v5 — FILTRE ELARGI. L audit a montre que la v3, qui exigeait un verbe
-# precis colle au mot offensif, laissait passer 5 formulations sur 5 :
-# "j ai besoin d un exploit", "rediger un poc", "fais moi un payload",
-# "peux-tu m aider a exploiter X", "exploit code pour Y".
-# Nouvelle logique en trois niveaux, pour bloquer large SANS bloquer le
-# vocabulaire descriptif ("exploit connu", "exploitable", "exploite
-# activement") qui est legitime et central dans un SOC.
-
-# 1) Termes sans usage descriptif possible ici : bloques inconditionnellement.
-_OFFENSIVE_NOUNS = re.compile(
-    r"\b(payload|poc|preuve de concept|proof of concept|reverse shell|"
-    r"shellcode|malware|backdoor|porte derobee|metasploit|exploit kit)\b",
-    re.IGNORECASE)
-
-# 2) "exploit" est ambigu (un finding PEUT avoir un exploit connu). On ne
-#    bloque que s il y a une intention de DEMANDE ou de PRODUCTION.
-_REQUEST_VERBS = (r"ecris|ecrire|redige|rediger|genere|generer|donne|donner|"
-                  r"fournis|fournir|montre|montrer|fais|faire|besoin|aide|"
-                  r"aider|veux|voudrais|peux|pourrais|write|create|generate|"
-                  r"give|need|build|code|script")
-_EXPLOIT_REQUEST = re.compile(
-    r"(" + _REQUEST_VERBS + r")\b[^.?!]{0,80}\b(exploit|exploitation|payload|poc)"
-    r"|\b(exploit|exploitation)\b[^.?!]{0,30}\b(code|script|payload|poc)\b"
-    r"|\b(etape|etapes|step|steps)\b[^.?!]{0,60}\b(exploitation|exploiter|attack|attaque)\b"
-    r"|\b(requete|request)\b[^.?!]{0,80}\b(declenche|trigger|triggers|causes?)\b"
-    r"[^.?!]{0,80}\b(rce|deserialization|deserialisation|injection|exploit|exploitation)\b",
-    re.IGNORECASE)
-
-# 3) Verbes d action offensive a l infinitif, dans un contexte de demande.
-_OFFENSIVE_ACTION = re.compile(
-    r"(comment|how to|aide|aider|peux|pourrais|veux|voudrais|pour)"
-    r"[^.?!]{0,40}\b(exploiter|attaquer|pirater|compromettre|contourner|"
-    r"bypasser|exploit|attack|hack|bypass)\b"
-    r"|\b(exploiter|attaquer|compromettre|pirater)\s+(ce|cette|le|la|les|mon|"
-    r"notre|un|une)\b",
-    re.IGNORECASE)
-
-OUT_OF_SCOPE_MSG = (
-    "Hors perimetre : cet assistant documente et priorise les findings, il ne "
-    "fournit pas de moyen d'exploitation. Je peux en revanche detailler l'impact, "
-    "la severite, le statut KEV/EPSS et la remediation recommandee."
-)
-
-# ─────────────────────────────────────────────────────────────────
-# DIAGNOSTIC D ERREUR API (v4)
-# Avant : toute panne affichait le meme texte opaque "erreur reseau/API".
-# Impossible de distinguer un depassement de debit d une cle invalide ou
-# d un contexte trop long — y compris en pleine demo. On traduit desormais
-# le message brut de l API en cause lisible, en gardant le detail technique.
-# ─────────────────────────────────────────────────────────────────
-def explain_api_error(err_text):
-    # v4.1: on normalise underscores/tirets -> espaces. Les API renvoient
-    # tantot un message en clair ("Incorrect API key provided"), tantot le
-    # seul code machine ("invalid_api_key"), et l audit a montre que la
-    # forme courte n etait pas reconnue.
-    t = str(err_text).lower().replace("_", " ").replace("-", " ")
-    if "rate" in t and "limit" in t:
-        return ("Limite de debit atteinte (trop de requetes rapprochees). "
-                "Attends quelques secondes et repose la question.")
-    if "quota" in t or "insufficient" in t or "credit" in t:
-        return "Quota de l'API epuise pour la periode en cours."
-    if "context length" in t or ("context" in t and ("window" in t or "too long" in t)):
-        return ("Contexte trop long pour le modele : trop de findings "
-                "recuperes d'un coup. Pose une question plus ciblee (un ID).")
-    if ("api key" in t or "apikey" in t or "authentication" in t
-            or "unauthorized" in t or "401" in t):
-        return ("Cle API refusee. Verifie le secret 'chatbot' dans les "
-                "parametres Streamlit Cloud.")
-    if "model" in t and ("not found" in t or "decommission" in t
-                         or "deprecat" in t or "does not exist" in t):
-        return "Modele indisponible cote fournisseur (aucun modele de repli n'a repondu)."
-    if "import groq" in t or "no module named" in t or "modulenotfound" in t:
-        return ("Paquet 'groq' absent de l'environnement : ajoute 'groq' a "
-                "requirements.txt du depot.")
-    if "timeout" in t or "timed out" in t or "connection" in t:
-        return "Delai depasse ou reseau indisponible. Reessaie."
-    return "Cause non identifiee (voir le detail technique ci-dessous)."
-
-
-def is_out_of_scope(question):
-    q = _norm(question)          # v6: accents neutralises
-    return bool(_OFFENSIVE_NOUNS.search(q)
-                or _EXPLOIT_REQUEST.search(q)
-                or _OFFENSIVE_ACTION.search(q))
-
-
-_AGG_PATTERNS = re.compile(
-    r"\b(moyenne|mediane|median|average|total|somme|combien|nombre de|"
-    r"pourcentage|proportion|repartition|distribution|maximum|minimum|"
-    r"le plus eleve|le plus haut|le plus bas|classement|top\s*\d+|"
-    # v3: les demandes d ENUMERATION doivent aussi passer par pandas, sinon
-    # le LLM repond sur les 4 findings recuperes et la liste est incomplete.
-    # Si answer_aggregate ne sait pas traiter la question, elle renvoie None
-    # et la question repart normalement vers le LLM.
-    r"quel|quelle|quels|quelles|lesquels|liste|lister|enumere)\b",
-    re.IGNORECASE)
-
-def is_aggregate_question(question):
-    return bool(_AGG_PATTERNS.search(_norm(question)))   # v6: accents neutralises
-
-def answer_aggregate(question, df):
-    # Repond aux questions agregatives par un calcul pandas sur TOUT le
-    # dataframe. Retourne None si la question n'est pas couverte -> on laisse
-    # alors le LLM repondre (le prompt lui interdit deja de calculer).
-    q = _norm(question)          # v6: "severite"/"repartition" accentues
-    if df is None or df.empty or "risk_score" not in df.columns:
-        return None
-    rs = pd.to_numeric(df["risk_score"], errors="coerce").dropna()
-    n_total = len(df)
-    lines = [f"Calcul effectue par le code (pandas) sur l'integralite des "
-             f"{n_total} findings, pas par le LLM."]
-
-    if re.search(r"moyenne|average", q) and len(rs):
-        lines.append(f"- Moyenne des risk_score : {rs.mean():.2f}")
-    if re.search(r"mediane|median", q) and len(rs):
-        lines.append(f"- Mediane des risk_score : {rs.median():.2f}")
-    if re.search(r"maximum|le plus eleve|le plus haut", q) and len(rs):
-        lines.append(f"- Maximum des risk_score : {rs.max():.2f}")
-    if re.search(r"minimum|le plus bas", q) and len(rs):
-        lines.append(f"- Minimum des risk_score : {rs.min():.2f}")
-    if re.search(r"combien|nombre de|total", q):
-        lines.append(f"- Nombre total de findings : {n_total}")
-        if "severity" in df.columns:
-            vc = df["severity"].astype(str).str.upper().value_counts()
-            lines.append("- Repartition par severite : "
-                         + ", ".join(f"{k}={v}" for k, v in vc.items()))
-        if "in_kev" in df.columns:
-            _kev = df["in_kev"].astype(str).str.strip().str.lower().isin(
-                ["1", "true", "yes", "1.0"]).sum()
-            lines.append(f"- Findings dans le catalogue CISA KEV : {_kev}")
-    if re.search(r"repartition|distribution", q) and "severity" in df.columns:
-        vc = df["severity"].astype(str).str.upper().value_counts()
-        lines.append("- Repartition par severite : "
-                     + ", ".join(f"{k}={v}" for k, v in vc.items()))
-
-    # v3 — ENUMERATION EXHAUSTIVE.
-    # Le retrieval ne remonte que quelques findings : a la question "quels
-    # findings sont dans le catalogue KEV ?", le LLM en listait 2 sur 3 —
-    # reponse incomplete, indistinguable d'une erreur pour un lecteur.
-    # Ces listes viennent donc du dataframe complet.
-    if re.search(r"\b(quel|quelle|quels|quelles|liste|lister|lesquels|enumere)\b", q):
-        if "kev" in q and "in_kev" in df.columns:
-            _mask = df["in_kev"].astype(str).str.strip().str.lower().isin(
-                ["1", "true", "yes", "1.0"])
-            _ids = df.loc[_mask, "id"].astype(str).tolist()
-            lines.append(f"- Findings dans le catalogue CISA KEV ({len(_ids)}) : "
-                         + (", ".join(_ids) if _ids else "aucun"))
-        for _sev in ("CRITICAL", "HIGH", "MEDIUM", "LOW"):
-            if _sev.lower() in q and "severity" in df.columns:
-                _ids = df.loc[df["severity"].astype(str).str.upper() == _sev,
-                              "id"].astype(str).tolist()
-                _shown = ", ".join(_ids[:40]) + (" ..." if len(_ids) > 40 else "")
-                lines.append(f"- Findings {_sev} ({len(_ids)}) : "
-                             + (_shown if _ids else "aucun"))
-                break
-
-    return "\n".join(lines) if len(lines) > 1 else None
-
-
-def ask_llm(question, retrieved):
-    api_key = _secret("chatbot", os.environ.get("chatbot", ""))
-    context = "\n\n---\n\n".join(txt for _, txt in retrieved) or "(aucun finding pertinent)"
-    _n_ctx = len(retrieved)
     if not api_key:
-        return None, context  # mode degrade signale par l appelant
+        return None, "Clé Groq absente."
+
     try:
         from groq import Groq
-    except Exception as e:
-        return f"__ERROR__import groq: {e}", context
-    client = Groq(api_key=api_key)
-    _last_err = None
-    # NV96 — l ancienne version n exposait que le DERNIER echec dans le
-    # message d erreur. L incident gemma2-9b-it a montre la limite : on ne
-    # pouvait pas voir si un seul modele avait echoue ou si TOUS avaient
-    # echoue pour des raisons differentes derriere ce dernier message. On
-    # trace desormais chaque tentative (modele + cause courte), affiche dans
-    # le meme expander technique deja present dans l UI (render_chatbot_tab).
-    _attempts = []
-    for _model in _preferred_models(api_key):
-        try:
-            resp = client.chat.completions.create(
-                model=_model,
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user",
-                     "content": (f"{GLOSSAIRE}\n"
-                                 f"CONTEXTE ({_n_ctx} finding(s) recuperes sur "
-                                 f"un ensemble plus large):\n{context}\n\n"
-                                 f"QUESTION: {question}")},
-                ],
-                temperature=0.2, max_tokens=600,
+    except Exception as error:
+        return None, f"Module groq absent : {error}"
+
+    context = "\n\n---\n\n".join(
+        f"SOURCE {source}:\n{text}"
+        for source, text in retrieved
+    )
+
+    messages = [
+        {
+            "role": "system",
+            "content": SYSTEM_PROMPT + "\n\n" + GLOSSARY,
+        },
+    ]
+
+    for item in history[-6:]:
+        if item["role"] in {"user", "assistant"}:
+            messages.append(
+                {
+                    "role": item["role"],
+                    "content": item["content"],
+                }
             )
-            # NV92: memoriser le modele ayant reellement repondu, pour que
-            # l onglet puisse l afficher. Sans ca, une panne le jour J n est
-            # pas diagnosticable depuis l interface.
-            st.session_state["_soc_last_model"] = _model
-            return resp.choices[0].message.content, context
-        except Exception as e:
-            _last_err = e
-            _attempts.append(f"{_model}: {str(e)[:120]}")
-            # si c est une erreur de modele, on essaie le candidat suivant ;
-            # sinon (reseau, auth, quota) inutile d insister, on sort.
-            if _is_model_error(e):
-                continue
-            _trace = " | ".join(_attempts)
-            return f"__ERROR__{e}\n\n[trace des {len(_attempts)} tentative(s)] {_trace}", context
-    _trace = " | ".join(_attempts) if _attempts else "aucune tentative (liste de candidats vide)"
-    return (f"__ERROR__aucun modele Groq disponible parmi "
-            f"{_preferred_models(api_key)} (dernier essai: {_last_err})\n\n"
-            f"[trace des {len(_attempts)} tentative(s)] {_trace}"), context
 
-# NV97 — a la demande de l auteure : si l info n est pas dans le CONTEXTE, le
-# modele peut repondre avec ses connaissances generales plutot que refuser
-# systematiquement (cf. SYSTEM_PROMPT, modes [CONTEXTE]/[CONNAISSANCE GENERALE]).
-# Cote UI, les deux modes restent visuellement distincts : une reponse
-# [CONNAISSANCE GENERALE] ne doit jamais avoir l air aussi "sourcee" qu une
-# reponse [CONTEXTE], sinon on reintroduit le risque d hallucination que les
-# regles v2 avaient ete ecrites pour eliminer -- on ne le supprime pas, on
-# le rend visible.
-_MODE_TAG_RE = re.compile(r"\[(CONTEXTE|CONNAISSANCE GENERALE)\]\s*", re.IGNORECASE)
+    messages.append(
+        {
+            "role": "user",
+            "content": (
+                f"CONTEXTE RÉCUPÉRÉ :\n{context}\n\n"
+                f"QUESTION : {question}\n\n"
+                "Réponds avec le tag [CONTEXTE] ou "
+                "[CONNAISSANCE GENERALE]. "
+                "Termine par une ligne Sources."
+            ),
+        }
+    )
 
-def _render_tagged_answer(answer):
-    if not isinstance(answer, str) or not _MODE_TAG_RE.search(answer):
-        st.markdown(answer)
+    client = Groq(api_key=api_key)
+    errors = []
+
+    for model in _model_candidates(api_key):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=0.15,
+                max_tokens=700,
+            )
+
+            st.session_state["_soc_last_model"] = model
+
+            return response.choices[0].message.content, None
+
+        except Exception as error:
+            errors.append(f"{model}: {str(error)[:180]}")
+
+    return None, " | ".join(errors)
+
+
+def _render_answer(answer):
+    if not answer:
         return
-    matches = list(_MODE_TAG_RE.finditer(answer))
-    for i, m in enumerate(matches):
-        start = m.end()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(answer)
-        mode = m.group(1).upper()
-        txt = answer[start:end].strip()
-        if not txt:
-            continue
-        if mode == "CONTEXTE":
-            st.markdown(txt)
-        else:
-            st.info(" **Connaissance generale du modele** (non verifiee sur "
-                    "les findings de ce projet) :\n\n" + txt)
+
+    st.markdown(answer)
+
 
 def render_chatbot_tab():
-    st.subheader("Assistant SOC — interroge tes findings")
-    st.caption(f"RAG sur scored_findings.csv + agent_results.json "
-               f"(prompt {CHATBOT_PROMPT_VERSION}). Reponse [CONTEXTE] = donnees "
-               f"de ce projet uniquement. Reponse [CONNAISSANCE GENERALE] = culture "
-               f"cybersecurite du modele, non verifiee sur ce dataset (affichee a part).")
-    _lm = st.session_state.get("_soc_last_model")
-    if _lm:
-        st.caption(f"Modele LLM utilise : {_lm}")
-    try:
-        df, agents = load_data()
-    except Exception as e:
-        st.error(f"Artefacts illisibles: {e}")
-        return
-    if df.empty:
-        st.warning("scored_findings.csv absent ou vide — lance le pipeline d'abord.")
-        return
-    context_by_id = build_context(df, agents)
+    st.subheader("Assistant SOC — SFT + red-team")
 
-    has_key = bool(_secret("chatbot", os.environ.get("chatbot", "")))
-    if not has_key:
-        st.info("Cle chatbot absente : mode degrade. Les findings pertinents "
-                "sont affiches, mais la synthese LLM est desactivee.")
+    st.caption(
+        "RAG sur scored_findings.csv, "
+        "agent_results_SFT_redteam.json et les rapports "
+        "P2/P3/P4/P7."
+    )
+
+    last_model = st.session_state.get("_soc_last_model")
+
+    if last_model:
+        st.caption(f"Modèle Groq utilisé : {last_model}")
+
+    try:
+        df, agents, reports = load_project_data()
+    except Exception as error:
+        st.error(f"Erreur de chargement des données : {error}")
+        return
+
+    if df.empty:
+        st.warning(
+            "scored_findings.csv absent ou vide."
+        )
+        return
+
+    finding_index = build_finding_index(df, agents)
+
+    if "soc_chat_history" not in st.session_state:
+        st.session_state["soc_chat_history"] = []
 
     suggestions = [
-        "Pourquoi ce finding a-t-il un risk score eleve ?",
-        "Quels findings sont dans le catalogue CISA KEV ?",
-        "Quelle est la remediation recommandee et sa version corrective ?",
+        "Explique CVE-2022-22965",
+        "Quels findings sont dans le catalogue KEV ?",
+        "Pourquoi P3 n'a pas été promu ?",
+        "Compare P7 au pipeline principal",
     ]
-    cols = st.columns(len(suggestions))
-    if "chat_history" not in st.session_state:
-        st.session_state.chat_history = []
-    _clicked = None
-    for _c, _s in zip(cols, suggestions):
-        if _c.button(_s, use_container_width=True):
-            _clicked = _s
 
-    for msg in st.session_state.chat_history:
-        with st.chat_message(msg["role"]):
-            if msg["role"] == "assistant":
-                _render_tagged_answer(msg["content"])
-            else:
-                st.markdown(msg["content"])
-            if msg.get("sources"):
-                st.caption("Sources: " + ", ".join(msg["sources"]))
+    columns = st.columns(len(suggestions))
+    clicked = None
 
-    user_q = st.chat_input("Pose ta question sur un finding...") or _clicked
-    if user_q:
-        st.session_state.chat_history.append({"role": "user", "content": user_q})
-        with st.chat_message("user"):
-            st.markdown(user_q)
-        retrieved = retrieve(user_q, context_by_id)
-        sources = [fid for fid, _ in retrieved]
-        # v2: les questions agregatives ne partent PAS au LLM — calcul pandas
-        # sur l'integralite du dataframe, resultat exact et verifiable.
-        # v3: perimetre defensif verifie EN PREMIER, avant tout appel LLM.
-        if is_out_of_scope(user_q):
-            _agg = OUT_OF_SCOPE_MSG
-            sources = []
+    for column, suggestion in zip(columns, suggestions):
+        if column.button(
+            suggestion,
+            use_container_width=True,
+        ):
+            clicked = suggestion
+
+    for message in st.session_state["soc_chat_history"]:
+        with st.chat_message(message["role"]):
+            _render_answer(message["content"])
+
+            if message.get("sources"):
+                st.caption(
+                    "Sources : "
+                    + ", ".join(message["sources"])
+                )
+
+    question = (
+        st.chat_input("Pose ta question sur le projet SOC...")
+        or clicked
+    )
+
+    if not question:
+        return
+
+    st.session_state["soc_chat_history"].append(
+        {
+            "role": "user",
+            "content": question,
+        }
+    )
+
+    with st.chat_message("user"):
+        st.markdown(question)
+
+    if _is_offensive(question):
+        answer = OUT_OF_SCOPE_MESSAGE
+        sources = []
+
+    else:
+        aggregate = _aggregate(question, df)
+
+        if aggregate is not None:
+            answer = "[CONTEXTE]\n" + aggregate
+            sources = [
+                "normalized_alerts/scored_findings.csv"
+            ]
         else:
-            _agg = answer_aggregate(user_q, df) if is_aggregate_question(user_q) else None
-        if _agg is not None:
-            answer, context = _agg, ""
-            if _agg is not OUT_OF_SCOPE_MSG:
-                sources = [f"calcul pandas sur {len(df)} findings"]
-        else:
-            answer, context = ask_llm(user_q, retrieved)
-        with st.chat_message("assistant"):
+            retrieved = retrieve(
+                question,
+                finding_index,
+                reports,
+            )
+
+            sources = [
+                source
+                for source, _ in retrieved
+            ]
+
+            answer, error = ask_llm(
+                question,
+                retrieved,
+                st.session_state["soc_chat_history"],
+            )
+
             if answer is None:
-                st.markdown("**Synthese LLM indisponible (pas de cle API).** "
-                            "Findings pertinents retrouves :")
-                for fid, txt in retrieved:
-                    with st.expander(fid):
-                        st.text(txt)
-            elif isinstance(answer, str) and answer.startswith("__ERROR__"):
-                # v4: on montre la CAUSE, plus un simple "indisponible".
-                _raw = answer[len("__ERROR__"):]
-                _cause = explain_api_error(_raw)
-                st.warning(f"Synthese LLM indisponible — {_cause}")
-                with st.expander("Detail technique de l'erreur"):
-                    st.code(_raw or "(vide)")
-                st.caption("Le retrieval a fonctionne : findings pertinents "
-                           "ci-dessous, sans synthese LLM.")
-                for fid, txt in retrieved:
-                    with st.expander(fid):
-                        st.text(txt)
-                answer = f"(LLM indisponible — {_cause})"
-            else:
-                _render_tagged_answer(answer)
-                if sources:
-                    st.caption("Sources: " + ", ".join(sources))
-        st.session_state.chat_history.append(
-            {"role": "assistant", "content": answer or "(mode degrade)",
-             "sources": sources})
+                answer = (
+                    "[CONTEXTE]\n"
+                    "La synthèse Groq est indisponible. "
+                    "Voici les sources pertinentes récupérées :\n\n"
+                    + "\n\n".join(
+                        f"### {source}\n{text}"
+                        for source, text in retrieved
+                    )
+                    + f"\n\nErreur : {error}"
+                )
 
-# Permet un lancement autonome (streamlit run soc_chatbot.py) pour test isole
+    with st.chat_message("assistant"):
+        _render_answer(answer)
+
+        if sources:
+            st.caption(
+                "Sources : "
+                + ", ".join(sources)
+            )
+
+    st.session_state["soc_chat_history"].append(
+        {
+            "role": "assistant",
+            "content": answer,
+            "sources": sources,
+        }
+    )
+
+
 if __name__ == "__main__":
-    st.set_page_config(page_title="SOC Assistant", layout="wide")
+    st.set_page_config(
+        page_title="SOC Assistant",
+        layout="wide",
+    )
     render_chatbot_tab()

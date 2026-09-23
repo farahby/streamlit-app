@@ -2,6 +2,7 @@ import os
 import json
 import re
 import unicodedata
+import hashlib
 from pathlib import Path
 
 import pandas as pd
@@ -36,6 +37,7 @@ RÈGLES :
 - P3 GNN est expérimental ; BFS reste actif.
 - P4 est exploratoire avec peu de labels faux positifs.
 - P7 est une expérience séparée et n'est pas promu.
+- P6 (EWC) est implémenté mais n'a pas été exécuté dans ce projet. Il n'existe aucun résultat expérimental P6 à présenter.
 - La recalibration OOF est mesurée par validation croisée.
 - DPO n'est pas utilisé dans le pipeline principal.
 - Ne fournis jamais de code d'exploitation, payload, PoC, reverse shell,
@@ -75,6 +77,101 @@ def _secret(name, default=""):
         return st.secrets.get(name, default)
     except Exception:
         return default
+
+
+
+CHAT_CACHE_TABLE = "llm_response_cache_chat"
+
+
+def _chat_supabase_client():
+    try:
+        from supabase import create_client
+
+        url = (
+            st.secrets.get("SUPABASE_URL", "")
+            or os.environ.get("SUPABASE_URL", "")
+        )
+
+        key = (
+            st.secrets.get("SUPABASE_KEY", "")
+            or os.environ.get("SUPABASE_KEY", "")
+        )
+
+        if not url or not key:
+            return None
+
+        return create_client(url, key)
+
+    except Exception:
+        return None
+
+
+def _chat_cache_key(question, context, model_tag):
+    raw = (
+        str(question)
+        + "\n"
+        + str(context)
+        + "\n"
+        + CHATBOT_PROMPT_VERSION
+        + "\n"
+        + str(model_tag)
+    )
+
+    return hashlib.sha256(
+        raw.encode("utf-8")
+    ).hexdigest()
+
+
+def _chat_cache_get(cache_key):
+    client = _chat_supabase_client()
+
+    if client is None:
+        return None
+
+    try:
+        rows = (
+            client.table(CHAT_CACHE_TABLE)
+            .select("payload")
+            .eq("cache_key", cache_key)
+            .limit(1)
+            .execute()
+            .data
+        )
+
+        if not rows:
+            return None
+
+        payload = rows[0].get("payload")
+
+        if isinstance(payload, dict):
+            return payload.get("answer")
+
+        return payload
+
+    except Exception:
+        return None
+
+
+def _chat_cache_put(cache_key, answer, model_name):
+    client = _chat_supabase_client()
+
+    if client is None or not answer:
+        return
+
+    try:
+        client.table(CHAT_CACHE_TABLE).upsert(
+            {
+                "cache_key": cache_key,
+                "payload": {
+                    "answer": answer,
+                    "prompt_version": CHATBOT_PROMPT_VERSION,
+                },
+                "model_name": model_name,
+            }
+        ).execute()
+
+    except Exception:
+        pass
 
 
 def _norm(value):
@@ -436,6 +533,9 @@ def retrieve(question, finding_index, reports, top_k=6):
             "p7_debate_bootstrap.json",
         ],
         "dpo": ["system_card.md"],
+        "p6": ["system_card.md"],
+        "ewc": ["system_card.md"],
+        "continual learning": ["system_card.md"],
         "sft": ["system_card.md"],
         "limite": ["system_card.md"],
     }
@@ -646,7 +746,7 @@ def ask_llm(question, retrieved, history):
     client = Groq(api_key=api_key)
     errors = []
 
-    for model in _model_candidates(api_key):
+    for model in candidate_models:
         try:
             response = client.chat.completions.create(
                 model=model,

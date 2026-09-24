@@ -714,6 +714,21 @@ def ask_llm(question, retrieved, history):
         for source, text in retrieved
     )
 
+    candidate_models = _model_candidates(api_key)
+    cache_model = candidate_models[0] if candidate_models else "auto"
+    cache_key = _chat_cache_key(
+        question,
+        context,
+        cache_model,
+    )
+
+    cached_answer = _chat_cache_get(cache_key)
+    if cached_answer:
+        st.session_state["_soc_last_model"] = (
+            f"{cache_model} — cache Supabase"
+        )
+        return cached_answer, None
+
     messages = [
         {
             "role": "system",
@@ -757,7 +772,14 @@ def ask_llm(question, retrieved, history):
 
             st.session_state["_soc_last_model"] = model
 
-            return response.choices[0].message.content, None
+            answer = response.choices[0].message.content
+            _chat_cache_put(
+                cache_key,
+                answer,
+                model,
+            )
+
+            return answer, None
 
         except Exception as error:
             errors.append(f"{model}: {str(error)[:180]}")

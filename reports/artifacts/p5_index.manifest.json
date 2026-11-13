@@ -1,0 +1,27 @@
+{
+ "adapter_sha256": null,
+ "artifact_id": "p5_index-e7900bad84e6",
+ "contract_version": "c9-4/v1",
+ "created_at": "2026-11-12T19:08:09.678338+00:00",
+ "kind": "p5_index",
+ "meta": {
+  "dim": 384,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_model_sha": "11232768f4252e3ecc1f6b583e83a0856b4364dcd786c9431200758bc47a1866",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "id_order_sha256": "5578b26df784366b971af266634a5e6d7a99c85d59414e79d4937ff563ca5e36",
+  "index_type": "IndexFlatIP(normalized)",
+  "n_vectors": 282
+ },
+ "model_revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+ "payload_bytes": 433197,
+ "payload_file": "p5_index.bin",
+ "payload_sha256": "6dcbe1695bb5488992b1185db08128a7c63baac009fbc3596f387d0f580ca741",
+ "producer_cell": "P5-INT",
+ "run_id": "NV132_Run3",
+ "schema_version": "1",
+ "scoring_version": {
+  "dataset_identity_hash": "69d2f501d4c0422998b37675da5d13f21781dffe9821d47e3665e58b6a84b544",
+  "protocol_hash": null
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "adapter_sha256": null,
+ "artifact_id": "p3_propagation-76864a6798b0",
+ "contract_version": "c9-4/v1",
+ "created_at": "2026-11-12T19:02:45.996758+00:00",
+ "kind": "p3_propagation",
+ "meta": {
+  "counts": {
+   "incomplete_graph": 0,
+   "matched": 60,
+   "unmatched": 222
+  },
+  "gnn_model_sha": "dac3a8f2b7ce41a1243041601123309209db75a6ad134b1c1d64cd1dfb05469e",
+  "graph_full_hash": "1c0e150febc8f90e0e4eb29ddef2f072a56c534015c72e9bd85a0d85f620ea78",
+  "graph_hash": "fad2953b37e2f440be2ffa10b0ef528e06c8eea0b7f533d7f3b7b1c29fab4c96",
+  "interpretation": "Comparaison descriptive au BFS : les cibles d'entraînement proviennent du BFS et ne constituent pas des labels indépendants.",
+  "params": {
+   "bfs": {
+    "decay": 0.6,
+    "max_hops": 4
+   },
+   "gnn_min_confidence": 0.3,
+   "training": {
+    "epochs": 80,
+    "seed": 42,
+    "source": "cellule 57 (valeurs exécutées)"
+   },
+   "training_pairs": {
+    "edge_dropout": 0.15,
+    "n_graph_samples": 8,
+    "seed": 0
+   }
+  },
+  "role": "consultatif — ne modifie ni priority_final ni le score officiel",
+  "scored_findings_sha256": "0c5052363f2f11eb7709cd7f231e8b643f72c26a4e0ac1ef0d4d99c6eba8c756",
+  "validation_status": "NON VALIDE (P3-INT-5) : aucune preuve reelle de propagation"
+ },
+ "model_revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+ "payload_bytes": 63839,
+ "payload_file": "p3_propagation.json",
+ "payload_sha256": "daea3abc368c93565e16aace385b9c7f948b82008f124a7a81e190f6bba37adf",
+ "producer_cell": "P3-INT",
+ "run_id": "NV132_Run7_V2",
+ "schema_version": "1",
+ "scoring_version": {
+  "dataset_identity_hash": null,
+  "protocol_hash": null
+ }
+}

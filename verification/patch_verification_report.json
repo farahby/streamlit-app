@@ -1,0 +1,27 @@
+{
+  "registry_schema": "patch_registry/v2",
+  "comparison_id": "d9d8f953564fce7f",
+  "comparison_verdict": "PARTIAL",
+  "pending": 127,
+  "resolved_total": 184,
+  "by_status": {
+    "PENDING": 127,
+    "NOT_APPLIED": 80,
+    "PARTIAL": 76,
+    "VERIFIED_FIXED": 28
+  },
+  "regression_outcomes": {
+    "UNKNOWN": 180,
+    "NEW_ON_COMPONENT": 4
+  },
+  "inconclusive_reasons_pending": {
+    "scan_not_comparable:before_unattested,after_missing_report,parser": 57,
+    "entry_key_absent_from_BEFORE(identifier_changed?)": 24
+  },
+  "remediation_effectiveness_rate": 0.152,
+  "mttr_seconds_median_merge_to_verified_scan": null,
+  "mttr_n": 0,
+  "newly_registered": 46,
+  "skipped_registrations": [],
+  "legacy_v1_entries": 0
+}

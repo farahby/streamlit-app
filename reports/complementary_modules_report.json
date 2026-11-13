@@ -1,0 +1,51 @@
+{
+  "p2_shap": {
+    "status": "integrated_dashboard",
+    "artifact": "risk_explanations.json",
+    "role": "explainability_only"
+  },
+  "p3_gnn": {
+    "status": "executed_not_promoted",
+    "active_method": "BFS",
+    "reason": "Only 3 asset/service targets and low GNN confidence",
+    "artifact": "p3_gnn_bfs_comparison.json"
+  },
+  "p4_false_positive": {
+    "status": "exploratory_only",
+    "n_labels": 66,
+    "tp": 61,
+    "fp": 5,
+    "auc": 0.531,
+    "brier": 0.058,
+    "auc_statistically_reliable": false,
+    "evaluation_caveats": {
+      "auc": "non fiable statistiquement : 5 faux positifs au total, 1 a 2 dans le holdout de 25 %",
+      "fp_rate_before_after": "calcule sur les findings labellises, donc en partie sur les donnees d entrainement : ne pas presenter comme un resultat",
+      "probabilities_on_labeled_findings": "non indicatives (in_training_labels, artefact p4_fp)"
+    }
+  },
+  "recalibration": {
+    "status": "completed",
+    "n_labels": 70,
+    "mae_oof_calibrated": 19.09,
+    "mae_oof_naive": 23.39,
+    "bootstrap_ci_difference": [
+      1.64,
+      7.1
+    ]
+  },
+  "p7_debate": {
+    "status": "separate_experiment_not_promoted",
+    "n_findings": 36,
+    "debate_accuracy": 0.472,
+    "scanner_reference_accuracy": 0.389,
+    "abstention_rate": 0.0,
+    "mean_rounds": 1.0
+  },
+  "main_pipeline": {
+    "layer_7": "promoted_full_data_SFT",
+    "layer_7b": "base_model_red_team_deterministic",
+    "dpo": "tested_and_rejected",
+    "p6_ewc": "future_work"
+  }
+}

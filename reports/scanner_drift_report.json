@@ -1,0 +1,370 @@
+{
+  "schema": "scanner_drift_report/v2",
+  "current_snapshot": {
+    "schema": "scanner_health/v2",
+    "timestamp": "2026-11-12T20:39:59.808761+00:00",
+    "scan_fp": "a421ffb734cb0334",
+    "total_findings": 282,
+    "severity": {
+      "CRITICAL": 34,
+      "HIGH": 102,
+      "MEDIUM": 130,
+      "LOW": 16
+    },
+    "category": {
+      "vulnerability": 156,
+      "k8s_best_practice": 22,
+      "cis_benchmark": 43,
+      "policy_violation": 1,
+      "container_hardening": 2,
+      "iac_misconfiguration/kubernetes": 35,
+      "iac_misconfiguration/helm": 21,
+      "iac_misconfiguration/secrets": 2
+    },
+    "kev_count": 3,
+    "scanners": {
+      "checkov": {
+        "count": 58,
+        "severity": {
+          "MEDIUM": 58
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "checkov-report.json"
+        ],
+        "report_sha256": {
+          "checkov-report.json": "544bd12acc542db2ae1635850379e6fa7c2b129a83a4d028ab72994737ebc33c"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "dockle": {
+        "count": 2,
+        "severity": {
+          "MEDIUM": 1,
+          "LOW": 1
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "dockle-report.json"
+        ],
+        "report_sha256": {
+          "dockle-report.json": "f89143a66c0d6b7b5d5000f3f039c88bdc38fb28e0ad6e41af1d5e2081f048da"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "gitleaks": {
+        "count": 0,
+        "severity": {},
+        "ingestion_status": "ran_clean",
+        "files": [
+          "gitleaks-report.json"
+        ],
+        "report_sha256": {
+          "gitleaks-report.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "grype": {
+        "count": 86,
+        "severity": {
+          "CRITICAL": 7,
+          "HIGH": 37,
+          "MEDIUM": 34,
+          "LOW": 8
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "grype-report.json"
+        ],
+        "report_sha256": {
+          "grype-report.json": "ff79d8d364a2475c95c0c23e41176f9d73de5053b94a90d61a5123af4dbe75c7"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "hashicorp-vault": {
+        "count": 1,
+        "severity": {
+          "MEDIUM": 1
+        },
+        "ingestion_status": null,
+        "files": [],
+        "report_sha256": {},
+        "parser_version": null
+      },
+      "kube-bench": {
+        "count": 43,
+        "severity": {
+          "HIGH": 6,
+          "MEDIUM": 32,
+          "LOW": 5
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "kube-bench.json"
+        ],
+        "report_sha256": {
+          "kube-bench.json": "cbfb5e52bc19941b8e789b7b30a0b60a7dede939220c9392d125d27e43e6cf85"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "kube-score": {
+        "count": 22,
+        "severity": {
+          "CRITICAL": 16,
+          "HIGH": 5,
+          "MEDIUM": 1
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "kube-score-report.json"
+        ],
+        "report_sha256": {
+          "kube-score-report.json": "26c3d6c1ae5b934f2effee75ceaf8bd306ab814288ee3f3dd6ae66a2bf496181"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "nikto": {
+        "count": 1,
+        "severity": {
+          "MEDIUM": 1
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "nikto-report.txt"
+        ],
+        "report_sha256": {
+          "nikto-report.txt": "a0f3adeb629bf8237024adbe7e47d05cdf8c5aa69996f4a7a2f752f923ef8233"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "opa-gate": {
+        "count": 1,
+        "severity": {
+          "HIGH": 1
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "opa-gate-report.json"
+        ],
+        "report_sha256": {
+          "opa-gate-report.json": "e4378f1ceb6d4df2d17a040cfc7cf677e1c5fe483332fff708ca1eacc401265c"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "owasp-zap": {
+        "count": 4,
+        "severity": {
+          "HIGH": 1,
+          "MEDIUM": 1,
+          "LOW": 2
+        },
+        "ingestion_status": null,
+        "files": [],
+        "report_sha256": {},
+        "parser_version": null
+      },
+      "semgrep": {
+        "count": 0,
+        "severity": {},
+        "ingestion_status": "findings",
+        "files": [
+          "semgrep-report.json"
+        ],
+        "report_sha256": {
+          "semgrep-report.json": "16f1cb1b9ea60106cec8219857c69d9d78bca47cf555ca307ba9b798dd68942a"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "semgrep-sast": {
+        "count": 1,
+        "severity": {
+          "MEDIUM": 1
+        },
+        "ingestion_status": null,
+        "files": [],
+        "report_sha256": {},
+        "parser_version": null
+      },
+      "snyk": {
+        "count": 47,
+        "severity": {
+          "CRITICAL": 10,
+          "HIGH": 37
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "snyk-report.json"
+        ],
+        "report_sha256": {
+          "snyk-report.json": "9b2cfdae3f2a895723721caaf4bb2adc7e656a46e37551d76b07271e4a38b4c6"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "tfsec": {
+        "count": 0,
+        "severity": {},
+        "ingestion_status": "ran_clean",
+        "files": [
+          "tfsec-report.json"
+        ],
+        "report_sha256": {
+          "tfsec-report.json": "5a73de5d5f034dd03fd20a0ffad6aba145415c0e07b5a0b40534ba5745e287e9"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "trivy": {
+        "count": 16,
+        "severity": {
+          "CRITICAL": 1,
+          "HIGH": 15
+        },
+        "ingestion_status": "findings",
+        "files": [
+          "trivy-image-report.json",
+          "trivy-sca-report.json"
+        ],
+        "report_sha256": {
+          "trivy-image-report.json": "fa3481fcca96f9d513154cb564fe54171e01ecf58bf9ba4cebabd2e257469414",
+          "trivy-sca-report.json": "a4f13922861eb810e4c4ecf8c206f683fadd0101591210edbc8a6a265ac573f3"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "vault": {
+        "count": 0,
+        "severity": {},
+        "ingestion_status": "findings",
+        "files": [
+          "vault-report.json"
+        ],
+        "report_sha256": {
+          "vault-report.json": "d61ae09c8eaf7ea88709e917728621a19de0bba59141a025ef851598624a8d41"
+        },
+        "parser_version": "finding/v7.1"
+      },
+      "zap": {
+        "count": 0,
+        "severity": {},
+        "ingestion_status": "findings",
+        "files": [
+          "zap-report.json"
+        ],
+        "report_sha256": {
+          "zap-report.json": "31e4f77822fd6d4c71470c04b9ec9a913b3c32031b4424c15e085862dfde2ebf"
+        },
+        "parser_version": "finding/v7.1"
+      }
+    },
+    "incomplete_scanners": []
+  },
+  "history_size": 1,
+  "min_history_for_statistical_drift": 6,
+  "before_after_104Bis": {
+    "kind": "temporal_delta",
+    "source": "104Bis:d9d8f953564fce7f",
+    "coverage_change": {
+      "scanners_appeared": [],
+      "scanners_disappeared": [
+        "checkov",
+        "dockle",
+        "grype",
+        "kube-bench",
+        "kube-score",
+        "nikto",
+        "opa-gate",
+        "semgrep",
+        "trivy",
+        "vault",
+        "zap"
+      ],
+      "incomplete_now": [],
+      "report_changed": [],
+      "not_comparable": []
+    },
+    "vulnerability_change": {
+      "snyk": {
+        "before": 50,
+        "after": 42,
+        "delta": -8,
+        "rel_change": -0.16,
+        "signal": false,
+        "severity_tvd": 0.0305
+      }
+    },
+    "global_severity_tvd": 0.4355,
+    "global_category_tvd": 0.3753,
+    "category_shift_signal": true,
+    "net_delta_comparable": -8,
+    "interpretation": "decrease_not_attributable(coverage_changed)",
+    "note": "Moins de vulnerabilites != amelioration : verifier la couverture et 105 avant de conclure.",
+    "alerts": [
+      "coverage: scanner checkov disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner dockle disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner grype disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner kube-bench disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner kube-score disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner nikto disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner opa-gate disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner semgrep disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner trivy disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner vault disparait (ses findings disparaissent avec lui)",
+      "coverage: scanner zap disparait (ses findings disparaissent avec lui)"
+    ],
+    "thresholds": {
+      "rel": 0.5,
+      "abs_min": 5,
+      "severity_tvd": 0.15,
+      "category_tvd": 0.2
+    },
+    "comparability_verdict": "PARTIAL",
+    "scanner_or_config_changed": {
+      "checkov": [
+        "parser"
+      ],
+      "dockle": [
+        "parser"
+      ],
+      "gitleaks": [
+        "parser"
+      ],
+      "grype": [
+        "parser"
+      ],
+      "kube-bench": [
+        "parser"
+      ],
+      "kube-score": [
+        "parser"
+      ],
+      "nikto": [
+        "parser"
+      ],
+      "opa-gate": [
+        "parser"
+      ],
+      "semgrep": [
+        "parser"
+      ],
+      "tfsec": [
+        "parser"
+      ],
+      "trivy": [
+        "parser"
+      ],
+      "vault": [
+        "parser"
+      ],
+      "zap": [
+        "parser"
+      ]
+    }
+  },
+  "latest_vs_previous": {
+    "kind": "temporal_delta",
+    "status": "insufficient_history",
+    "history_size": 1
+  },
+  "statistical_drift_exploratory": {
+    "status": "not_run",
+    "reason": "1 snapshot(s) < 6 requis"
+  }
+}

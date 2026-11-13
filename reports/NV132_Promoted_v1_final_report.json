@@ -1,0 +1,76 @@
+{
+  "experiment_id": "NV132_Promoted_v1",
+  "generated_at": "2026-11-12T22:25:43.423949",
+  "protocol": {
+    "triage_experiment_id": "NV132_Run3",
+    "protocol_hash": "a818f86a64a2d776cdd2cf184551a3872a1f6d2638adb1432d1b9a568bdad22a",
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "model_revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+    "N": 70,
+    "n_folds": 5,
+    "label_snapshot_id": "labels-d2c32b2b986103e1"
+  },
+  "layer_7": {
+    "status": "promoted",
+    "model": "Phi-3.5-mini-instruct",
+    "adapter": "soc_lora_adapter_full",
+    "output": "agent_results_SFT.json"
+  },
+  "layer_7b": {
+    "model": "Phi-3.5-mini-instruct base mode",
+    "verdict_policy": "deterministic",
+    "output": "agent_results_SFT_redteam.json",
+    "findings_processed": 282,
+    "verdict_counts": {
+      "ACCEPT": 137,
+      "ESCALATE": 4,
+      "ABSTAIN": 139,
+      "REVISE": 2
+    },
+    "pipeline_status_counts": {
+      "llm_ok": 215,
+      "pending_review": 63,
+      "parse_failed": 4
+    },
+    "control_set_n": 45,
+    "control_set_readable": 45,
+    "control_set_matches": 22,
+    "control_set_agreement": 0.4889,
+    "control_set_confusion": {
+      "ABSTAIN": {
+        "ABSTAIN": 16,
+        "ACCEPT": 0,
+        "ESCALATE": 0,
+        "REVISE": 1
+      },
+      "ACCEPT": {
+        "ABSTAIN": 1,
+        "ACCEPT": 3,
+        "ESCALATE": 0,
+        "REVISE": 0
+      },
+      "ESCALATE": {
+        "ABSTAIN": 1,
+        "ACCEPT": 0,
+        "ESCALATE": 3,
+        "REVISE": 0
+      },
+      "REVISE": {
+        "ABSTAIN": 13,
+        "ACCEPT": 6,
+        "ESCALATE": 1,
+        "REVISE": 0
+      }
+    },
+    "validation_csv": "/kaggle/working/SOC-Audit-v7/feedback/red_team_control_set_SFT_v4_RESULTS.csv"
+  },
+  "evaluation": {
+    "source": "frozen 70-case Base-vs-SFT OOF evaluation",
+    "red_team_not_used_as_ground_truth": true,
+    "note": "Layer 7B has 45 manually annotated control cases, while the full 282 findings do not have independent labels."
+  },
+  "dpo": {
+    "status": "tested_rejected",
+    "role": "appendix_only"
+  }
+}

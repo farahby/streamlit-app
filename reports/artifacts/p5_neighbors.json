@@ -1,0 +1,7620 @@
+{
+ "id_order": [
+  "CVE-2016-1000027",
+  "CVE-2022-22965",
+  "GHSA-36p3-wjmg-h94x",
+  "GHSA-g5h3-w546-pj7f",
+  "GHSA-7phw-cxx7-q9vq",
+  "GHSA-4wrc-f8pq-fpqp",
+  "CVE-2023-20873",
+  "CVE-2023-20860",
+  "SOC-IMAGEPKG-37059ea8ca1f",
+  "SOC-IMAGEPKG-966d4808300a",
+  "SOC-IMAGEPKG-503f8c0530c4",
+  "SOC-IMAGEPKG-6b0c5c065e72",
+  "SOC-IMAGEPKG-c8a8632de4cc",
+  "SOC-IMAGEPKG-aa72d8ffd23e",
+  "SOC-IMAGEPKG-a302c31efaac",
+  "CVE-2025-24813",
+  "CVE-2025-66614",
+  "CVE-2026-22733",
+  "CVE-2024-50379",
+  "CVE-2024-52316",
+  "CVE-2024-56337",
+  "SOC-IMAGEPKG-3c0e9eb54e08",
+  "SOC-IMAGEPKG-417ca14a83cd",
+  "SOC-IMAGEPKG-c888f344596a",
+  "SOC-IMAGEPKG-a5e5a2eb7d41",
+  "SOC-IMAGEPKG-39548c69364b",
+  "SOC-IMAGEPKG-ee3062b33490",
+  "SOC-IMAGEPKG-91f698a8bb3d",
+  "SOC-IMAGEPKG-b75fb9915a30",
+  "GHSA-83qj-6fr2-vhqg",
+  "GHSA-36p3-wjmg-h94x#1b3bb3",
+  "SOC-IMAGEPKG-3f2c2a26a9e8",
+  "GHSA-36p3-wjmg-h94x#851dc3",
+  "CVE-2022-22968",
+  "CVE-2022-22970",
+  "CVE-2021-46877",
+  "SOC-URLVULN-ff825b7d7c54",
+  "CVE-2020-36518",
+  "CVE-2022-1471",
+  "CVE-2022-38749",
+  "GHSA-wmwf-9ccg-fff5",
+  "GHSA-jmp9-x22r-554x",
+  "GHSA-x4m4-345f-5h5g",
+  "GHSA-rv64-5gf8-9qq8",
+  "GHSA-rgv9-q543-rqg4",
+  "GHSA-3x8x-79m2-3w2w",
+  "GHSA-h46c-h94j-95f3",
+  "CVE-2022-23181",
+  "CVE-2022-45143",
+  "CVE-2023-20863",
+  "CVE-2023-20883",
+  "CVE-2023-22102",
+  "CVE-2022-42003",
+  "CVE-2022-42004",
+  "CVE-2022-42252",
+  "CVE-2022-25857",
+  "CVE-2026-34483",
+  "CVE-2026-34487",
+  "CVE-2026-34500",
+  "CVE-2026-40972",
+  "CVE-2026-40973",
+  "CIS-4.2.1",
+  "CIS-4.2.2",
+  "CIS-4.2.3",
+  "CIS-4.2.4",
+  "CIS-4.2.6",
+  "GHSA-mgvc-8q2h-5pgc",
+  "GHSA-2p5w-cvg5-gc5c",
+  "CVE-2023-24998",
+  "CVE-2023-44487",
+  "CVE-2023-46589",
+  "CIS-4.2.10",
+  "GHSA-fccv-jmmp-qg76",
+  "GHSA-hgjh-9rj2-g67j",
+  "GHSA-ccgv-vj62-xf9h",
+  "GHSA-27hp-xhwr-wr2m",
+  "GHSA-5j33-cvvr-w245",
+  "GHSA-wm9w-rjj3-j356",
+  "GHSA-g5mm-vmx4-3rg7",
+  "GHSA-2wrp-6fg6-hmc5",
+  "GHSA-3mc7-4q67-w48m",
+  "GHSA-wxqc-pxw9-g2p8",
+  "GHSA-m6vm-37g8-gqvh",
+  "GHSA-hfrx-6qgj-fp6c",
+  "GHSA-h3gc-qfqq-6h8f",
+  "GHSA-xf96-w227-r7c4",
+  "GHSA-vmq6-5m68-f53m",
+  "GHSA-vmq6-5m68-f53m#953bc1",
+  "GHSA-25xr-qj8w-c4vf",
+  "GHSA-57j2-w4cx-62h2",
+  "GHSA-hh26-6xwr-ggv7",
+  "GHSA-p22x-g9px-3945",
+  "GHSA-rq2w-37h9-vg94",
+  "GHSA-gqp3-2cvr-x8m3",
+  "GHSA-jjjh-jjxp-wpff",
+  "GHSA-rc42-6c7j-7h5r",
+  "GHSA-wr62-c79q-cv37",
+  "SOC-PKGVERSION-8d299e19021a",
+  "GHSA-mjmj-j48q-9wg2",
+  "SOC-IMAGEPKG-b6ebcb42f8e3",
+  "GHSA-cx7f-g6mp-7hqm",
+  "GHSA-g5vr-rgqm-vf78",
+  "SOC-FILERULE-81dd947acfd5",
+  "SOC-PKGVERSION-80fa85760989",
+  "SOC-IMAGEPKG-b425c768d85a",
+  "SOC-IMAGEPKG-88a148fc456e",
+  "SOC-IMAGEPKG-a96162349222",
+  "SOC-IMAGEPKG-db07e636d027",
+  "CVE-2023-6378",
+  "SOC-PKGVERSION-28239cd93bf1",
+  "CVE-2025-55752",
+  "CVE-2026-0603",
+  "CVE-2025-41249",
+  "CVE-2025-48988",
+  "CVE-2025-48989",
+  "CVE-2025-49124",
+  "CVE-2026-22737",
+  "CVE-2026-22740",
+  "CVE-2026-24880",
+  "CVE-2026-29145",
+  "CVE-2025-53506",
+  "CVE-2025-52999",
+  "CVE-2025-52520",
+  "CVE-2025-52434",
+  "CVE-2024-38816",
+  "CVE-2024-38819",
+  "CVE-2025-22235",
+  "CVE-2025-41242",
+  "CVE-2023-6481",
+  "CVE-2024-22243",
+  "CVE-2024-22259",
+  "CVE-2024-22262",
+  "CVE-2024-23672",
+  "CVE-2024-24549",
+  "CVE-2024-34750",
+  "CVE-2024-38286",
+  "CIS-5.7.3",
+  "CIS-5.7.4",
+  "SOC-IMAGEPKG-faddad731e67",
+  "SOC-IMAGEPKG-4ea41137f771",
+  "SOC-IMAGEPKG-bc0653f590b2",
+  "SOC-K8SPOLICY-16d1cf33b1b3",
+  "CIS-DI-0005",
+  "GHSA-qppj-fm5r-hxr3",
+  "GHSA-7w75-32cg-r6g2",
+  "GHSA-w6f2-8wx4-47r5",
+  "GHSA-r6j3-px5g-cq3x",
+  "GHSA-q3mw-pvr8-9ggc",
+  "GHSA-558x-2xjg-6232",
+  "GHSA-668q-qrv7-99fm",
+  "GHSA-4gc7-5j7h-4qph",
+  "GHSA-4gc7-5j7h-4qph#796a61",
+  "GHSA-v682-8vv8-vpwr",
+  "CKV_K8S_35#594235",
+  "CKV_K8S_15#d3bde0",
+  "CKV_K8S_11#dadfff",
+  "CKV_K8S_13#bdba74",
+  "CKV_K8S_38#cddede",
+  "CKV_K8S_40#18b073",
+  "CKV_K8S_8#22bc44",
+  "CKV2_K8S_6",
+  "CKV2_K8S_6#c49326",
+  "CKV_K8S_21#96e0ac",
+  "CKV_K8S_21#45833b",
+  "CKV_K8S_12#32123b",
+  "CKV_K8S_10#7736e5",
+  "CKV_K8S_22#b6c936",
+  "CKV_K8S_43#d86545",
+  "CKV_K8S_21",
+  "CKV_K8S_35",
+  "CKV_K8S_15#3205c7",
+  "CKV_K8S_11#963f6e",
+  "CKV_K8S_13#2abfd7",
+  "CKV_K8S_21#b3cc4f",
+  "CKV_K8S_21#84d3db",
+  "CKV_K8S_22#dc9907",
+  "CKV_K8S_43#7f080b",
+  "CKV_K8S_38#cedf6b",
+  "CKV_K8S_35#c1cf3d",
+  "CKV_K8S_40#040589",
+  "CKV_K8S_15#0f6bdd",
+  "CKV_K8S_8#67f99c",
+  "CKV2_K8S_6#4460e6",
+  "CKV_SECRET_6",
+  "GHSA-g76j-4cxx-23h9",
+  "GHSA-9cmq-m9j5-mvww",
+  "GHSA-fpj8-gq4v-p354",
+  "GHSA-g8pj-r55q-5c2v",
+  "GHSA-c4r9-r8fh-9vj2",
+  "GHSA-564r-hj7v-mcr5",
+  "GHSA-wc4r-xq3c-5cf3",
+  "GHSA-jjfh-589g-3hjx",
+  "GHSA-98wm-3w3q-mw94",
+  "GHSA-9w3m-gqgf-c4p9",
+  "GHSA-42wg-hm62-jcwg",
+  "GHSA-hhhw-99gj-p3c3",
+  "GHSA-rfmp-97jj-h8m6",
+  "GHSA-6gf2-pvqw-37ph",
+  "GHSA-2rmj-mq67-h97g",
+  "GHSA-pr98-23f8-jwxv",
+  "GHSA-w37g-rhq8-7m4j",
+  "GHSA-4773-3jfm-qmx3",
+  "GHSA-wf8f-6423-gfxg",
+  "GHSA-r936-gwx5-v52f",
+  "GHSA-w3c8-7r8f-9jp8",
+  "GHSA-25qh-j22f-pwp8",
+  "GHSA-9m3c-qcxr-9x87",
+  "GHSA-72hv-8253-57qq",
+  "CKV_K8S_22",
+  "CKV_K8S_23",
+  "CKV_K8S_28",
+  "CKV_K8S_12",
+  "CKV_K8S_10",
+  "CKV_K8S_30",
+  "CKV_K8S_35#a14e16",
+  "CKV_K8S_15#3bfc0d",
+  "CKV_SECRET_6#f5f70d",
+  "CKV_K8S_43#a1dbe9",
+  "CIS-5.2.8",
+  "CIS-5.2.9",
+  "CIS-5.2.10",
+  "CIS-5.2.11",
+  "CIS-5.1.4",
+  "CIS-5.1.5",
+  "CIS-5.1.6",
+  "CIS-5.1.7",
+  "CIS-5.1.8",
+  "CIS-5.2.1",
+  "CKV_K8S_43",
+  "CKV_K8S_31",
+  "CKV_K8S_38",
+  "CKV_K8S_29",
+  "CKV_K8S_40",
+  "CKV_K8S_20",
+  "CKV_K8S_13",
+  "CKV_K8S_21#df79a2",
+  "CKV_K8S_12#54f4e2",
+  "CKV_K8S_37",
+  "CKV_K8S_15",
+  "CKV_K8S_11",
+  "CKV_K8S_9",
+  "CKV_K8S_8",
+  "CKV_K8S_22#3060c9",
+  "CKV_K8S_43#2881ff",
+  "CIS-4.2.9",
+  "CKV_K8S_10#ccf43f",
+  "CIS-5.1.3",
+  "CIS-5.1.2",
+  "CIS-5.1.1",
+  "CIS-4.2.13",
+  "CIS-5.4.1",
+  "CIS-5.4.2",
+  "CIS-5.5.1",
+  "CIS-5.7.1",
+  "CIS-5.2.12",
+  "CIS-5.2.13",
+  "CIS-5.3.1",
+  "CIS-5.3.2",
+  "CIS-5.7.2",
+  "SOC-URLVULN-fb30f84e1b05",
+  "CIS-5.2.2",
+  "CIS-5.2.3",
+  "CIS-5.2.4",
+  "CIS-5.2.5",
+  "CIS-5.2.6",
+  "CIS-5.2.7",
+  "CIS-4.1.1",
+  "GHSA-qqpg-mvqg-649v",
+  "GHSA-4wp7-92pw-q264",
+  "GHSA-6v67-2wr5-gvf4",
+  "GHSA-6hcq-hmm3-jj3c",
+  "GHSA-qq5r-98hh-rxc9",
+  "GHSA-hgrr-935x-pq79",
+  "GHSA-h2fw-rfh5-95r3",
+  "GHSA-vfww-5hm6-hx2j",
+  "SOC-IMAGEPKG-0199d01fd976",
+  "CIS-4.1.10",
+  "CIS-4.1.2",
+  "CIS-4.2.8",
+  "CIS-4.1.9",
+  "SOC-URLVULN-467249459688",
+  "SOC-URLVULN-54a6dfe53a49"
+ ],
+ "records": [
+  {
+   "finding_id": "CVE-2016-1000027",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-4wrc-f8pq-fpqp",
+     "similarity": 0.7014
+    },
+    {
+     "finding_id": "CVE-2022-22965",
+     "similarity": 0.5586
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.5481
+    },
+    {
+     "finding_id": "CVE-2026-34500",
+     "similarity": 0.5475
+    },
+    {
+     "finding_id": "GHSA-668q-qrv7-99fm",
+     "similarity": 0.5468
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-22965",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-41242",
+     "similarity": 0.7
+    },
+    {
+     "finding_id": "CVE-2026-22740",
+     "similarity": 0.6509
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.6289
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.618
+    },
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x",
+     "similarity": 0.6064
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-36p3-wjmg-h94x",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x#851dc3",
+     "similarity": 0.9187
+    },
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x#1b3bb3",
+     "similarity": 0.8939
+    },
+    {
+     "finding_id": "CVE-2022-22965",
+     "similarity": 0.6064
+    },
+    {
+     "finding_id": "GHSA-2rmj-mq67-h97g",
+     "similarity": 0.5297
+    },
+    {
+     "finding_id": "GHSA-hh26-6xwr-ggv7",
+     "similarity": 0.5073
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-g5h3-w546-pj7f",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-20873",
+     "similarity": 0.8795
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.6604
+    },
+    {
+     "finding_id": "GHSA-mgvc-8q2h-5pgc",
+     "similarity": 0.6426
+    },
+    {
+     "finding_id": "GHSA-xf96-w227-r7c4",
+     "similarity": 0.6059
+    },
+    {
+     "finding_id": "GHSA-jjfh-589g-3hjx",
+     "similarity": 0.5884
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-7phw-cxx7-q9vq",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-20860",
+     "similarity": 0.791
+    },
+    {
+     "finding_id": "GHSA-w3c8-7r8f-9jp8",
+     "similarity": 0.7382
+    },
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.7331
+    },
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.7147
+    },
+    {
+     "finding_id": "CVE-2023-20883",
+     "similarity": 0.7018
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-4wrc-f8pq-fpqp",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2016-1000027",
+     "similarity": 0.7014
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.5983
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.5773
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.5773
+    },
+    {
+     "finding_id": "CVE-2023-20860",
+     "similarity": 0.5486
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-20873",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-g5h3-w546-pj7f",
+     "similarity": 0.8795
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.7056
+    },
+    {
+     "finding_id": "GHSA-mgvc-8q2h-5pgc",
+     "similarity": 0.594
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.556
+    },
+    {
+     "finding_id": "CVE-2023-20860",
+     "similarity": 0.5519
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-20860",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.791
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.7032
+    },
+    {
+     "finding_id": "CVE-2025-41249",
+     "similarity": 0.693
+    },
+    {
+     "finding_id": "GHSA-w3c8-7r8f-9jp8",
+     "similarity": 0.6858
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.6773
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-37059ea8ca1f",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-aa72d8ffd23e",
+     "similarity": 0.95
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.8945
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-39548c69364b",
+     "similarity": 0.8428
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+     "similarity": 0.8378
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-417ca14a83cd",
+     "similarity": 0.8319
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-966d4808300a",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-c888f344596a",
+     "similarity": 0.9488
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b75fb9915a30",
+     "similarity": 0.9345
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+     "similarity": 0.7677
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+     "similarity": 0.763
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-39548c69364b",
+     "similarity": 0.7132
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-503f8c0530c4",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-91f698a8bb3d",
+     "similarity": 0.9463
+    },
+    {
+     "finding_id": "CKV_K8S_22#3060c9",
+     "similarity": 0.6865
+    },
+    {
+     "finding_id": "CKV_K8S_22#b6c936",
+     "similarity": 0.6845
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a302c31efaac",
+     "similarity": 0.6829
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b425c768d85a",
+     "similarity": 0.6213
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-6b0c5c065e72",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-ee3062b33490",
+     "similarity": 0.8757
+    },
+    {
+     "finding_id": "CKV_K8S_15#d3bde0",
+     "similarity": 0.7888
+    },
+    {
+     "finding_id": "CKV_K8S_15#3205c7",
+     "similarity": 0.771
+    },
+    {
+     "finding_id": "CKV_K8S_15#3bfc0d",
+     "similarity": 0.7649
+    },
+    {
+     "finding_id": "CKV_K8S_15#0f6bdd",
+     "similarity": 0.699
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+     "similarity": 0.936
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-37059ea8ca1f",
+     "similarity": 0.8945
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-39548c69364b",
+     "similarity": 0.889
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+     "similarity": 0.8359
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-aa72d8ffd23e",
+     "similarity": 0.8352
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-aa72d8ffd23e",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-37059ea8ca1f",
+     "similarity": 0.95
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+     "similarity": 0.8902
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-417ca14a83cd",
+     "similarity": 0.8616
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+     "similarity": 0.8419
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.8352
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-a302c31efaac",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-91f698a8bb3d",
+     "similarity": 0.7248
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-503f8c0530c4",
+     "similarity": 0.6829
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b6ebcb42f8e3",
+     "similarity": 0.6583
+    },
+    {
+     "finding_id": "CKV_K8S_40#040589",
+     "similarity": 0.6308
+    },
+    {
+     "finding_id": "CKV_K8S_40#18b073",
+     "similarity": 0.6292
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-24813",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-55752",
+     "similarity": 0.7773
+    },
+    {
+     "finding_id": "CVE-2024-50379",
+     "similarity": 0.7562
+    },
+    {
+     "finding_id": "GHSA-83qj-6fr2-vhqg",
+     "similarity": 0.7467
+    },
+    {
+     "finding_id": "CVE-2025-49124",
+     "similarity": 0.6864
+    },
+    {
+     "finding_id": "CVE-2022-23181",
+     "similarity": 0.664
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-66614",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-fpj8-gq4v-p354",
+     "similarity": 0.7922
+    },
+    {
+     "finding_id": "CVE-2026-29145",
+     "similarity": 0.7862
+    },
+    {
+     "finding_id": "CVE-2026-34500",
+     "similarity": 0.7806
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.696
+    },
+    {
+     "finding_id": "CVE-2022-45143",
+     "similarity": 0.684
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-22733",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-mgvc-8q2h-5pgc",
+     "similarity": 0.7641
+    },
+    {
+     "finding_id": "CVE-2023-20873",
+     "similarity": 0.7056
+    },
+    {
+     "finding_id": "CVE-2025-22235",
+     "similarity": 0.6647
+    },
+    {
+     "finding_id": "GHSA-g5h3-w546-pj7f",
+     "similarity": 0.6604
+    },
+    {
+     "finding_id": "GHSA-jjfh-589g-3hjx",
+     "similarity": 0.6482
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-50379",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-56337",
+     "similarity": 0.8663
+    },
+    {
+     "finding_id": "GHSA-5j33-cvvr-w245",
+     "similarity": 0.7599
+    },
+    {
+     "finding_id": "GHSA-27hp-xhwr-wr2m",
+     "similarity": 0.7599
+    },
+    {
+     "finding_id": "CVE-2025-24813",
+     "similarity": 0.7562
+    },
+    {
+     "finding_id": "CVE-2025-52434",
+     "similarity": 0.7152
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-52316",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-34500",
+     "similarity": 0.6946
+    },
+    {
+     "finding_id": "CVE-2026-29145",
+     "similarity": 0.6874
+    },
+    {
+     "finding_id": "CVE-2022-23181",
+     "similarity": 0.6733
+    },
+    {
+     "finding_id": "GHSA-qq5r-98hh-rxc9",
+     "similarity": 0.6353
+    },
+    {
+     "finding_id": "GHSA-h2fw-rfh5-95r3",
+     "similarity": 0.6244
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-56337",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-50379",
+     "similarity": 0.8663
+    },
+    {
+     "finding_id": "GHSA-5j33-cvvr-w245",
+     "similarity": 0.8043
+    },
+    {
+     "finding_id": "GHSA-27hp-xhwr-wr2m",
+     "similarity": 0.8043
+    },
+    {
+     "finding_id": "CVE-2025-52434",
+     "similarity": 0.7013
+    },
+    {
+     "finding_id": "CVE-2022-23181",
+     "similarity": 0.66
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-39548c69364b",
+     "similarity": 0.9437
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+     "similarity": 0.8906
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-aa72d8ffd23e",
+     "similarity": 0.8419
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.8359
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-37059ea8ca1f",
+     "similarity": 0.7945
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-417ca14a83cd",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-aa72d8ffd23e",
+     "similarity": 0.8616
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-37059ea8ca1f",
+     "similarity": 0.8319
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+     "similarity": 0.8001
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+     "similarity": 0.7712
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.7697
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-c888f344596a",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-966d4808300a",
+     "similarity": 0.9488
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b75fb9915a30",
+     "similarity": 0.8829
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+     "similarity": 0.8142
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+     "similarity": 0.7864
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.7574
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.936
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+     "similarity": 0.8906
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-aa72d8ffd23e",
+     "similarity": 0.8902
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-37059ea8ca1f",
+     "similarity": 0.8378
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-39548c69364b",
+     "similarity": 0.8253
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-39548c69364b",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+     "similarity": 0.9437
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.889
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-37059ea8ca1f",
+     "similarity": 0.8428
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a5e5a2eb7d41",
+     "similarity": 0.8253
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-aa72d8ffd23e",
+     "similarity": 0.7852
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-ee3062b33490",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-6b0c5c065e72",
+     "similarity": 0.8757
+    },
+    {
+     "finding_id": "CKV_K8S_15#0f6bdd",
+     "similarity": 0.8303
+    },
+    {
+     "finding_id": "CKV_K8S_15#d3bde0",
+     "similarity": 0.704
+    },
+    {
+     "finding_id": "CKV_K8S_15#3205c7",
+     "similarity": 0.6966
+    },
+    {
+     "finding_id": "CKV_K8S_15#3bfc0d",
+     "similarity": 0.6839
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-91f698a8bb3d",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-503f8c0530c4",
+     "similarity": 0.9463
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a302c31efaac",
+     "similarity": 0.7248
+    },
+    {
+     "finding_id": "CKV_K8S_22#dc9907",
+     "similarity": 0.7154
+    },
+    {
+     "finding_id": "CKV_K8S_22#b6c936",
+     "similarity": 0.672
+    },
+    {
+     "finding_id": "CKV_K8S_22#3060c9",
+     "similarity": 0.6648
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-b75fb9915a30",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-966d4808300a",
+     "similarity": 0.9345
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c888f344596a",
+     "similarity": 0.8829
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.7739
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-39548c69364b",
+     "similarity": 0.7736
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3c0e9eb54e08",
+     "similarity": 0.7104
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-83qj-6fr2-vhqg",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-24813",
+     "similarity": 0.7467
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.6908
+    },
+    {
+     "finding_id": "CVE-2025-55752",
+     "similarity": 0.6905
+    },
+    {
+     "finding_id": "CVE-2026-24880",
+     "similarity": 0.6836
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.6794
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-36p3-wjmg-h94x#1b3bb3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x#851dc3",
+     "similarity": 0.8963
+    },
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x",
+     "similarity": 0.8939
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.5986
+    },
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.578
+    },
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.5687
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-3f2c2a26a9e8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV2_K8S_6#c49326",
+     "similarity": 0.7655
+    },
+    {
+     "finding_id": "CKV2_K8S_6#4460e6",
+     "similarity": 0.7551
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-faddad731e67",
+     "similarity": 0.6574
+    },
+    {
+     "finding_id": "CKV2_K8S_6",
+     "similarity": 0.6473
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.6291
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-36p3-wjmg-h94x#851dc3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x",
+     "similarity": 0.9187
+    },
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x#1b3bb3",
+     "similarity": 0.8963
+    },
+    {
+     "finding_id": "CVE-2022-22965",
+     "similarity": 0.573
+    },
+    {
+     "finding_id": "GHSA-2rmj-mq67-h97g",
+     "similarity": 0.5298
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.504
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-22968",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-4wp7-92pw-q264",
+     "similarity": 0.7548
+    },
+    {
+     "finding_id": "GHSA-4gc7-5j7h-4qph",
+     "similarity": 0.7548
+    },
+    {
+     "finding_id": "GHSA-4gc7-5j7h-4qph#796a61",
+     "similarity": 0.7445
+    },
+    {
+     "finding_id": "GHSA-g5mm-vmx4-3rg7",
+     "similarity": 0.6603
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.5117
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-22970",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-h3gc-qfqq-6h8f",
+     "similarity": 0.6501
+    },
+    {
+     "finding_id": "CVE-2023-24998",
+     "similarity": 0.6109
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.599
+    },
+    {
+     "finding_id": "CVE-2026-22740",
+     "similarity": 0.5948
+    },
+    {
+     "finding_id": "GHSA-2rmj-mq67-h97g",
+     "similarity": 0.5866
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2021-46877",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-3x8x-79m2-3w2w",
+     "similarity": 0.9015
+    },
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.7365
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-80fa85760989",
+     "similarity": 0.6826
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.6655
+    },
+    {
+     "finding_id": "GHSA-jjjh-jjxp-wpff",
+     "similarity": 0.656
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-URLVULN-ff825b7d7c54",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-URLVULN-fb30f84e1b05",
+     "similarity": 0.724
+    },
+    {
+     "finding_id": "SOC-URLVULN-54a6dfe53a49",
+     "similarity": 0.435
+    },
+    {
+     "finding_id": "GHSA-h2fw-rfh5-95r3",
+     "similarity": 0.4189
+    },
+    {
+     "finding_id": "CVE-2022-42252",
+     "similarity": 0.4181
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.3971
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2020-36518",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-PKGVERSION-28239cd93bf1",
+     "similarity": 0.9511
+    },
+    {
+     "finding_id": "CVE-2024-23672",
+     "similarity": 0.8998
+    },
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.8898
+    },
+    {
+     "finding_id": "CVE-2022-25857",
+     "similarity": 0.8885
+    },
+    {
+     "finding_id": "CVE-2023-6378",
+     "similarity": 0.8702
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-1471",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-mjmj-j48q-9wg2",
+     "similarity": 0.7999
+    },
+    {
+     "finding_id": "GHSA-4wrc-f8pq-fpqp",
+     "similarity": 0.4717
+    },
+    {
+     "finding_id": "CVE-2016-1000027",
+     "similarity": 0.4607
+    },
+    {
+     "finding_id": "GHSA-w37g-rhq8-7m4j",
+     "similarity": 0.4559
+    },
+    {
+     "finding_id": "GHSA-9w3m-gqgf-c4p9",
+     "similarity": 0.427
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-38749",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-25857",
+     "similarity": 0.9973
+    },
+    {
+     "finding_id": "CVE-2024-23672",
+     "similarity": 0.9069
+    },
+    {
+     "finding_id": "CVE-2020-36518",
+     "similarity": 0.8898
+    },
+    {
+     "finding_id": "CVE-2023-6378",
+     "similarity": 0.8827
+    },
+    {
+     "finding_id": "CVE-2024-24549",
+     "similarity": 0.8812
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-wmwf-9ccg-fff5",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-q3mw-pvr8-9ggc",
+     "similarity": 0.7675
+    },
+    {
+     "finding_id": "CVE-2025-55752",
+     "similarity": 0.7674
+    },
+    {
+     "finding_id": "GHSA-9m3c-qcxr-9x87",
+     "similarity": 0.7409
+    },
+    {
+     "finding_id": "GHSA-g8pj-r55q-5c2v",
+     "similarity": 0.7194
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.7125
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-jmp9-x22r-554x",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-41249",
+     "similarity": 0.7426
+    },
+    {
+     "finding_id": "CVE-2023-20860",
+     "similarity": 0.6046
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.5621
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.5621
+    },
+    {
+     "finding_id": "GHSA-6gf2-pvqw-37ph",
+     "similarity": 0.5466
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-x4m4-345f-5h5g",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-34487",
+     "similarity": 0.813
+    },
+    {
+     "finding_id": "GHSA-h2fw-rfh5-95r3",
+     "similarity": 0.6964
+    },
+    {
+     "finding_id": "CVE-2026-34483",
+     "similarity": 0.6959
+    },
+    {
+     "finding_id": "GHSA-vfww-5hm6-hx2j",
+     "similarity": 0.6845
+    },
+    {
+     "finding_id": "GHSA-q3mw-pvr8-9ggc",
+     "similarity": 0.6842
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-rv64-5gf8-9qq8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-34483",
+     "similarity": 0.9068
+    },
+    {
+     "finding_id": "GHSA-rq2w-37h9-vg94",
+     "similarity": 0.7936
+    },
+    {
+     "finding_id": "CVE-2022-45143",
+     "similarity": 0.7559
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.7103
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.7103
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-rgv9-q543-rqg4",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-jjjh-jjxp-wpff",
+     "similarity": 0.8841
+    },
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.7893
+    },
+    {
+     "finding_id": "CVE-2022-42003",
+     "similarity": 0.7681
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.6604
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.6517
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-3x8x-79m2-3w2w",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.9015
+    },
+    {
+     "finding_id": "GHSA-jjjh-jjxp-wpff",
+     "similarity": 0.6627
+    },
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.6507
+    },
+    {
+     "finding_id": "GHSA-72hv-8253-57qq",
+     "similarity": 0.5952
+    },
+    {
+     "finding_id": "GHSA-rgv9-q543-rqg4",
+     "similarity": 0.5885
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-h46c-h94j-95f3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-57j2-w4cx-62h2",
+     "similarity": 0.6735
+    },
+    {
+     "finding_id": "GHSA-72hv-8253-57qq",
+     "similarity": 0.6248
+    },
+    {
+     "finding_id": "CVE-2025-52999",
+     "similarity": 0.6139
+    },
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.6078
+    },
+    {
+     "finding_id": "GHSA-wf8f-6423-gfxg",
+     "similarity": 0.6072
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-23181",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-34500",
+     "similarity": 0.8084
+    },
+    {
+     "finding_id": "CVE-2026-29145",
+     "similarity": 0.8063
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.7775
+    },
+    {
+     "finding_id": "CVE-2024-34750",
+     "similarity": 0.7611
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7494
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-45143",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-rq2w-37h9-vg94",
+     "similarity": 0.8634
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.8212
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.8001
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.8001
+    },
+    {
+     "finding_id": "CVE-2026-34483",
+     "similarity": 0.7746
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-20863",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-564r-hj7v-mcr5",
+     "similarity": 0.845
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.7937
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.7937
+    },
+    {
+     "finding_id": "GHSA-hh26-6xwr-ggv7",
+     "similarity": 0.6702
+    },
+    {
+     "finding_id": "GHSA-2rmj-mq67-h97g",
+     "similarity": 0.6414
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-20883",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-w3c8-7r8f-9jp8",
+     "similarity": 0.7341
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.7018
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.6965
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.6965
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.6782
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-22102",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-m6vm-37g8-gqvh",
+     "similarity": 0.8206
+    },
+    {
+     "finding_id": "GHSA-g76j-4cxx-23h9",
+     "similarity": 0.5751
+    },
+    {
+     "finding_id": "GHSA-w6f2-8wx4-47r5",
+     "similarity": 0.5506
+    },
+    {
+     "finding_id": "CVE-2025-52434",
+     "similarity": 0.4832
+    },
+    {
+     "finding_id": "GHSA-2p5w-cvg5-gc5c",
+     "similarity": 0.474
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-42003",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.8945
+    },
+    {
+     "finding_id": "GHSA-rgv9-q543-rqg4",
+     "similarity": 0.7681
+    },
+    {
+     "finding_id": "GHSA-jjjh-jjxp-wpff",
+     "similarity": 0.6906
+    },
+    {
+     "finding_id": "GHSA-57j2-w4cx-62h2",
+     "similarity": 0.6876
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.6525
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-42004",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-42003",
+     "similarity": 0.8945
+    },
+    {
+     "finding_id": "GHSA-rgv9-q543-rqg4",
+     "similarity": 0.7893
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.7365
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.7023
+    },
+    {
+     "finding_id": "GHSA-57j2-w4cx-62h2",
+     "similarity": 0.6924
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-42252",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-p22x-g9px-3945",
+     "similarity": 0.8416
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.8163
+    },
+    {
+     "finding_id": "CVE-2026-24880",
+     "similarity": 0.7742
+    },
+    {
+     "finding_id": "GHSA-qq5r-98hh-rxc9",
+     "similarity": 0.7539
+    },
+    {
+     "finding_id": "CVE-2024-34750",
+     "similarity": 0.6928
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2022-25857",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.9973
+    },
+    {
+     "finding_id": "CVE-2024-23672",
+     "similarity": 0.901
+    },
+    {
+     "finding_id": "CVE-2020-36518",
+     "similarity": 0.8885
+    },
+    {
+     "finding_id": "CVE-2023-6378",
+     "similarity": 0.8808
+    },
+    {
+     "finding_id": "CVE-2024-24549",
+     "similarity": 0.8786
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-34483",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-rv64-5gf8-9qq8",
+     "similarity": 0.9068
+    },
+    {
+     "finding_id": "CVE-2022-45143",
+     "similarity": 0.7746
+    },
+    {
+     "finding_id": "GHSA-rq2w-37h9-vg94",
+     "similarity": 0.7672
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.706
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.706
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-34487",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-x4m4-345f-5h5g",
+     "similarity": 0.813
+    },
+    {
+     "finding_id": "CVE-2026-34483",
+     "similarity": 0.6991
+    },
+    {
+     "finding_id": "CVE-2026-29145",
+     "similarity": 0.6574
+    },
+    {
+     "finding_id": "GHSA-g8pj-r55q-5c2v",
+     "similarity": 0.6557
+    },
+    {
+     "finding_id": "CVE-2026-34500",
+     "similarity": 0.6545
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-34500",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-29145",
+     "similarity": 0.9947
+    },
+    {
+     "finding_id": "CVE-2022-23181",
+     "similarity": 0.8084
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.7891
+    },
+    {
+     "finding_id": "CVE-2025-66614",
+     "similarity": 0.7806
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7804
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-40972",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-40973",
+     "similarity": 0.5703
+    },
+    {
+     "finding_id": "CVE-2025-41249",
+     "similarity": 0.5607
+    },
+    {
+     "finding_id": "CVE-2024-22259",
+     "similarity": 0.5436
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.5432
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.5234
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-40973",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-41242",
+     "similarity": 0.6872
+    },
+    {
+     "finding_id": "CVE-2026-22740",
+     "similarity": 0.6631
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.624
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.6238
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.6128
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.9028
+    },
+    {
+     "finding_id": "CIS-4.2.6",
+     "similarity": 0.8049
+    },
+    {
+     "finding_id": "CIS-4.2.4",
+     "similarity": 0.7965
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.7887
+    },
+    {
+     "finding_id": "CIS-4.2.9",
+     "similarity": 0.7306
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.1",
+     "similarity": 0.9028
+    },
+    {
+     "finding_id": "CIS-4.2.4",
+     "similarity": 0.8235
+    },
+    {
+     "finding_id": "CIS-4.2.6",
+     "similarity": 0.8179
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.7955
+    },
+    {
+     "finding_id": "CIS-4.2.3",
+     "similarity": 0.7358
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.8614
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.7358
+    },
+    {
+     "finding_id": "CIS-4.2.1",
+     "similarity": 0.7246
+    },
+    {
+     "finding_id": "CIS-4.2.4",
+     "similarity": 0.693
+    },
+    {
+     "finding_id": "CIS-4.2.6",
+     "similarity": 0.6751
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.4",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.8235
+    },
+    {
+     "finding_id": "CIS-4.2.6",
+     "similarity": 0.8183
+    },
+    {
+     "finding_id": "CIS-4.2.1",
+     "similarity": 0.7965
+    },
+    {
+     "finding_id": "CIS-4.2.9",
+     "similarity": 0.772
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.7439
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.6",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.4",
+     "similarity": 0.8183
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.8179
+    },
+    {
+     "finding_id": "CIS-4.2.1",
+     "similarity": 0.8049
+    },
+    {
+     "finding_id": "CIS-4.2.9",
+     "similarity": 0.7701
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.7159
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-mgvc-8q2h-5pgc",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.7641
+    },
+    {
+     "finding_id": "GHSA-jjfh-589g-3hjx",
+     "similarity": 0.6865
+    },
+    {
+     "finding_id": "GHSA-g5h3-w546-pj7f",
+     "similarity": 0.6426
+    },
+    {
+     "finding_id": "GHSA-rc42-6c7j-7h5r",
+     "similarity": 0.5994
+    },
+    {
+     "finding_id": "CVE-2023-20873",
+     "similarity": 0.594
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-2p5w-cvg5-gc5c",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-0603",
+     "similarity": 0.7254
+    },
+    {
+     "finding_id": "GHSA-6gf2-pvqw-37ph",
+     "similarity": 0.5389
+    },
+    {
+     "finding_id": "GHSA-m6vm-37g8-gqvh",
+     "similarity": 0.4846
+    },
+    {
+     "finding_id": "CVE-2023-22102",
+     "similarity": 0.474
+    },
+    {
+     "finding_id": "CVE-2025-41249",
+     "similarity": 0.4263
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-24998",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hfrx-6qgj-fp6c",
+     "similarity": 0.7774
+    },
+    {
+     "finding_id": "GHSA-h3gc-qfqq-6h8f",
+     "similarity": 0.7535
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.7281
+    },
+    {
+     "finding_id": "CVE-2025-52520",
+     "similarity": 0.7262
+    },
+    {
+     "finding_id": "GHSA-wr62-c79q-cv37",
+     "similarity": 0.6945
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-44487",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.8486
+    },
+    {
+     "finding_id": "CVE-2024-24549",
+     "similarity": 0.8393
+    },
+    {
+     "finding_id": "GHSA-wm9w-rjj3-j356",
+     "similarity": 0.8387
+    },
+    {
+     "finding_id": "CVE-2026-24880",
+     "similarity": 0.7856
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.785
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-46589",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-24880",
+     "similarity": 0.8598
+    },
+    {
+     "finding_id": "CVE-2022-45143",
+     "similarity": 0.8212
+    },
+    {
+     "finding_id": "CVE-2022-42252",
+     "similarity": 0.8163
+    },
+    {
+     "finding_id": "GHSA-7w75-32cg-r6g2",
+     "similarity": 0.8124
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.8106
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.10",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.3",
+     "similarity": 0.8614
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.7955
+    },
+    {
+     "finding_id": "CIS-4.2.1",
+     "similarity": 0.7887
+    },
+    {
+     "finding_id": "CIS-4.2.13",
+     "similarity": 0.775
+    },
+    {
+     "finding_id": "CIS-4.2.4",
+     "similarity": 0.7439
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-fccv-jmmp-qg76",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-7w75-32cg-r6g2",
+     "similarity": 0.828
+    },
+    {
+     "finding_id": "GHSA-rq2w-37h9-vg94",
+     "similarity": 0.8062
+    },
+    {
+     "finding_id": "CVE-2022-45143",
+     "similarity": 0.8001
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7929
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-hgjh-9rj2-g67j",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-2wrp-6fg6-hmc5",
+     "similarity": 0.9357
+    },
+    {
+     "finding_id": "CVE-2024-22262",
+     "similarity": 0.8452
+    },
+    {
+     "finding_id": "CVE-2024-22259",
+     "similarity": 0.6895
+    },
+    {
+     "finding_id": "CVE-2024-22243",
+     "similarity": 0.6555
+    },
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.6519
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-ccgv-vj62-xf9h",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-22243",
+     "similarity": 0.7046
+    },
+    {
+     "finding_id": "CVE-2024-22259",
+     "similarity": 0.6806
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.6715
+    },
+    {
+     "finding_id": "CVE-2024-22262",
+     "similarity": 0.6571
+    },
+    {
+     "finding_id": "GHSA-w3c8-7r8f-9jp8",
+     "similarity": 0.6454
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-27hp-xhwr-wr2m",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-5j33-cvvr-w245",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "CVE-2024-56337",
+     "similarity": 0.8043
+    },
+    {
+     "finding_id": "CVE-2024-50379",
+     "similarity": 0.7599
+    },
+    {
+     "finding_id": "CVE-2025-52434",
+     "similarity": 0.6606
+    },
+    {
+     "finding_id": "GHSA-hgrr-935x-pq79",
+     "similarity": 0.6022
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-5j33-cvvr-w245",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-27hp-xhwr-wr2m",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "CVE-2024-56337",
+     "similarity": 0.8043
+    },
+    {
+     "finding_id": "CVE-2024-50379",
+     "similarity": 0.7599
+    },
+    {
+     "finding_id": "CVE-2025-52434",
+     "similarity": 0.6606
+    },
+    {
+     "finding_id": "GHSA-hgrr-935x-pq79",
+     "similarity": 0.6022
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-wm9w-rjj3-j356",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.8387
+    },
+    {
+     "finding_id": "GHSA-7w75-32cg-r6g2",
+     "similarity": 0.7903
+    },
+    {
+     "finding_id": "GHSA-25xr-qj8w-c4vf",
+     "similarity": 0.7824
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.7633
+    },
+    {
+     "finding_id": "GHSA-v682-8vv8-vpwr",
+     "similarity": 0.7536
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-g5mm-vmx4-3rg7",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-4wp7-92pw-q264",
+     "similarity": 0.7432
+    },
+    {
+     "finding_id": "GHSA-4gc7-5j7h-4qph",
+     "similarity": 0.7432
+    },
+    {
+     "finding_id": "GHSA-4gc7-5j7h-4qph#796a61",
+     "similarity": 0.7149
+    },
+    {
+     "finding_id": "CVE-2022-22968",
+     "similarity": 0.6603
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.6036
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-2wrp-6fg6-hmc5",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hgjh-9rj2-g67j",
+     "similarity": 0.9357
+    },
+    {
+     "finding_id": "CVE-2024-22262",
+     "similarity": 0.7924
+    },
+    {
+     "finding_id": "CVE-2024-22259",
+     "similarity": 0.5913
+    },
+    {
+     "finding_id": "CVE-2024-22243",
+     "similarity": 0.5641
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.529
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-3mc7-4q67-w48m",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-w37g-rhq8-7m4j",
+     "similarity": 0.5055
+    },
+    {
+     "finding_id": "GHSA-9w3m-gqgf-c4p9",
+     "similarity": 0.3719
+    },
+    {
+     "finding_id": "GHSA-mjmj-j48q-9wg2",
+     "similarity": 0.3676
+    },
+    {
+     "finding_id": "GHSA-hhhw-99gj-p3c3",
+     "similarity": 0.3622
+    },
+    {
+     "finding_id": "GHSA-98wm-3w3q-mw94",
+     "similarity": 0.3622
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-wxqc-pxw9-g2p8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-564r-hj7v-mcr5",
+     "similarity": 0.9073
+    },
+    {
+     "finding_id": "GHSA-hh26-6xwr-ggv7",
+     "similarity": 0.8876
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.7937
+    },
+    {
+     "finding_id": "CVE-2023-20883",
+     "similarity": 0.6965
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-m6vm-37g8-gqvh",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-22102",
+     "similarity": 0.8206
+    },
+    {
+     "finding_id": "GHSA-g76j-4cxx-23h9",
+     "similarity": 0.7184
+    },
+    {
+     "finding_id": "GHSA-w6f2-8wx4-47r5",
+     "similarity": 0.7027
+    },
+    {
+     "finding_id": "GHSA-2p5w-cvg5-gc5c",
+     "similarity": 0.4846
+    },
+    {
+     "finding_id": "CVE-2025-52434",
+     "similarity": 0.471
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-hfrx-6qgj-fp6c",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-24998",
+     "similarity": 0.7774
+    },
+    {
+     "finding_id": "GHSA-wm9w-rjj3-j356",
+     "similarity": 0.7411
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.725
+    },
+    {
+     "finding_id": "GHSA-7w75-32cg-r6g2",
+     "similarity": 0.719
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.7048
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-h3gc-qfqq-6h8f",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-24998",
+     "similarity": 0.7535
+    },
+    {
+     "finding_id": "GHSA-hfrx-6qgj-fp6c",
+     "similarity": 0.6631
+    },
+    {
+     "finding_id": "CVE-2022-22970",
+     "similarity": 0.6501
+    },
+    {
+     "finding_id": "CVE-2025-52520",
+     "similarity": 0.6171
+    },
+    {
+     "finding_id": "GHSA-wr62-c79q-cv37",
+     "similarity": 0.6064
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-xf96-w227-r7c4",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hh26-6xwr-ggv7",
+     "similarity": 0.7023
+    },
+    {
+     "finding_id": "GHSA-jjfh-589g-3hjx",
+     "similarity": 0.6986
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.6529
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.6529
+    },
+    {
+     "finding_id": "CVE-2023-20883",
+     "similarity": 0.6377
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-vmq6-5m68-f53m",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m#953bc1",
+     "similarity": 0.9401
+    },
+    {
+     "finding_id": "GHSA-668q-qrv7-99fm",
+     "similarity": 0.6432
+    },
+    {
+     "finding_id": "GHSA-6v67-2wr5-gvf4",
+     "similarity": 0.606
+    },
+    {
+     "finding_id": "GHSA-pr98-23f8-jwxv",
+     "similarity": 0.6013
+    },
+    {
+     "finding_id": "GHSA-25qh-j22f-pwp8",
+     "similarity": 0.5902
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-vmq6-5m68-f53m#953bc1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m",
+     "similarity": 0.9401
+    },
+    {
+     "finding_id": "GHSA-668q-qrv7-99fm",
+     "similarity": 0.7016
+    },
+    {
+     "finding_id": "GHSA-6v67-2wr5-gvf4",
+     "similarity": 0.6757
+    },
+    {
+     "finding_id": "GHSA-25qh-j22f-pwp8",
+     "similarity": 0.6732
+    },
+    {
+     "finding_id": "GHSA-pr98-23f8-jwxv",
+     "similarity": 0.673
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-25xr-qj8w-c4vf",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-qppj-fm5r-hxr3",
+     "similarity": 0.7854
+    },
+    {
+     "finding_id": "GHSA-wm9w-rjj3-j356",
+     "similarity": 0.7824
+    },
+    {
+     "finding_id": "GHSA-7w75-32cg-r6g2",
+     "similarity": 0.7584
+    },
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.7507
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.7202
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-57j2-w4cx-62h2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.6924
+    },
+    {
+     "finding_id": "CVE-2022-42003",
+     "similarity": 0.6876
+    },
+    {
+     "finding_id": "GHSA-h46c-h94j-95f3",
+     "similarity": 0.6735
+    },
+    {
+     "finding_id": "GHSA-jjjh-jjxp-wpff",
+     "similarity": 0.6372
+    },
+    {
+     "finding_id": "GHSA-rgv9-q543-rqg4",
+     "similarity": 0.5897
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-hh26-6xwr-ggv7",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.8876
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.8876
+    },
+    {
+     "finding_id": "GHSA-564r-hj7v-mcr5",
+     "similarity": 0.7935
+    },
+    {
+     "finding_id": "GHSA-xf96-w227-r7c4",
+     "similarity": 0.7023
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.6702
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-p22x-g9px-3945",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-42252",
+     "similarity": 0.8416
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7323
+    },
+    {
+     "finding_id": "GHSA-qq5r-98hh-rxc9",
+     "similarity": 0.6872
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.6859
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.6859
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-rq2w-37h9-vg94",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-45143",
+     "similarity": 0.8634
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.8062
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.8062
+    },
+    {
+     "finding_id": "GHSA-rv64-5gf8-9qq8",
+     "similarity": 0.7936
+    },
+    {
+     "finding_id": "CVE-2026-34483",
+     "similarity": 0.7672
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-gqp3-2cvr-x8m3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hgrr-935x-pq79",
+     "similarity": 0.9649
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.8733
+    },
+    {
+     "finding_id": "GHSA-g8pj-r55q-5c2v",
+     "similarity": 0.8062
+    },
+    {
+     "finding_id": "GHSA-9m3c-qcxr-9x87",
+     "similarity": 0.7463
+    },
+    {
+     "finding_id": "GHSA-q3mw-pvr8-9ggc",
+     "similarity": 0.7398
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-jjjh-jjxp-wpff",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-rgv9-q543-rqg4",
+     "similarity": 0.8841
+    },
+    {
+     "finding_id": "CVE-2022-42003",
+     "similarity": 0.6906
+    },
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.6894
+    },
+    {
+     "finding_id": "GHSA-3x8x-79m2-3w2w",
+     "similarity": 0.6627
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.656
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-rc42-6c7j-7h5r",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-22235",
+     "similarity": 0.8015
+    },
+    {
+     "finding_id": "GHSA-mgvc-8q2h-5pgc",
+     "similarity": 0.5994
+    },
+    {
+     "finding_id": "GHSA-jjfh-589g-3hjx",
+     "similarity": 0.5978
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.5794
+    },
+    {
+     "finding_id": "GHSA-g5h3-w546-pj7f",
+     "similarity": 0.5536
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-wr62-c79q-cv37",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.7828
+    },
+    {
+     "finding_id": "CVE-2025-52520",
+     "similarity": 0.762
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.754
+    },
+    {
+     "finding_id": "CVE-2024-38286",
+     "similarity": 0.7332
+    },
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.7329
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-PKGVERSION-8d299e19021a",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-52999",
+     "similarity": 0.8731
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-80fa85760989",
+     "similarity": 0.8518
+    },
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.7023
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.6655
+    },
+    {
+     "finding_id": "GHSA-rgv9-q543-rqg4",
+     "similarity": 0.6604
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-mjmj-j48q-9wg2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-1471",
+     "similarity": 0.7999
+    },
+    {
+     "finding_id": "GHSA-w37g-rhq8-7m4j",
+     "similarity": 0.4818
+    },
+    {
+     "finding_id": "GHSA-9w3m-gqgf-c4p9",
+     "similarity": 0.4518
+    },
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x#1b3bb3",
+     "similarity": 0.4231
+    },
+    {
+     "finding_id": "GHSA-98wm-3w3q-mw94",
+     "similarity": 0.4213
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-b6ebcb42f8e3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-b425c768d85a",
+     "similarity": 0.9335
+    },
+    {
+     "finding_id": "CIS-5.7.2",
+     "similarity": 0.7551
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a302c31efaac",
+     "similarity": 0.6583
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-faddad731e67",
+     "similarity": 0.6517
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-ee3062b33490",
+     "similarity": 0.6404
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-cx7f-g6mp-7hqm",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.9023
+    },
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.8659
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.7795
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.7708
+    },
+    {
+     "finding_id": "CVE-2026-22737",
+     "similarity": 0.681
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-g5vr-rgqm-vf78",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.9427
+    },
+    {
+     "finding_id": "GHSA-cx7f-g6mp-7hqm",
+     "similarity": 0.9023
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.8073
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.8057
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.7147
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-FILERULE-81dd947acfd5",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_8#22bc44",
+     "similarity": 0.795
+    },
+    {
+     "finding_id": "CKV_K8S_8#67f99c",
+     "similarity": 0.7704
+    },
+    {
+     "finding_id": "CKV_K8S_22#dc9907",
+     "similarity": 0.6598
+    },
+    {
+     "finding_id": "CKV_K8S_40#18b073",
+     "similarity": 0.636
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-ee3062b33490",
+     "similarity": 0.6294
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-PKGVERSION-80fa85760989",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.8518
+    },
+    {
+     "finding_id": "GHSA-72hv-8253-57qq",
+     "similarity": 0.7525
+    },
+    {
+     "finding_id": "CVE-2025-52999",
+     "similarity": 0.7366
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.6826
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-28239cd93bf1",
+     "similarity": 0.6308
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-b425c768d85a",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-b6ebcb42f8e3",
+     "similarity": 0.9335
+    },
+    {
+     "finding_id": "CIS-5.7.2",
+     "similarity": 0.7953
+    },
+    {
+     "finding_id": "CKV_K8S_31",
+     "similarity": 0.6329
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-503f8c0530c4",
+     "similarity": 0.6213
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-6b0c5c065e72",
+     "similarity": 0.6023
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-88a148fc456e",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-a96162349222",
+     "similarity": 0.7025
+    },
+    {
+     "finding_id": "CKV_K8S_15#0f6bdd",
+     "similarity": 0.5842
+    },
+    {
+     "finding_id": "SOC-FILERULE-81dd947acfd5",
+     "similarity": 0.5744
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-ee3062b33490",
+     "similarity": 0.5708
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-db07e636d027",
+     "similarity": 0.5679
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-a96162349222",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-db07e636d027",
+     "similarity": 0.9209
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-88a148fc456e",
+     "similarity": 0.7025
+    },
+    {
+     "finding_id": "SOC-FILERULE-81dd947acfd5",
+     "similarity": 0.5696
+    },
+    {
+     "finding_id": "CKV_K8S_38#cedf6b",
+     "similarity": 0.5654
+    },
+    {
+     "finding_id": "CKV_K8S_38#cddede",
+     "similarity": 0.5618
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-db07e636d027",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-a96162349222",
+     "similarity": 0.9209
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-88a148fc456e",
+     "similarity": 0.5679
+    },
+    {
+     "finding_id": "CKV_K8S_22#3060c9",
+     "similarity": 0.5024
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c888f344596a",
+     "similarity": 0.486
+    },
+    {
+     "finding_id": "CKV_K8S_21",
+     "similarity": 0.4859
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-6378",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-23672",
+     "similarity": 0.8848
+    },
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.8827
+    },
+    {
+     "finding_id": "CVE-2022-25857",
+     "similarity": 0.8808
+    },
+    {
+     "finding_id": "CVE-2020-36518",
+     "similarity": 0.8702
+    },
+    {
+     "finding_id": "CVE-2024-24549",
+     "similarity": 0.846
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-PKGVERSION-28239cd93bf1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2020-36518",
+     "similarity": 0.9511
+    },
+    {
+     "finding_id": "CVE-2024-23672",
+     "similarity": 0.8816
+    },
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.8748
+    },
+    {
+     "finding_id": "CVE-2022-25857",
+     "similarity": 0.8691
+    },
+    {
+     "finding_id": "CVE-2024-24549",
+     "similarity": 0.8576
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-55752",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-49124",
+     "similarity": 0.7777
+    },
+    {
+     "finding_id": "CVE-2025-24813",
+     "similarity": 0.7773
+    },
+    {
+     "finding_id": "GHSA-wmwf-9ccg-fff5",
+     "similarity": 0.7674
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.7667
+    },
+    {
+     "finding_id": "CVE-2026-24880",
+     "similarity": 0.7576
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-0603",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-2p5w-cvg5-gc5c",
+     "similarity": 0.7254
+    },
+    {
+     "finding_id": "GHSA-m6vm-37g8-gqvh",
+     "similarity": 0.4498
+    },
+    {
+     "finding_id": "CVE-2023-22102",
+     "similarity": 0.4496
+    },
+    {
+     "finding_id": "CVE-2025-41249",
+     "similarity": 0.4481
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.4345
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-41249",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-jmp9-x22r-554x",
+     "similarity": 0.7426
+    },
+    {
+     "finding_id": "CVE-2023-20860",
+     "similarity": 0.693
+    },
+    {
+     "finding_id": "CVE-2025-41242",
+     "similarity": 0.5976
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.5939
+    },
+    {
+     "finding_id": "CVE-2026-40973",
+     "similarity": 0.5883
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-48988",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.9308
+    },
+    {
+     "finding_id": "CVE-2024-38286",
+     "similarity": 0.8694
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.8487
+    },
+    {
+     "finding_id": "CVE-2025-52520",
+     "similarity": 0.8411
+    },
+    {
+     "finding_id": "CVE-2024-34750",
+     "similarity": 0.8006
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-48989",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hgrr-935x-pq79",
+     "similarity": 0.8891
+    },
+    {
+     "finding_id": "GHSA-gqp3-2cvr-x8m3",
+     "similarity": 0.8733
+    },
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.85
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.8487
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.8486
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-49124",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-42wg-hm62-jcwg",
+     "similarity": 0.8314
+    },
+    {
+     "finding_id": "CVE-2025-55752",
+     "similarity": 0.7777
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.7493
+    },
+    {
+     "finding_id": "CVE-2026-34500",
+     "similarity": 0.7379
+    },
+    {
+     "finding_id": "CVE-2026-29145",
+     "similarity": 0.7294
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-22737",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.8587
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.8411
+    },
+    {
+     "finding_id": "CVE-2025-41242",
+     "similarity": 0.7368
+    },
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.7183
+    },
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.7062
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-22740",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.6889
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.6811
+    },
+    {
+     "finding_id": "CVE-2025-41242",
+     "similarity": 0.6637
+    },
+    {
+     "finding_id": "CVE-2026-40973",
+     "similarity": 0.6631
+    },
+    {
+     "finding_id": "CVE-2022-22965",
+     "similarity": 0.6509
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-24880",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.8598
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.7886
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.7856
+    },
+    {
+     "finding_id": "CVE-2025-52520",
+     "similarity": 0.7849
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.7839
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2026-29145",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2026-34500",
+     "similarity": 0.9947
+    },
+    {
+     "finding_id": "CVE-2022-23181",
+     "similarity": 0.8063
+    },
+    {
+     "finding_id": "CVE-2025-66614",
+     "similarity": 0.7862
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.7799
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7708
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-53506",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.9308
+    },
+    {
+     "finding_id": "CVE-2024-38286",
+     "similarity": 0.8752
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.85
+    },
+    {
+     "finding_id": "CVE-2024-34750",
+     "similarity": 0.8273
+    },
+    {
+     "finding_id": "CVE-2025-52434",
+     "similarity": 0.8117
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-52999",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.8731
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-80fa85760989",
+     "similarity": 0.7366
+    },
+    {
+     "finding_id": "GHSA-wf8f-6423-gfxg",
+     "similarity": 0.6749
+    },
+    {
+     "finding_id": "CVE-2022-42004",
+     "similarity": 0.6649
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.6293
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-52520",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.8411
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.8038
+    },
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.8034
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.799
+    },
+    {
+     "finding_id": "CVE-2026-24880",
+     "similarity": 0.7849
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-52434",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.845
+    },
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.8117
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.7816
+    },
+    {
+     "finding_id": "CVE-2024-34750",
+     "similarity": 0.7811
+    },
+    {
+     "finding_id": "GHSA-hgrr-935x-pq79",
+     "similarity": 0.7721
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-38816",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.9509
+    },
+    {
+     "finding_id": "CVE-2026-22737",
+     "similarity": 0.8587
+    },
+    {
+     "finding_id": "CVE-2025-41242",
+     "similarity": 0.8163
+    },
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.813
+    },
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.8057
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-38819",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.9509
+    },
+    {
+     "finding_id": "CVE-2026-22737",
+     "similarity": 0.8411
+    },
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.809
+    },
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.8073
+    },
+    {
+     "finding_id": "CVE-2025-41242",
+     "similarity": 0.7828
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-22235",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-rc42-6c7j-7h5r",
+     "similarity": 0.8015
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.6647
+    },
+    {
+     "finding_id": "CVE-2023-20883",
+     "similarity": 0.6206
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.6087
+    },
+    {
+     "finding_id": "GHSA-jjfh-589g-3hjx",
+     "similarity": 0.6073
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2025-41242",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.8163
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.7828
+    },
+    {
+     "finding_id": "CVE-2026-22737",
+     "similarity": 0.7368
+    },
+    {
+     "finding_id": "CVE-2022-22965",
+     "similarity": 0.7
+    },
+    {
+     "finding_id": "CVE-2025-55752",
+     "similarity": 0.6974
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2023-6481",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-6378",
+     "similarity": 0.6794
+    },
+    {
+     "finding_id": "GHSA-25qh-j22f-pwp8",
+     "similarity": 0.6705
+    },
+    {
+     "finding_id": "GHSA-6v67-2wr5-gvf4",
+     "similarity": 0.6407
+    },
+    {
+     "finding_id": "GHSA-pr98-23f8-jwxv",
+     "similarity": 0.6393
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.5247
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-22243",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-22259",
+     "similarity": 0.9295
+    },
+    {
+     "finding_id": "CVE-2024-22262",
+     "similarity": 0.7658
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.7171
+    },
+    {
+     "finding_id": "GHSA-ccgv-vj62-xf9h",
+     "similarity": 0.7046
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.7003
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-22259",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2024-22243",
+     "similarity": 0.9295
+    },
+    {
+     "finding_id": "CVE-2024-22262",
+     "similarity": 0.8113
+    },
+    {
+     "finding_id": "GHSA-hgjh-9rj2-g67j",
+     "similarity": 0.6895
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.6833
+    },
+    {
+     "finding_id": "GHSA-ccgv-vj62-xf9h",
+     "similarity": 0.6806
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-22262",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hgjh-9rj2-g67j",
+     "similarity": 0.8452
+    },
+    {
+     "finding_id": "CVE-2024-22259",
+     "similarity": 0.8113
+    },
+    {
+     "finding_id": "GHSA-2wrp-6fg6-hmc5",
+     "similarity": 0.7924
+    },
+    {
+     "finding_id": "CVE-2024-22243",
+     "similarity": 0.7658
+    },
+    {
+     "finding_id": "GHSA-ccgv-vj62-xf9h",
+     "similarity": 0.6571
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-23672",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.9069
+    },
+    {
+     "finding_id": "CVE-2022-25857",
+     "similarity": 0.901
+    },
+    {
+     "finding_id": "CVE-2020-36518",
+     "similarity": 0.8998
+    },
+    {
+     "finding_id": "CVE-2023-6378",
+     "similarity": 0.8848
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-28239cd93bf1",
+     "similarity": 0.8816
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-24549",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.8812
+    },
+    {
+     "finding_id": "CVE-2022-25857",
+     "similarity": 0.8786
+    },
+    {
+     "finding_id": "CVE-2024-23672",
+     "similarity": 0.8752
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-28239cd93bf1",
+     "similarity": 0.8576
+    },
+    {
+     "finding_id": "CVE-2020-36518",
+     "similarity": 0.8474
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-34750",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.8292
+    },
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.8273
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.8006
+    },
+    {
+     "finding_id": "CVE-2024-38286",
+     "similarity": 0.7945
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7821
+    }
+   ]
+  },
+  {
+   "finding_id": "CVE-2024-38286",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.8752
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.8694
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.8214
+    },
+    {
+     "finding_id": "CVE-2024-34750",
+     "similarity": 0.7945
+    },
+    {
+     "finding_id": "CVE-2025-52520",
+     "similarity": 0.7719
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.7.3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_29",
+     "similarity": 0.6912
+    },
+    {
+     "finding_id": "CIS-5.2.1",
+     "similarity": 0.6866
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.6853
+    },
+    {
+     "finding_id": "CIS-5.7.2",
+     "similarity": 0.6648
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.638
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.7.4",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_21#b3cc4f",
+     "similarity": 0.6359
+    },
+    {
+     "finding_id": "CKV_K8S_21",
+     "similarity": 0.6223
+    },
+    {
+     "finding_id": "CKV_K8S_21#45833b",
+     "similarity": 0.6097
+    },
+    {
+     "finding_id": "CIS-5.2.1",
+     "similarity": 0.5943
+    },
+    {
+     "finding_id": "CKV_K8S_21#df79a2",
+     "similarity": 0.5895
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-faddad731e67",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_8#67f99c",
+     "similarity": 0.733
+    },
+    {
+     "finding_id": "CKV_K8S_8#22bc44",
+     "similarity": 0.7286
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3f2c2a26a9e8",
+     "similarity": 0.6574
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b6ebcb42f8e3",
+     "similarity": 0.6517
+    },
+    {
+     "finding_id": "SOC-FILERULE-81dd947acfd5",
+     "similarity": 0.6236
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-4ea41137f771",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-36p3-wjmg-h94x#851dc3",
+     "similarity": 0.2509
+    },
+    {
+     "finding_id": "GHSA-2wrp-6fg6-hmc5",
+     "similarity": 0.2426
+    },
+    {
+     "finding_id": "GHSA-wm9w-rjj3-j356",
+     "similarity": 0.2401
+    },
+    {
+     "finding_id": "CKV_K8S_40#040589",
+     "similarity": 0.2281
+    },
+    {
+     "finding_id": "GHSA-h3gc-qfqq-6h8f",
+     "similarity": 0.2256
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-bc0653f590b2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-mgvc-8q2h-5pgc",
+     "similarity": 0.589
+    },
+    {
+     "finding_id": "CVE-2025-22235",
+     "similarity": 0.5882
+    },
+    {
+     "finding_id": "GHSA-jjfh-589g-3hjx",
+     "similarity": 0.5755
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.5376
+    },
+    {
+     "finding_id": "GHSA-rc42-6c7j-7h5r",
+     "similarity": 0.466
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-K8SPOLICY-16d1cf33b1b3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.7.2",
+     "similarity": 0.3705
+    },
+    {
+     "finding_id": "CIS-5.4.2",
+     "similarity": 0.3357
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b425c768d85a",
+     "similarity": 0.3243
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.3161
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b6ebcb42f8e3",
+     "similarity": 0.3096
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-DI-0005",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-6b0c5c065e72",
+     "similarity": 0.5622
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-ee3062b33490",
+     "similarity": 0.5036
+    },
+    {
+     "finding_id": "CKV_K8S_22#b6c936",
+     "similarity": 0.4619
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-503f8c0530c4",
+     "similarity": 0.4466
+    },
+    {
+     "finding_id": "CIS-5.7.2",
+     "similarity": 0.4371
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-qppj-fm5r-hxr3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-25xr-qj8w-c4vf",
+     "similarity": 0.7854
+    },
+    {
+     "finding_id": "GHSA-7w75-32cg-r6g2",
+     "similarity": 0.7113
+    },
+    {
+     "finding_id": "CVE-2025-53506",
+     "similarity": 0.7112
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.7111
+    },
+    {
+     "finding_id": "GHSA-wm9w-rjj3-j356",
+     "similarity": 0.7092
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-7w75-32cg-r6g2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.828
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.828
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.8124
+    },
+    {
+     "finding_id": "GHSA-wm9w-rjj3-j356",
+     "similarity": 0.7903
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.7602
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-w6f2-8wx4-47r5",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-g76j-4cxx-23h9",
+     "similarity": 0.8203
+    },
+    {
+     "finding_id": "GHSA-m6vm-37g8-gqvh",
+     "similarity": 0.7027
+    },
+    {
+     "finding_id": "CVE-2023-22102",
+     "similarity": 0.5506
+    },
+    {
+     "finding_id": "GHSA-jmp9-x22r-554x",
+     "similarity": 0.396
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.3599
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-r6j3-px5g-cq3x",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-7w75-32cg-r6g2",
+     "similarity": 0.828
+    },
+    {
+     "finding_id": "GHSA-rq2w-37h9-vg94",
+     "similarity": 0.8062
+    },
+    {
+     "finding_id": "CVE-2022-45143",
+     "similarity": 0.8001
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7929
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-q3mw-pvr8-9ggc",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-9m3c-qcxr-9x87",
+     "similarity": 0.9652
+    },
+    {
+     "finding_id": "GHSA-wmwf-9ccg-fff5",
+     "similarity": 0.7675
+    },
+    {
+     "finding_id": "GHSA-g8pj-r55q-5c2v",
+     "similarity": 0.7544
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.7543
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.7543
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-558x-2xjg-6232",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.6116
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.6116
+    },
+    {
+     "finding_id": "GHSA-hh26-6xwr-ggv7",
+     "similarity": 0.5774
+    },
+    {
+     "finding_id": "GHSA-564r-hj7v-mcr5",
+     "similarity": 0.5477
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.5286
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-668q-qrv7-99fm",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m#953bc1",
+     "similarity": 0.7016
+    },
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m",
+     "similarity": 0.6432
+    },
+    {
+     "finding_id": "GHSA-qqpg-mvqg-649v",
+     "similarity": 0.5596
+    },
+    {
+     "finding_id": "GHSA-25qh-j22f-pwp8",
+     "similarity": 0.5498
+    },
+    {
+     "finding_id": "CVE-2016-1000027",
+     "similarity": 0.5468
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-4gc7-5j7h-4qph",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-4wp7-92pw-q264",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-4gc7-5j7h-4qph#796a61",
+     "similarity": 0.979
+    },
+    {
+     "finding_id": "CVE-2022-22968",
+     "similarity": 0.7548
+    },
+    {
+     "finding_id": "GHSA-g5mm-vmx4-3rg7",
+     "similarity": 0.7432
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.5605
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-4gc7-5j7h-4qph#796a61",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-4wp7-92pw-q264",
+     "similarity": 0.979
+    },
+    {
+     "finding_id": "GHSA-4gc7-5j7h-4qph",
+     "similarity": 0.979
+    },
+    {
+     "finding_id": "CVE-2022-22968",
+     "similarity": 0.7445
+    },
+    {
+     "finding_id": "GHSA-g5mm-vmx4-3rg7",
+     "similarity": 0.7149
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.5892
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-v682-8vv8-vpwr",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-wm9w-rjj3-j356",
+     "similarity": 0.7536
+    },
+    {
+     "finding_id": "CVE-2023-44487",
+     "similarity": 0.7314
+    },
+    {
+     "finding_id": "GHSA-25xr-qj8w-c4vf",
+     "similarity": 0.6943
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.6926
+    },
+    {
+     "finding_id": "GHSA-7w75-32cg-r6g2",
+     "similarity": 0.6834
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_35#594235",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_35#a14e16",
+     "similarity": 0.9874
+    },
+    {
+     "finding_id": "CKV_K8S_35",
+     "similarity": 0.9774
+    },
+    {
+     "finding_id": "CKV_K8S_35#c1cf3d",
+     "similarity": 0.9055
+    },
+    {
+     "finding_id": "CIS-5.4.1",
+     "similarity": 0.7805
+    },
+    {
+     "finding_id": "CKV_K8S_21#96e0ac",
+     "similarity": 0.638
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_15#d3bde0",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_15#3bfc0d",
+     "similarity": 0.985
+    },
+    {
+     "finding_id": "CKV_K8S_15#3205c7",
+     "similarity": 0.9656
+    },
+    {
+     "finding_id": "CKV_K8S_15#0f6bdd",
+     "similarity": 0.8526
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-6b0c5c065e72",
+     "similarity": 0.7888
+    },
+    {
+     "finding_id": "CKV_K8S_43#2881ff",
+     "similarity": 0.7346
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_11#dadfff",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_11#963f6e",
+     "similarity": 0.9587
+    },
+    {
+     "finding_id": "CKV_K8S_10#ccf43f",
+     "similarity": 0.9179
+    },
+    {
+     "finding_id": "CKV_K8S_10#7736e5",
+     "similarity": 0.8822
+    },
+    {
+     "finding_id": "CKV_K8S_13#bdba74",
+     "similarity": 0.8125
+    },
+    {
+     "finding_id": "CKV_K8S_13#2abfd7",
+     "similarity": 0.7549
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_13#bdba74",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_13#2abfd7",
+     "similarity": 0.9529
+    },
+    {
+     "finding_id": "CKV_K8S_12#54f4e2",
+     "similarity": 0.9432
+    },
+    {
+     "finding_id": "CKV_K8S_12#32123b",
+     "similarity": 0.8911
+    },
+    {
+     "finding_id": "CKV_K8S_11#dadfff",
+     "similarity": 0.8125
+    },
+    {
+     "finding_id": "CKV_K8S_11#963f6e",
+     "similarity": 0.783
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_38#cddede",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_38#cedf6b",
+     "similarity": 0.9714
+    },
+    {
+     "finding_id": "CKV_K8S_38",
+     "similarity": 0.6445
+    },
+    {
+     "finding_id": "CIS-5.1.6",
+     "similarity": 0.6204
+    },
+    {
+     "finding_id": "CKV_K8S_21#84d3db",
+     "similarity": 0.6166
+    },
+    {
+     "finding_id": "CIS-5.1.5",
+     "similarity": 0.5631
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_40#18b073",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_40#040589",
+     "similarity": 0.9745
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.7283
+    },
+    {
+     "finding_id": "CKV_K8S_22#dc9907",
+     "similarity": 0.6698
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.6579
+    },
+    {
+     "finding_id": "SOC-FILERULE-81dd947acfd5",
+     "similarity": 0.636
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_8#22bc44",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_8#67f99c",
+     "similarity": 0.9686
+    },
+    {
+     "finding_id": "SOC-FILERULE-81dd947acfd5",
+     "similarity": 0.795
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-faddad731e67",
+     "similarity": 0.7286
+    },
+    {
+     "finding_id": "CKV_K8S_21#84d3db",
+     "similarity": 0.6027
+    },
+    {
+     "finding_id": "CKV_K8S_43#7f080b",
+     "similarity": 0.5969
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV2_K8S_6",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV2_K8S_6#4460e6",
+     "similarity": 0.858
+    },
+    {
+     "finding_id": "CKV2_K8S_6#c49326",
+     "similarity": 0.8472
+    },
+    {
+     "finding_id": "CKV_K8S_37",
+     "similarity": 0.7073
+    },
+    {
+     "finding_id": "CKV_K8S_28",
+     "similarity": 0.7012
+    },
+    {
+     "finding_id": "CKV_K8S_23",
+     "similarity": 0.6892
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV2_K8S_6#c49326",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV2_K8S_6#4460e6",
+     "similarity": 0.9753
+    },
+    {
+     "finding_id": "CKV2_K8S_6",
+     "similarity": 0.8472
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3f2c2a26a9e8",
+     "similarity": 0.7655
+    },
+    {
+     "finding_id": "CIS-5.2.12",
+     "similarity": 0.6212
+    },
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.6197
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_21#96e0ac",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_21",
+     "similarity": 0.8708
+    },
+    {
+     "finding_id": "CKV_K8S_21#b3cc4f",
+     "similarity": 0.8669
+    },
+    {
+     "finding_id": "CKV_K8S_21#45833b",
+     "similarity": 0.8567
+    },
+    {
+     "finding_id": "CKV_K8S_21#84d3db",
+     "similarity": 0.7912
+    },
+    {
+     "finding_id": "CKV_K8S_21#df79a2",
+     "similarity": 0.7672
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_21#45833b",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_21#b3cc4f",
+     "similarity": 0.9835
+    },
+    {
+     "finding_id": "CKV_K8S_21#df79a2",
+     "similarity": 0.9387
+    },
+    {
+     "finding_id": "CKV_K8S_21",
+     "similarity": 0.9218
+    },
+    {
+     "finding_id": "CKV_K8S_21#96e0ac",
+     "similarity": 0.8567
+    },
+    {
+     "finding_id": "CKV_K8S_21#84d3db",
+     "similarity": 0.844
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_12#32123b",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_12#54f4e2",
+     "similarity": 0.953
+    },
+    {
+     "finding_id": "CKV_K8S_13#2abfd7",
+     "similarity": 0.9353
+    },
+    {
+     "finding_id": "CKV_K8S_13#bdba74",
+     "similarity": 0.8911
+    },
+    {
+     "finding_id": "CKV_K8S_10#7736e5",
+     "similarity": 0.7323
+    },
+    {
+     "finding_id": "CKV_K8S_11#963f6e",
+     "similarity": 0.7123
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_10#7736e5",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_10#ccf43f",
+     "similarity": 0.9515
+    },
+    {
+     "finding_id": "CKV_K8S_11#963f6e",
+     "similarity": 0.913
+    },
+    {
+     "finding_id": "CKV_K8S_11#dadfff",
+     "similarity": 0.8822
+    },
+    {
+     "finding_id": "CKV_K8S_12#32123b",
+     "similarity": 0.7323
+    },
+    {
+     "finding_id": "CKV_K8S_12#54f4e2",
+     "similarity": 0.7172
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_22#b6c936",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_22#3060c9",
+     "similarity": 0.9569
+    },
+    {
+     "finding_id": "CKV_K8S_22#dc9907",
+     "similarity": 0.8901
+    },
+    {
+     "finding_id": "CKV_K8S_22",
+     "similarity": 0.719
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-503f8c0530c4",
+     "similarity": 0.6845
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-91f698a8bb3d",
+     "similarity": 0.672
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_43#d86545",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_43#2881ff",
+     "similarity": 0.9686
+    },
+    {
+     "finding_id": "CKV_K8S_43#a1dbe9",
+     "similarity": 0.9464
+    },
+    {
+     "finding_id": "CKV_K8S_43#7f080b",
+     "similarity": 0.8847
+    },
+    {
+     "finding_id": "CKV_K8S_15#3205c7",
+     "similarity": 0.7405
+    },
+    {
+     "finding_id": "CKV_K8S_15#d3bde0",
+     "similarity": 0.7201
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_21",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_21#b3cc4f",
+     "similarity": 0.9386
+    },
+    {
+     "finding_id": "CKV_K8S_21#45833b",
+     "similarity": 0.9218
+    },
+    {
+     "finding_id": "CKV_K8S_21#96e0ac",
+     "similarity": 0.8708
+    },
+    {
+     "finding_id": "CKV_K8S_21#df79a2",
+     "similarity": 0.8336
+    },
+    {
+     "finding_id": "CKV_K8S_21#84d3db",
+     "similarity": 0.814
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_35",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_35#594235",
+     "similarity": 0.9774
+    },
+    {
+     "finding_id": "CKV_K8S_35#a14e16",
+     "similarity": 0.9722
+    },
+    {
+     "finding_id": "CKV_K8S_35#c1cf3d",
+     "similarity": 0.9391
+    },
+    {
+     "finding_id": "CIS-5.4.1",
+     "similarity": 0.8115
+    },
+    {
+     "finding_id": "CKV_K8S_21#96e0ac",
+     "similarity": 0.6463
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_15#3205c7",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_15#d3bde0",
+     "similarity": 0.9656
+    },
+    {
+     "finding_id": "CKV_K8S_15#3bfc0d",
+     "similarity": 0.9563
+    },
+    {
+     "finding_id": "CKV_K8S_15#0f6bdd",
+     "similarity": 0.8915
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-6b0c5c065e72",
+     "similarity": 0.771
+    },
+    {
+     "finding_id": "CKV_K8S_43#d86545",
+     "similarity": 0.7405
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_11#963f6e",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_11#dadfff",
+     "similarity": 0.9587
+    },
+    {
+     "finding_id": "CKV_K8S_10#7736e5",
+     "similarity": 0.913
+    },
+    {
+     "finding_id": "CKV_K8S_10#ccf43f",
+     "similarity": 0.8609
+    },
+    {
+     "finding_id": "CKV_K8S_13#2abfd7",
+     "similarity": 0.8116
+    },
+    {
+     "finding_id": "CKV_K8S_13#bdba74",
+     "similarity": 0.783
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_13#2abfd7",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_13#bdba74",
+     "similarity": 0.9529
+    },
+    {
+     "finding_id": "CKV_K8S_12#32123b",
+     "similarity": 0.9353
+    },
+    {
+     "finding_id": "CKV_K8S_12#54f4e2",
+     "similarity": 0.8947
+    },
+    {
+     "finding_id": "CKV_K8S_11#963f6e",
+     "similarity": 0.8116
+    },
+    {
+     "finding_id": "CKV_K8S_11#dadfff",
+     "similarity": 0.7549
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_21#b3cc4f",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_21#45833b",
+     "similarity": 0.9835
+    },
+    {
+     "finding_id": "CKV_K8S_21",
+     "similarity": 0.9386
+    },
+    {
+     "finding_id": "CKV_K8S_21#df79a2",
+     "similarity": 0.9192
+    },
+    {
+     "finding_id": "CKV_K8S_21#96e0ac",
+     "similarity": 0.8669
+    },
+    {
+     "finding_id": "CKV_K8S_21#84d3db",
+     "similarity": 0.8595
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_21#84d3db",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_21#b3cc4f",
+     "similarity": 0.8595
+    },
+    {
+     "finding_id": "CKV_K8S_21#45833b",
+     "similarity": 0.844
+    },
+    {
+     "finding_id": "CKV_K8S_21",
+     "similarity": 0.814
+    },
+    {
+     "finding_id": "CKV_K8S_21#96e0ac",
+     "similarity": 0.7912
+    },
+    {
+     "finding_id": "CKV_K8S_21#df79a2",
+     "similarity": 0.7846
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_22#dc9907",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_22#b6c936",
+     "similarity": 0.8901
+    },
+    {
+     "finding_id": "CKV_K8S_22#3060c9",
+     "similarity": 0.8345
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-91f698a8bb3d",
+     "similarity": 0.7154
+    },
+    {
+     "finding_id": "CKV_K8S_22",
+     "similarity": 0.6815
+    },
+    {
+     "finding_id": "CKV_K8S_40#040589",
+     "similarity": 0.6742
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_43#7f080b",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_43#d86545",
+     "similarity": 0.8847
+    },
+    {
+     "finding_id": "CKV_K8S_43#2881ff",
+     "similarity": 0.8443
+    },
+    {
+     "finding_id": "CKV_K8S_43#a1dbe9",
+     "similarity": 0.8232
+    },
+    {
+     "finding_id": "CKV_K8S_15#0f6bdd",
+     "similarity": 0.7927
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-ee3062b33490",
+     "similarity": 0.6776
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_38#cedf6b",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_38#cddede",
+     "similarity": 0.9714
+    },
+    {
+     "finding_id": "CKV_K8S_38",
+     "similarity": 0.6881
+    },
+    {
+     "finding_id": "CIS-5.1.6",
+     "similarity": 0.6422
+    },
+    {
+     "finding_id": "CKV_K8S_21#84d3db",
+     "similarity": 0.6281
+    },
+    {
+     "finding_id": "CKV_K8S_22#dc9907",
+     "similarity": 0.5898
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_35#c1cf3d",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_35",
+     "similarity": 0.9391
+    },
+    {
+     "finding_id": "CKV_K8S_35#a14e16",
+     "similarity": 0.9056
+    },
+    {
+     "finding_id": "CKV_K8S_35#594235",
+     "similarity": 0.9055
+    },
+    {
+     "finding_id": "CIS-5.4.1",
+     "similarity": 0.7725
+    },
+    {
+     "finding_id": "CKV_K8S_22#dc9907",
+     "similarity": 0.6429
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_40#040589",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_40#18b073",
+     "similarity": 0.9745
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.7793
+    },
+    {
+     "finding_id": "CKV_K8S_22#dc9907",
+     "similarity": 0.6742
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a302c31efaac",
+     "similarity": 0.6308
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-c8a8632de4cc",
+     "similarity": 0.6299
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_15#0f6bdd",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_15#3205c7",
+     "similarity": 0.8915
+    },
+    {
+     "finding_id": "CKV_K8S_15#d3bde0",
+     "similarity": 0.8526
+    },
+    {
+     "finding_id": "CKV_K8S_15#3bfc0d",
+     "similarity": 0.8498
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-ee3062b33490",
+     "similarity": 0.8303
+    },
+    {
+     "finding_id": "CKV_K8S_43#7f080b",
+     "similarity": 0.7927
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_8#67f99c",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_8#22bc44",
+     "similarity": 0.9686
+    },
+    {
+     "finding_id": "SOC-FILERULE-81dd947acfd5",
+     "similarity": 0.7704
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-faddad731e67",
+     "similarity": 0.733
+    },
+    {
+     "finding_id": "CKV_K8S_15#0f6bdd",
+     "similarity": 0.6271
+    },
+    {
+     "finding_id": "CKV_K8S_8",
+     "similarity": 0.6255
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV2_K8S_6#4460e6",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV2_K8S_6#c49326",
+     "similarity": 0.9753
+    },
+    {
+     "finding_id": "CKV2_K8S_6",
+     "similarity": 0.858
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-3f2c2a26a9e8",
+     "similarity": 0.7551
+    },
+    {
+     "finding_id": "CIS-5.2.12",
+     "similarity": 0.6344
+    },
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.6278
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_SECRET_6",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_SECRET_6#f5f70d",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.3011
+    },
+    {
+     "finding_id": "CVE-2024-38286",
+     "similarity": 0.2897
+    },
+    {
+     "finding_id": "CVE-2026-34487",
+     "similarity": 0.2827
+    },
+    {
+     "finding_id": "CVE-2026-34483",
+     "similarity": 0.2811
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-g76j-4cxx-23h9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-w6f2-8wx4-47r5",
+     "similarity": 0.8203
+    },
+    {
+     "finding_id": "GHSA-m6vm-37g8-gqvh",
+     "similarity": 0.7184
+    },
+    {
+     "finding_id": "CVE-2023-22102",
+     "similarity": 0.5751
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-a302c31efaac",
+     "similarity": 0.369
+    },
+    {
+     "finding_id": "CVE-2026-0603",
+     "similarity": 0.3506
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-9cmq-m9j5-mvww",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-564r-hj7v-mcr5",
+     "similarity": 0.9073
+    },
+    {
+     "finding_id": "GHSA-hh26-6xwr-ggv7",
+     "similarity": 0.8876
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.7937
+    },
+    {
+     "finding_id": "CVE-2023-20883",
+     "similarity": 0.6965
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-fpj8-gq4v-p354",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-66614",
+     "similarity": 0.7922
+    },
+    {
+     "finding_id": "CVE-2026-29145",
+     "similarity": 0.6986
+    },
+    {
+     "finding_id": "GHSA-qq5r-98hh-rxc9",
+     "similarity": 0.6902
+    },
+    {
+     "finding_id": "CVE-2026-34500",
+     "similarity": 0.69
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.682
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-g8pj-r55q-5c2v",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-gqp3-2cvr-x8m3",
+     "similarity": 0.8062
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.7703
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.7703
+    },
+    {
+     "finding_id": "GHSA-hgrr-935x-pq79",
+     "similarity": 0.7589
+    },
+    {
+     "finding_id": "GHSA-q3mw-pvr8-9ggc",
+     "similarity": 0.7544
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-c4r9-r8fh-9vj2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hhhw-99gj-p3c3",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-98wm-3w3q-mw94",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-9w3m-gqgf-c4p9",
+     "similarity": 0.9929
+    },
+    {
+     "finding_id": "GHSA-w37g-rhq8-7m4j",
+     "similarity": 0.8226
+    },
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.6508
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-564r-hj7v-mcr5",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.9073
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.9073
+    },
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.845
+    },
+    {
+     "finding_id": "GHSA-hh26-6xwr-ggv7",
+     "similarity": 0.7935
+    },
+    {
+     "finding_id": "GHSA-jjfh-589g-3hjx",
+     "similarity": 0.6385
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-wc4r-xq3c-5cf3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-qq5r-98hh-rxc9",
+     "similarity": 0.8753
+    },
+    {
+     "finding_id": "GHSA-h2fw-rfh5-95r3",
+     "similarity": 0.8595
+    },
+    {
+     "finding_id": "GHSA-vfww-5hm6-hx2j",
+     "similarity": 0.6872
+    },
+    {
+     "finding_id": "GHSA-hgrr-935x-pq79",
+     "similarity": 0.6867
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.6865
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-jjfh-589g-3hjx",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-xf96-w227-r7c4",
+     "similarity": 0.6986
+    },
+    {
+     "finding_id": "GHSA-mgvc-8q2h-5pgc",
+     "similarity": 0.6865
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.6784
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.6784
+    },
+    {
+     "finding_id": "GHSA-hh26-6xwr-ggv7",
+     "similarity": 0.6648
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-98wm-3w3q-mw94",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hhhw-99gj-p3c3",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-c4r9-r8fh-9vj2",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-9w3m-gqgf-c4p9",
+     "similarity": 0.9929
+    },
+    {
+     "finding_id": "GHSA-w37g-rhq8-7m4j",
+     "similarity": 0.8226
+    },
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.6508
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-9w3m-gqgf-c4p9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-hhhw-99gj-p3c3",
+     "similarity": 0.9929
+    },
+    {
+     "finding_id": "GHSA-98wm-3w3q-mw94",
+     "similarity": 0.9929
+    },
+    {
+     "finding_id": "GHSA-c4r9-r8fh-9vj2",
+     "similarity": 0.9929
+    },
+    {
+     "finding_id": "GHSA-w37g-rhq8-7m4j",
+     "similarity": 0.8297
+    },
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.6501
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-42wg-hm62-jcwg",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-49124",
+     "similarity": 0.8314
+    },
+    {
+     "finding_id": "GHSA-9m3c-qcxr-9x87",
+     "similarity": 0.6883
+    },
+    {
+     "finding_id": "GHSA-wmwf-9ccg-fff5",
+     "similarity": 0.6655
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.664
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.664
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-hhhw-99gj-p3c3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-98wm-3w3q-mw94",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-c4r9-r8fh-9vj2",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-9w3m-gqgf-c4p9",
+     "similarity": 0.9929
+    },
+    {
+     "finding_id": "GHSA-w37g-rhq8-7m4j",
+     "similarity": 0.8226
+    },
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.6508
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-rfmp-97jj-h8m6",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-6gf2-pvqw-37ph",
+     "similarity": 0.6671
+    },
+    {
+     "finding_id": "GHSA-jmp9-x22r-554x",
+     "similarity": 0.4923
+    },
+    {
+     "finding_id": "GHSA-g5mm-vmx4-3rg7",
+     "similarity": 0.4876
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.4853
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.4853
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-6gf2-pvqw-37ph",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-rfmp-97jj-h8m6",
+     "similarity": 0.6671
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.5862
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.5661
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.5661
+    },
+    {
+     "finding_id": "GHSA-jmp9-x22r-554x",
+     "similarity": 0.5466
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-2rmj-mq67-h97g",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-20863",
+     "similarity": 0.6414
+    },
+    {
+     "finding_id": "GHSA-9cmq-m9j5-mvww",
+     "similarity": 0.6372
+    },
+    {
+     "finding_id": "GHSA-wxqc-pxw9-g2p8",
+     "similarity": 0.6372
+    },
+    {
+     "finding_id": "GHSA-w3c8-7r8f-9jp8",
+     "similarity": 0.6347
+    },
+    {
+     "finding_id": "CVE-2022-22970",
+     "similarity": 0.5866
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-pr98-23f8-jwxv",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-25qh-j22f-pwp8",
+     "similarity": 0.83
+    },
+    {
+     "finding_id": "GHSA-6v67-2wr5-gvf4",
+     "similarity": 0.7964
+    },
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m#953bc1",
+     "similarity": 0.673
+    },
+    {
+     "finding_id": "CVE-2023-6481",
+     "similarity": 0.6393
+    },
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m",
+     "similarity": 0.6013
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-w37g-rhq8-7m4j",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-9w3m-gqgf-c4p9",
+     "similarity": 0.8297
+    },
+    {
+     "finding_id": "GHSA-hhhw-99gj-p3c3",
+     "similarity": 0.8226
+    },
+    {
+     "finding_id": "GHSA-98wm-3w3q-mw94",
+     "similarity": 0.8226
+    },
+    {
+     "finding_id": "GHSA-c4r9-r8fh-9vj2",
+     "similarity": 0.8226
+    },
+    {
+     "finding_id": "CVE-2022-38749",
+     "similarity": 0.6539
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-4773-3jfm-qmx3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.6285
+    },
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.6283
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.5906
+    },
+    {
+     "finding_id": "CVE-2026-22737",
+     "similarity": 0.5889
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.5882
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-wf8f-6423-gfxg",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2025-52999",
+     "similarity": 0.6749
+    },
+    {
+     "finding_id": "GHSA-72hv-8253-57qq",
+     "similarity": 0.6517
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.6458
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.6085
+    },
+    {
+     "finding_id": "GHSA-h46c-h94j-95f3",
+     "similarity": 0.6072
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-r936-gwx5-v52f",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.9427
+    },
+    {
+     "finding_id": "GHSA-cx7f-g6mp-7hqm",
+     "similarity": 0.8659
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.813
+    },
+    {
+     "finding_id": "CVE-2024-38819",
+     "similarity": 0.809
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.7331
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-w3c8-7r8f-9jp8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.7382
+    },
+    {
+     "finding_id": "CVE-2023-20883",
+     "similarity": 0.7341
+    },
+    {
+     "finding_id": "GHSA-r936-gwx5-v52f",
+     "similarity": 0.7283
+    },
+    {
+     "finding_id": "CVE-2023-20860",
+     "similarity": 0.6858
+    },
+    {
+     "finding_id": "GHSA-g5vr-rgqm-vf78",
+     "similarity": 0.6656
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-25qh-j22f-pwp8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-pr98-23f8-jwxv",
+     "similarity": 0.83
+    },
+    {
+     "finding_id": "GHSA-6v67-2wr5-gvf4",
+     "similarity": 0.8156
+    },
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m#953bc1",
+     "similarity": 0.6732
+    },
+    {
+     "finding_id": "CVE-2023-6481",
+     "similarity": 0.6705
+    },
+    {
+     "finding_id": "GHSA-qqpg-mvqg-649v",
+     "similarity": 0.5923
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-9m3c-qcxr-9x87",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-q3mw-pvr8-9ggc",
+     "similarity": 0.9652
+    },
+    {
+     "finding_id": "GHSA-g8pj-r55q-5c2v",
+     "similarity": 0.7536
+    },
+    {
+     "finding_id": "GHSA-gqp3-2cvr-x8m3",
+     "similarity": 0.7463
+    },
+    {
+     "finding_id": "GHSA-wmwf-9ccg-fff5",
+     "similarity": 0.7409
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.7386
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-72hv-8253-57qq",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-PKGVERSION-80fa85760989",
+     "similarity": 0.7525
+    },
+    {
+     "finding_id": "GHSA-wf8f-6423-gfxg",
+     "similarity": 0.6517
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.6339
+    },
+    {
+     "finding_id": "CVE-2021-46877",
+     "similarity": 0.6335
+    },
+    {
+     "finding_id": "GHSA-h46c-h94j-95f3",
+     "similarity": 0.6248
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_22",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.817
+    },
+    {
+     "finding_id": "CKV_K8S_29",
+     "similarity": 0.734
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.7327
+    },
+    {
+     "finding_id": "CKV_K8S_20",
+     "similarity": 0.7272
+    },
+    {
+     "finding_id": "CKV_K8S_22#b6c936",
+     "similarity": 0.719
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_23",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_37",
+     "similarity": 0.8874
+    },
+    {
+     "finding_id": "CKV_K8S_28",
+     "similarity": 0.8529
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.7202
+    },
+    {
+     "finding_id": "CKV_K8S_22",
+     "similarity": 0.7185
+    },
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.6943
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_28",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_37",
+     "similarity": 0.8986
+    },
+    {
+     "finding_id": "CKV_K8S_23",
+     "similarity": 0.8529
+    },
+    {
+     "finding_id": "CIS-5.2.8",
+     "similarity": 0.7029
+    },
+    {
+     "finding_id": "CKV2_K8S_6",
+     "similarity": 0.7012
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.6806
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_12",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_13",
+     "similarity": 0.9651
+    },
+    {
+     "finding_id": "CKV_K8S_10",
+     "similarity": 0.8552
+    },
+    {
+     "finding_id": "CKV_K8S_11",
+     "similarity": 0.8482
+    },
+    {
+     "finding_id": "CKV_K8S_9",
+     "similarity": 0.7993
+    },
+    {
+     "finding_id": "CKV_K8S_43",
+     "similarity": 0.7322
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_10",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_11",
+     "similarity": 0.9555
+    },
+    {
+     "finding_id": "CKV_K8S_12",
+     "similarity": 0.8552
+    },
+    {
+     "finding_id": "CKV_K8S_13",
+     "similarity": 0.8498
+    },
+    {
+     "finding_id": "CKV_K8S_9",
+     "similarity": 0.7811
+    },
+    {
+     "finding_id": "CKV_K8S_8",
+     "similarity": 0.7565
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_30",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_29",
+     "similarity": 0.9207
+    },
+    {
+     "finding_id": "CKV_K8S_22",
+     "similarity": 0.817
+    },
+    {
+     "finding_id": "CKV_K8S_20",
+     "similarity": 0.8095
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.7364
+    },
+    {
+     "finding_id": "CKV_K8S_37",
+     "similarity": 0.7013
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_35#a14e16",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_35#594235",
+     "similarity": 0.9874
+    },
+    {
+     "finding_id": "CKV_K8S_35",
+     "similarity": 0.9722
+    },
+    {
+     "finding_id": "CKV_K8S_35#c1cf3d",
+     "similarity": 0.9056
+    },
+    {
+     "finding_id": "CIS-5.4.1",
+     "similarity": 0.7946
+    },
+    {
+     "finding_id": "CKV_K8S_21#96e0ac",
+     "similarity": 0.5919
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_15#3bfc0d",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_15#d3bde0",
+     "similarity": 0.985
+    },
+    {
+     "finding_id": "CKV_K8S_15#3205c7",
+     "similarity": 0.9563
+    },
+    {
+     "finding_id": "CKV_K8S_15#0f6bdd",
+     "similarity": 0.8498
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-6b0c5c065e72",
+     "similarity": 0.7649
+    },
+    {
+     "finding_id": "CKV_K8S_43#a1dbe9",
+     "similarity": 0.7331
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_SECRET_6#f5f70d",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_SECRET_6",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "SOC-PKGVERSION-8d299e19021a",
+     "similarity": 0.3011
+    },
+    {
+     "finding_id": "CVE-2024-38286",
+     "similarity": 0.2897
+    },
+    {
+     "finding_id": "CVE-2026-34487",
+     "similarity": 0.2827
+    },
+    {
+     "finding_id": "CVE-2026-34483",
+     "similarity": 0.2811
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_43#a1dbe9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_43#2881ff",
+     "similarity": 0.9789
+    },
+    {
+     "finding_id": "CKV_K8S_43#d86545",
+     "similarity": 0.9464
+    },
+    {
+     "finding_id": "CKV_K8S_43#7f080b",
+     "similarity": 0.8232
+    },
+    {
+     "finding_id": "CKV_K8S_15#3bfc0d",
+     "similarity": 0.7331
+    },
+    {
+     "finding_id": "CKV_K8S_15#d3bde0",
+     "similarity": 0.7215
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.9021
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.8889
+    },
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.8823
+    },
+    {
+     "finding_id": "CIS-5.2.9",
+     "similarity": 0.8688
+    },
+    {
+     "finding_id": "CIS-5.2.10",
+     "similarity": 0.8508
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.8869
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.88
+    },
+    {
+     "finding_id": "CIS-5.2.10",
+     "similarity": 0.8762
+    },
+    {
+     "finding_id": "CIS-5.2.8",
+     "similarity": 0.8688
+    },
+    {
+     "finding_id": "CIS-5.2.13",
+     "similarity": 0.8132
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.10",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.8785
+    },
+    {
+     "finding_id": "CIS-5.2.9",
+     "similarity": 0.8762
+    },
+    {
+     "finding_id": "CIS-5.2.8",
+     "similarity": 0.8508
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.8396
+    },
+    {
+     "finding_id": "CIS-5.2.3",
+     "similarity": 0.8225
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.11",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.3",
+     "similarity": 0.8406
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.8351
+    },
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.83
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.8116
+    },
+    {
+     "finding_id": "CIS-5.2.13",
+     "similarity": 0.8058
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.1.4",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.7236
+    },
+    {
+     "finding_id": "CIS-5.2.9",
+     "similarity": 0.7044
+    },
+    {
+     "finding_id": "CIS-5.1.6",
+     "similarity": 0.6954
+    },
+    {
+     "finding_id": "CIS-5.2.1",
+     "similarity": 0.6856
+    },
+    {
+     "finding_id": "CIS-5.2.10",
+     "similarity": 0.6778
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.1.5",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.1.6",
+     "similarity": 0.7565
+    },
+    {
+     "finding_id": "CIS-5.1.1",
+     "similarity": 0.6928
+    },
+    {
+     "finding_id": "CIS-4.1.1",
+     "similarity": 0.6482
+    },
+    {
+     "finding_id": "CIS-4.1.2",
+     "similarity": 0.6376
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.5873
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.1.6",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.1.5",
+     "similarity": 0.7565
+    },
+    {
+     "finding_id": "CIS-5.1.4",
+     "similarity": 0.6954
+    },
+    {
+     "finding_id": "CKV_K8S_38#cedf6b",
+     "similarity": 0.6422
+    },
+    {
+     "finding_id": "CKV_K8S_38",
+     "similarity": 0.6278
+    },
+    {
+     "finding_id": "CKV_K8S_38#cddede",
+     "similarity": 0.6204
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.1.7",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.1.1",
+     "similarity": 0.6536
+    },
+    {
+     "finding_id": "CIS-5.1.2",
+     "similarity": 0.6171
+    },
+    {
+     "finding_id": "CIS-5.1.4",
+     "similarity": 0.6122
+    },
+    {
+     "finding_id": "CIS-5.1.3",
+     "similarity": 0.608
+    },
+    {
+     "finding_id": "CIS-5.1.6",
+     "similarity": 0.531
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.1.8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.1.1",
+     "similarity": 0.6377
+    },
+    {
+     "finding_id": "CIS-5.2.1",
+     "similarity": 0.5674
+    },
+    {
+     "finding_id": "CIS-5.1.4",
+     "similarity": 0.5528
+    },
+    {
+     "finding_id": "CIS-5.1.5",
+     "similarity": 0.5466
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.5437
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.768
+    },
+    {
+     "finding_id": "CIS-5.2.7",
+     "similarity": 0.7568
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.7257
+    },
+    {
+     "finding_id": "CIS-5.2.9",
+     "similarity": 0.7123
+    },
+    {
+     "finding_id": "CIS-5.2.12",
+     "similarity": 0.7078
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_43",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_15",
+     "similarity": 0.8122
+    },
+    {
+     "finding_id": "CKV_K8S_9",
+     "similarity": 0.7381
+    },
+    {
+     "finding_id": "CKV_K8S_12",
+     "similarity": 0.7322
+    },
+    {
+     "finding_id": "CKV_K8S_13",
+     "similarity": 0.7294
+    },
+    {
+     "finding_id": "CKV_K8S_8",
+     "similarity": 0.7214
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_31",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.7.2",
+     "similarity": 0.7412
+    },
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.6806
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b425c768d85a",
+     "similarity": 0.6329
+    },
+    {
+     "finding_id": "CKV_K8S_20",
+     "similarity": 0.6293
+    },
+    {
+     "finding_id": "CKV_K8S_9",
+     "similarity": 0.6235
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_38",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_38#cedf6b",
+     "similarity": 0.6881
+    },
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.6678
+    },
+    {
+     "finding_id": "CKV_K8S_12",
+     "similarity": 0.6656
+    },
+    {
+     "finding_id": "CKV_K8S_10",
+     "similarity": 0.6567
+    },
+    {
+     "finding_id": "CKV_K8S_13",
+     "similarity": 0.653
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_29",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.9207
+    },
+    {
+     "finding_id": "CKV_K8S_20",
+     "similarity": 0.7356
+    },
+    {
+     "finding_id": "CKV_K8S_22",
+     "similarity": 0.734
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.7019
+    },
+    {
+     "finding_id": "CIS-5.7.3",
+     "similarity": 0.6912
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_40",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_40#040589",
+     "similarity": 0.7793
+    },
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.7364
+    },
+    {
+     "finding_id": "CKV_K8S_22",
+     "similarity": 0.7327
+    },
+    {
+     "finding_id": "CKV_K8S_20",
+     "similarity": 0.7287
+    },
+    {
+     "finding_id": "CKV_K8S_40#18b073",
+     "similarity": 0.7283
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_20",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.8095
+    },
+    {
+     "finding_id": "CKV_K8S_29",
+     "similarity": 0.7356
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.7287
+    },
+    {
+     "finding_id": "CKV_K8S_22",
+     "similarity": 0.7272
+    },
+    {
+     "finding_id": "CKV_K8S_37",
+     "similarity": 0.6721
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_13",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_12",
+     "similarity": 0.9651
+    },
+    {
+     "finding_id": "CKV_K8S_11",
+     "similarity": 0.9059
+    },
+    {
+     "finding_id": "CKV_K8S_10",
+     "similarity": 0.8498
+    },
+    {
+     "finding_id": "CKV_K8S_9",
+     "similarity": 0.801
+    },
+    {
+     "finding_id": "CKV_K8S_43",
+     "similarity": 0.7294
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_21#df79a2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_21#45833b",
+     "similarity": 0.9387
+    },
+    {
+     "finding_id": "CKV_K8S_21#b3cc4f",
+     "similarity": 0.9192
+    },
+    {
+     "finding_id": "CKV_K8S_21",
+     "similarity": 0.8336
+    },
+    {
+     "finding_id": "CKV_K8S_21#84d3db",
+     "similarity": 0.7846
+    },
+    {
+     "finding_id": "CKV_K8S_21#96e0ac",
+     "similarity": 0.7672
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_12#54f4e2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_12#32123b",
+     "similarity": 0.953
+    },
+    {
+     "finding_id": "CKV_K8S_13#bdba74",
+     "similarity": 0.9432
+    },
+    {
+     "finding_id": "CKV_K8S_13#2abfd7",
+     "similarity": 0.8947
+    },
+    {
+     "finding_id": "CKV_K8S_10#ccf43f",
+     "similarity": 0.7448
+    },
+    {
+     "finding_id": "CKV_K8S_11#dadfff",
+     "similarity": 0.7249
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_37",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_28",
+     "similarity": 0.8986
+    },
+    {
+     "finding_id": "CKV_K8S_23",
+     "similarity": 0.8874
+    },
+    {
+     "finding_id": "CKV_K8S_40",
+     "similarity": 0.7082
+    },
+    {
+     "finding_id": "CKV2_K8S_6",
+     "similarity": 0.7073
+    },
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.7013
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_15",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_43",
+     "similarity": 0.8122
+    },
+    {
+     "finding_id": "CKV_K8S_15#3205c7",
+     "similarity": 0.7173
+    },
+    {
+     "finding_id": "CKV_K8S_9",
+     "similarity": 0.7021
+    },
+    {
+     "finding_id": "CKV_K8S_13",
+     "similarity": 0.6948
+    },
+    {
+     "finding_id": "CKV_K8S_12",
+     "similarity": 0.6937
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_11",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_10",
+     "similarity": 0.9555
+    },
+    {
+     "finding_id": "CKV_K8S_13",
+     "similarity": 0.9059
+    },
+    {
+     "finding_id": "CKV_K8S_12",
+     "similarity": 0.8482
+    },
+    {
+     "finding_id": "CKV_K8S_9",
+     "similarity": 0.7665
+    },
+    {
+     "finding_id": "CKV_K8S_8",
+     "similarity": 0.7414
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_8",
+     "similarity": 0.8598
+    },
+    {
+     "finding_id": "CKV_K8S_13",
+     "similarity": 0.801
+    },
+    {
+     "finding_id": "CKV_K8S_12",
+     "similarity": 0.7993
+    },
+    {
+     "finding_id": "CKV_K8S_10",
+     "similarity": 0.7811
+    },
+    {
+     "finding_id": "CKV_K8S_11",
+     "similarity": 0.7665
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_9",
+     "similarity": 0.8598
+    },
+    {
+     "finding_id": "CKV_K8S_10",
+     "similarity": 0.7565
+    },
+    {
+     "finding_id": "CKV_K8S_11",
+     "similarity": 0.7414
+    },
+    {
+     "finding_id": "CKV_K8S_13",
+     "similarity": 0.7294
+    },
+    {
+     "finding_id": "CKV_K8S_12",
+     "similarity": 0.7277
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_22#3060c9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_22#b6c936",
+     "similarity": 0.9569
+    },
+    {
+     "finding_id": "CKV_K8S_22#dc9907",
+     "similarity": 0.8345
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-503f8c0530c4",
+     "similarity": 0.6865
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-91f698a8bb3d",
+     "similarity": 0.6648
+    },
+    {
+     "finding_id": "CKV_K8S_22",
+     "similarity": 0.6278
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_43#2881ff",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_43#a1dbe9",
+     "similarity": 0.9789
+    },
+    {
+     "finding_id": "CKV_K8S_43#d86545",
+     "similarity": 0.9686
+    },
+    {
+     "finding_id": "CKV_K8S_43#7f080b",
+     "similarity": 0.8443
+    },
+    {
+     "finding_id": "CKV_K8S_15#d3bde0",
+     "similarity": 0.7346
+    },
+    {
+     "finding_id": "CKV_K8S_15#3bfc0d",
+     "similarity": 0.7169
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.4",
+     "similarity": 0.772
+    },
+    {
+     "finding_id": "CIS-4.2.6",
+     "similarity": 0.7701
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.735
+    },
+    {
+     "finding_id": "CIS-4.2.1",
+     "similarity": 0.7306
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.6752
+    }
+   ]
+  },
+  {
+   "finding_id": "CKV_K8S_10#ccf43f",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_10#7736e5",
+     "similarity": 0.9515
+    },
+    {
+     "finding_id": "CKV_K8S_11#dadfff",
+     "similarity": 0.9179
+    },
+    {
+     "finding_id": "CKV_K8S_11#963f6e",
+     "similarity": 0.8609
+    },
+    {
+     "finding_id": "CKV_K8S_12#54f4e2",
+     "similarity": 0.7448
+    },
+    {
+     "finding_id": "CKV_K8S_13#bdba74",
+     "similarity": 0.7209
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.1.3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.1.7",
+     "similarity": 0.608
+    },
+    {
+     "finding_id": "CIS-5.1.2",
+     "similarity": 0.5543
+    },
+    {
+     "finding_id": "CIS-5.1.4",
+     "similarity": 0.5087
+    },
+    {
+     "finding_id": "CIS-5.1.1",
+     "similarity": 0.4613
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.4588
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.1.2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.1.4",
+     "similarity": 0.6663
+    },
+    {
+     "finding_id": "CIS-5.1.7",
+     "similarity": 0.6171
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.5947
+    },
+    {
+     "finding_id": "CIS-5.4.2",
+     "similarity": 0.5661
+    },
+    {
+     "finding_id": "CIS-5.1.3",
+     "similarity": 0.5543
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.1.1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.1.5",
+     "similarity": 0.6928
+    },
+    {
+     "finding_id": "CIS-5.1.7",
+     "similarity": 0.6536
+    },
+    {
+     "finding_id": "CIS-5.1.8",
+     "similarity": 0.6377
+    },
+    {
+     "finding_id": "CIS-5.1.4",
+     "similarity": 0.6352
+    },
+    {
+     "finding_id": "CIS-4.1.1",
+     "similarity": 0.6172
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.13",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.775
+    },
+    {
+     "finding_id": "CIS-4.2.3",
+     "similarity": 0.6691
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.6438
+    },
+    {
+     "finding_id": "CIS-4.1.9",
+     "similarity": 0.6171
+    },
+    {
+     "finding_id": "CIS-4.2.6",
+     "similarity": 0.6128
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.4.1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_35",
+     "similarity": 0.8115
+    },
+    {
+     "finding_id": "CKV_K8S_35#a14e16",
+     "similarity": 0.7946
+    },
+    {
+     "finding_id": "CKV_K8S_35#594235",
+     "similarity": 0.7805
+    },
+    {
+     "finding_id": "CKV_K8S_35#c1cf3d",
+     "similarity": 0.7725
+    },
+    {
+     "finding_id": "CIS-5.4.2",
+     "similarity": 0.5571
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.4.2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.1.2",
+     "similarity": 0.5661
+    },
+    {
+     "finding_id": "CIS-5.4.1",
+     "similarity": 0.5571
+    },
+    {
+     "finding_id": "CKV_K8S_35#a14e16",
+     "similarity": 0.4781
+    },
+    {
+     "finding_id": "CKV_K8S_35",
+     "similarity": 0.4669
+    },
+    {
+     "finding_id": "CKV_K8S_35#594235",
+     "similarity": 0.4653
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.5.1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.4513
+    },
+    {
+     "finding_id": "CIS-5.3.1",
+     "similarity": 0.4457
+    },
+    {
+     "finding_id": "CIS-4.2.3",
+     "similarity": 0.4374
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.4285
+    },
+    {
+     "finding_id": "CIS-5.7.3",
+     "similarity": 0.4281
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.7.1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.7.4",
+     "similarity": 0.5379
+    },
+    {
+     "finding_id": "CKV_K8S_21",
+     "similarity": 0.4835
+    },
+    {
+     "finding_id": "CKV_K8S_21#b3cc4f",
+     "similarity": 0.4438
+    },
+    {
+     "finding_id": "CKV_K8S_22#b6c936",
+     "similarity": 0.439
+    },
+    {
+     "finding_id": "CIS-5.2.12",
+     "similarity": 0.4343
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.12",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.13",
+     "similarity": 0.8735
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.8701
+    },
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.8584
+    },
+    {
+     "finding_id": "CIS-5.2.3",
+     "similarity": 0.8417
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.8388
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.13",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.8798
+    },
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.8783
+    },
+    {
+     "finding_id": "CIS-5.2.12",
+     "similarity": 0.8735
+    },
+    {
+     "finding_id": "CIS-5.2.3",
+     "similarity": 0.8679
+    },
+    {
+     "finding_id": "CIS-5.2.4",
+     "similarity": 0.8537
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.3.1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV2_K8S_6#c49326",
+     "similarity": 0.5977
+    },
+    {
+     "finding_id": "CKV2_K8S_6#4460e6",
+     "similarity": 0.5771
+    },
+    {
+     "finding_id": "CKV2_K8S_6",
+     "similarity": 0.5431
+    },
+    {
+     "finding_id": "CIS-4.1.1",
+     "similarity": 0.5421
+    },
+    {
+     "finding_id": "CIS-5.3.2",
+     "similarity": 0.5417
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.3.2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.7.4",
+     "similarity": 0.5605
+    },
+    {
+     "finding_id": "CIS-5.3.1",
+     "similarity": 0.5417
+    },
+    {
+     "finding_id": "CKV2_K8S_6",
+     "similarity": 0.4354
+    },
+    {
+     "finding_id": "CKV_K8S_21#45833b",
+     "similarity": 0.4346
+    },
+    {
+     "finding_id": "CKV_K8S_21#b3cc4f",
+     "similarity": 0.4331
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.7.2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-IMAGEPKG-b425c768d85a",
+     "similarity": 0.7953
+    },
+    {
+     "finding_id": "SOC-IMAGEPKG-b6ebcb42f8e3",
+     "similarity": 0.7551
+    },
+    {
+     "finding_id": "CKV_K8S_31",
+     "similarity": 0.7412
+    },
+    {
+     "finding_id": "CIS-5.7.3",
+     "similarity": 0.6648
+    },
+    {
+     "finding_id": "CKV_K8S_29",
+     "similarity": 0.5873
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-URLVULN-fb30f84e1b05",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-URLVULN-ff825b7d7c54",
+     "similarity": 0.724
+    },
+    {
+     "finding_id": "SOC-URLVULN-54a6dfe53a49",
+     "similarity": 0.4326
+    },
+    {
+     "finding_id": "SOC-URLVULN-467249459688",
+     "similarity": 0.3514
+    },
+    {
+     "finding_id": "CVE-2022-42252",
+     "similarity": 0.3241
+    },
+    {
+     "finding_id": "GHSA-p22x-g9px-3945",
+     "similarity": 0.3173
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.9192
+    },
+    {
+     "finding_id": "CIS-5.2.8",
+     "similarity": 0.9021
+    },
+    {
+     "finding_id": "CIS-5.2.9",
+     "similarity": 0.88
+    },
+    {
+     "finding_id": "CIS-5.2.13",
+     "similarity": 0.8798
+    },
+    {
+     "finding_id": "CIS-5.2.10",
+     "similarity": 0.8785
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.9047
+    },
+    {
+     "finding_id": "CIS-5.2.4",
+     "similarity": 0.8883
+    },
+    {
+     "finding_id": "CIS-5.2.13",
+     "similarity": 0.8679
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.8613
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.849
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.4",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.9287
+    },
+    {
+     "finding_id": "CIS-5.2.3",
+     "similarity": 0.8883
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.8678
+    },
+    {
+     "finding_id": "CIS-5.2.13",
+     "similarity": 0.8537
+    },
+    {
+     "finding_id": "CIS-5.2.8",
+     "similarity": 0.8366
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.5",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.4",
+     "similarity": 0.9287
+    },
+    {
+     "finding_id": "CIS-5.2.3",
+     "similarity": 0.9047
+    },
+    {
+     "finding_id": "CIS-5.2.8",
+     "similarity": 0.8823
+    },
+    {
+     "finding_id": "CIS-5.2.13",
+     "similarity": 0.8783
+    },
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.8732
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.6",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.9192
+    },
+    {
+     "finding_id": "CIS-5.2.8",
+     "similarity": 0.8889
+    },
+    {
+     "finding_id": "CIS-5.2.9",
+     "similarity": 0.8869
+    },
+    {
+     "finding_id": "CIS-5.2.5",
+     "similarity": 0.858
+    },
+    {
+     "finding_id": "CIS-5.2.13",
+     "similarity": 0.8497
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-5.2.7",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-5.2.2",
+     "similarity": 0.8586
+    },
+    {
+     "finding_id": "CIS-5.2.12",
+     "similarity": 0.8372
+    },
+    {
+     "finding_id": "CIS-5.2.6",
+     "similarity": 0.8308
+    },
+    {
+     "finding_id": "CIS-5.2.9",
+     "similarity": 0.8087
+    },
+    {
+     "finding_id": "CIS-5.2.10",
+     "similarity": 0.7971
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.1.1",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.1.2",
+     "similarity": 0.9794
+    },
+    {
+     "finding_id": "CIS-4.1.9",
+     "similarity": 0.8826
+    },
+    {
+     "finding_id": "CIS-4.1.10",
+     "similarity": 0.8393
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.6951
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.6747
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-qqpg-mvqg-649v",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m#953bc1",
+     "similarity": 0.6074
+    },
+    {
+     "finding_id": "GHSA-25qh-j22f-pwp8",
+     "similarity": 0.5923
+    },
+    {
+     "finding_id": "GHSA-668q-qrv7-99fm",
+     "similarity": 0.5596
+    },
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m",
+     "similarity": 0.5499
+    },
+    {
+     "finding_id": "GHSA-pr98-23f8-jwxv",
+     "similarity": 0.5156
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-4wp7-92pw-q264",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-4gc7-5j7h-4qph",
+     "similarity": 1.0
+    },
+    {
+     "finding_id": "GHSA-4gc7-5j7h-4qph#796a61",
+     "similarity": 0.979
+    },
+    {
+     "finding_id": "CVE-2022-22968",
+     "similarity": 0.7548
+    },
+    {
+     "finding_id": "GHSA-g5mm-vmx4-3rg7",
+     "similarity": 0.7432
+    },
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.5605
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-6v67-2wr5-gvf4",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-25qh-j22f-pwp8",
+     "similarity": 0.8156
+    },
+    {
+     "finding_id": "GHSA-pr98-23f8-jwxv",
+     "similarity": 0.7964
+    },
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m#953bc1",
+     "similarity": 0.6757
+    },
+    {
+     "finding_id": "CVE-2023-6481",
+     "similarity": 0.6407
+    },
+    {
+     "finding_id": "GHSA-vmq6-5m68-f53m",
+     "similarity": 0.606
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-6hcq-hmm3-jj3c",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-7phw-cxx7-q9vq",
+     "similarity": 0.5477
+    },
+    {
+     "finding_id": "GHSA-ccgv-vj62-xf9h",
+     "similarity": 0.5369
+    },
+    {
+     "finding_id": "GHSA-w3c8-7r8f-9jp8",
+     "similarity": 0.5251
+    },
+    {
+     "finding_id": "CVE-2024-38816",
+     "similarity": 0.5155
+    },
+    {
+     "finding_id": "CVE-2023-20883",
+     "similarity": 0.5083
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-qq5r-98hh-rxc9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-h2fw-rfh5-95r3",
+     "similarity": 0.9012
+    },
+    {
+     "finding_id": "GHSA-wc4r-xq3c-5cf3",
+     "similarity": 0.8753
+    },
+    {
+     "finding_id": "CVE-2022-42252",
+     "similarity": 0.7539
+    },
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7357
+    },
+    {
+     "finding_id": "CVE-2026-29145",
+     "similarity": 0.731
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-hgrr-935x-pq79",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-gqp3-2cvr-x8m3",
+     "similarity": 0.9649
+    },
+    {
+     "finding_id": "CVE-2025-48989",
+     "similarity": 0.8891
+    },
+    {
+     "finding_id": "CVE-2025-52434",
+     "similarity": 0.7721
+    },
+    {
+     "finding_id": "CVE-2025-48988",
+     "similarity": 0.7617
+    },
+    {
+     "finding_id": "GHSA-g8pj-r55q-5c2v",
+     "similarity": 0.7589
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-h2fw-rfh5-95r3",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "GHSA-qq5r-98hh-rxc9",
+     "similarity": 0.9012
+    },
+    {
+     "finding_id": "GHSA-wc4r-xq3c-5cf3",
+     "similarity": 0.8595
+    },
+    {
+     "finding_id": "GHSA-vfww-5hm6-hx2j",
+     "similarity": 0.7257
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.7217
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.7217
+    }
+   ]
+  },
+  {
+   "finding_id": "GHSA-vfww-5hm6-hx2j",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CVE-2023-46589",
+     "similarity": 0.7354
+    },
+    {
+     "finding_id": "GHSA-h2fw-rfh5-95r3",
+     "similarity": 0.7257
+    },
+    {
+     "finding_id": "GHSA-qq5r-98hh-rxc9",
+     "similarity": 0.7187
+    },
+    {
+     "finding_id": "GHSA-r6j3-px5g-cq3x",
+     "similarity": 0.7174
+    },
+    {
+     "finding_id": "GHSA-fccv-jmmp-qg76",
+     "similarity": 0.7174
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-IMAGEPKG-0199d01fd976",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CKV_K8S_30",
+     "similarity": 0.3292
+    },
+    {
+     "finding_id": "CIS-4.2.1",
+     "similarity": 0.32
+    },
+    {
+     "finding_id": "CIS-DI-0005",
+     "similarity": 0.3148
+    },
+    {
+     "finding_id": "CVE-2026-22733",
+     "similarity": 0.3067
+    },
+    {
+     "finding_id": "GHSA-mgvc-8q2h-5pgc",
+     "similarity": 0.3051
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.1.10",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.1.9",
+     "similarity": 0.9489
+    },
+    {
+     "finding_id": "CIS-4.1.2",
+     "similarity": 0.8788
+    },
+    {
+     "finding_id": "CIS-4.1.1",
+     "similarity": 0.8393
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.6478
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.6357
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.1.2",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.1.1",
+     "similarity": 0.9794
+    },
+    {
+     "finding_id": "CIS-4.1.10",
+     "similarity": 0.8788
+    },
+    {
+     "finding_id": "CIS-4.1.9",
+     "similarity": 0.8656
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.6954
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.6848
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.2.8",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.2.1",
+     "similarity": 0.6595
+    },
+    {
+     "finding_id": "CIS-4.1.2",
+     "similarity": 0.638
+    },
+    {
+     "finding_id": "CIS-4.2.6",
+     "similarity": 0.6325
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.6202
+    },
+    {
+     "finding_id": "CIS-4.1.1",
+     "similarity": 0.6133
+    }
+   ]
+  },
+  {
+   "finding_id": "CIS-4.1.9",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "CIS-4.1.10",
+     "similarity": 0.9489
+    },
+    {
+     "finding_id": "CIS-4.1.1",
+     "similarity": 0.8826
+    },
+    {
+     "finding_id": "CIS-4.1.2",
+     "similarity": 0.8656
+    },
+    {
+     "finding_id": "CIS-4.2.2",
+     "similarity": 0.6613
+    },
+    {
+     "finding_id": "CIS-4.2.10",
+     "similarity": 0.6344
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-URLVULN-467249459688",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-URLVULN-54a6dfe53a49",
+     "similarity": 0.8408
+    },
+    {
+     "finding_id": "SOC-URLVULN-ff825b7d7c54",
+     "similarity": 0.3958
+    },
+    {
+     "finding_id": "CVE-2023-20883",
+     "similarity": 0.3718
+    },
+    {
+     "finding_id": "CVE-2026-24880",
+     "similarity": 0.3713
+    },
+    {
+     "finding_id": "CVE-2022-42252",
+     "similarity": 0.3696
+    }
+   ]
+  },
+  {
+   "finding_id": "SOC-URLVULN-54a6dfe53a49",
+   "label": "hypothese de similarite — non confirmee (P5, consultatif)",
+   "neighbors": [
+    {
+     "finding_id": "SOC-URLVULN-467249459688",
+     "similarity": 0.8408
+    },
+    {
+     "finding_id": "SOC-URLVULN-ff825b7d7c54",
+     "similarity": 0.435
+    },
+    {
+     "finding_id": "SOC-URLVULN-fb30f84e1b05",
+     "similarity": 0.4326
+    },
+    {
+     "finding_id": "GHSA-83qj-6fr2-vhqg",
+     "similarity": 0.4164
+    },
+    {
+     "finding_id": "GHSA-ccgv-vj62-xf9h",
+     "similarity": 0.3604
+    }
+   ]
+  }
+ ]
+}

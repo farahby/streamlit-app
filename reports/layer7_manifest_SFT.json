@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "arm": "SFT",
+    "schema": "l7v2",
+    "model_name": "microsoft/Phi-3.5-mini-instruct",
+    "model_revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+    "adapter_sha256": "96b0a23c55fd7f56ffb3aaf3a7f9cab68e1f75e80f678c6bb62ccdf416ef4d97",
+    "adapter_tag": "NV132_Promoted_v1:SFT:96b0a23c55fd7f56",
+    "run_tag": "NV132_Run3",
+    "prompt_version": "v11"
+  },
+  "identity_hash": "facbed600e814cc8",
+  "population_path": "/kaggle/working/SOC-Audit-v7/normalized_alerts/scored_findings.csv",
+  "population_hash": "87887d6a481b86e3",
+  "n_findings": 282,
+  "origins": {
+    "cache_v2": 282,
+    "legacy": 0,
+    "llm": 0
+  },
+  "outputs": {
+    "agent_results": "/kaggle/working/SOC-Audit-v7/reports/agent_results_SFT.json",
+    "final_soc_report": "/kaggle/working/SOC-Audit-v7/reports/final_soc_report_SFT.json",
+    "manifest": "/kaggle/working/SOC-Audit-v7/reports/layer7_manifest_SFT.json"
+  },
+  "p1_validation": {
+    "n_checked_p1b": 282,
+    "n_checked_p1c": 282,
+    "n_findings_flagged": 118,
+    "n_flags_by_rule": {
+      "compliance_evidence_anchor:unanchored_evidence": 113,
+      "remediation_fix_consistency:version_mismatch": 8,
+      "compliance_evidence_control_whitelist:unsupported_claim": 3
+    },
+    "n_findings_downgraded": 118,
+    "n_findings_with_agent_fallback": 0
+  },
+  "effective": {
+    "rag_index_path": "/kaggle/working/SOC-Audit-v7/knowledge_graph/regulations.faiss",
+    "rag_index_sha256": "8293d501c74803b5afeec86211d2531093757107bb66ea65032f8660c0604dc8",
+    "rag_top_k": 3,
+    "faiss_similarity_min": 0.45,
+    "validation_rules_hash": "a73aafbe949ed1bb",
+    "validation_rules_parts": {
+      "_sanitize_controls": "f564f58bda48f164",
+      "_enrich_cross_framework": "0ada96f52f1d5d44",
+      "_l7_postprocess": "2065e3c111778de6",
+      "run_verifier": "46be20f8f8478b38",
+      "tag_output_evidence": "859336097629ed6e",
+      "verify_remediation_fix_consistency": "c0419c3f39bfec58",
+      "verify_compliance_evidence": "610144430bc79804",
+      "apply_verifier_downgrades": "868ead70502c4295"
+    },
+    "agent_prompts_hash": "7fd806eaacafb30a",
+    "generation_configs": [
+      "{\"chat_template\": true, \"do_sample\": true, \"max_new_tokens\": 180, \"repetition_penalty\": 1.1, \"temperature\": 0.2, \"top_p\": 0.9, \"truncation_max_length\": 1400}",
+      "{\"chat_template\": true, \"do_sample\": true, \"max_new_tokens\": 250, \"repetition_penalty\": 1.1, \"temperature\": 0.2, \"top_p\": 0.9, \"truncation_max_length\": 1400}",
+      "{\"chat_template\": true, \"do_sample\": true, \"max_new_tokens\": 260, \"repetition_penalty\": 1.1, \"temperature\": 0.2, \"top_p\": 0.9, \"truncation_max_length\": 1400}",
+      "{\"chat_template\": true, \"do_sample\": true, \"max_new_tokens\": 320, \"repetition_penalty\": 1.1, \"temperature\": 0.2, \"top_p\": 0.9, \"truncation_max_length\": 1400}"
+    ],
+    "n_findings_with_generation_trace": 282,
+    "n_findings_without_generation_trace": 0
+  },
+  "created_at": "2026-11-12T20:05:42.522212+00:00"
+}

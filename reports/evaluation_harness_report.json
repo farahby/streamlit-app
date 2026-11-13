@@ -1,0 +1,217 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-12T20:47:50.164661+00:00",
+    "experiment_id": "NV132_Run3",
+    "scored_findings_sha256": "0c5052363f2f11eb",
+    "label_snapshot_id": "labels-d2c32b2b986103e1",
+    "label_snapshot_hash": null,
+    "eval_ids_sha256": "b44107dda2fdd8fa",
+    "priority_anchors": {
+      "P1": 56.1,
+      "P2": 41.0,
+      "P3": 28.5,
+      "P4": 12.7
+    },
+    "n_boot": 2000,
+    "seed": 42,
+    "python": "3.13.16"
+  },
+  "risk_model_metrics": {
+    "label_source": "approved_snapshot",
+    "snapshot_id": "labels-d2c32b2b986103e1",
+    "score_column": "risk_score_oof",
+    "primary_metric": "macro_f1_model (P1-P4)",
+    "secondary_metric": "mae_model",
+    "naive_baseline_method": "leave_one_out_median_of_other_approved_labels (sans fuite)",
+    "naive_median_in_sample_value": 48.0,
+    "naive_in_sample_note": "la cellule 181 (Phase 13, gelee) utilise la mediane in-sample ; non modifiee ici",
+    "analyst_score_nature": "continuous",
+    "analyst_score_unique_values": 33,
+    "class_support": {
+      "P1": {
+        "true": 35,
+        "pred": 38
+      },
+      "P2": {
+        "true": 9,
+        "pred": 7
+      },
+      "P3": {
+        "true": 10,
+        "pred": 22
+      },
+      "P4": {
+        "true": 16,
+        "pred": 3
+      }
+    },
+    "low_support_classes": [],
+    "per_class_f1": {
+      "P1": 0.9041,
+      "P2": 0.375,
+      "P3": 0.25,
+      "P4": 0.1053
+    },
+    "cases": 70,
+    "priority_cuts": [
+      [
+        48.5,
+        "P1"
+      ],
+      [
+        34.8,
+        "P2"
+      ],
+      [
+        20.6,
+        "P3"
+      ]
+    ],
+    "macro_f1_model": 0.4086,
+    "macro_f1_naive": 0.0,
+    "mae_model": 11.0586,
+    "mae_naive": 24.7857,
+    "priority_exact": 0.5857,
+    "priority_exact_naive": 0.0,
+    "priority_within_one": 0.9429,
+    "priority_within_one_naive": 0.6286,
+    "macro_f1_gain": 0.4086,
+    "mae_gain": 13.7271,
+    "urgent_precision": 0.8889,
+    "urgent_recall": 0.9091,
+    "urgent_f1": 0.8989,
+    "priority_kappa_linear": 0.612,
+    "ci95_bootstrap": {
+      "macro_f1_model": [
+        0.2956,
+        0.5146
+      ],
+      "macro_f1_naive": [
+        0.0,
+        0.0
+      ],
+      "mae_model": [
+        8.3814,
+        14.0301
+      ],
+      "mae_naive": [
+        21.6143,
+        27.7571
+      ],
+      "priority_exact": [
+        0.4714,
+        0.7
+      ],
+      "priority_exact_naive": [
+        0.0,
+        0.0
+      ],
+      "priority_within_one": [
+        0.8857,
+        0.9857
+      ],
+      "priority_within_one_naive": [
+        0.5143,
+        0.7286
+      ],
+      "macro_f1_gain": [
+        0.2956,
+        0.5146
+      ],
+      "mae_gain": [
+        10.7036,
+        16.3572
+      ],
+      "urgent_precision": [
+        0.7924,
+        0.9767
+      ],
+      "urgent_recall": [
+        0.8181,
+        0.9796
+      ],
+      "urgent_f1": [
+        0.8276,
+        0.9583
+      ]
+    },
+    "priority_confusion": {
+      "labels": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "matrix": [
+        [
+          33,
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          4,
+          2
+        ],
+        [
+          0,
+          1,
+          14,
+          1
+        ]
+      ]
+    },
+    "urgent_positive_cases": 44
+  },
+  "red_team_summary": {
+    "available": true,
+    "source": "/kaggle/working/SOC-Audit-v7/reports/agent_results_SFT_redteam.json",
+    "schema": [
+      "rtv8-base-critique-pe276651386-cf1-g2"
+    ],
+    "reviewed": 282,
+    "accepted_4_gates": 215,
+    "status": {
+      "llm_ok": 215,
+      "pending_review": 63,
+      "parse_failed": 4
+    },
+    "final_verdicts_all": {
+      "ACCEPT": 137,
+      "REVISE": 2,
+      "ESCALATE": 4,
+      "ABSTAIN": 139,
+      "NONE": 0
+    },
+    "abstain_rate": 0.4929,
+    "final_verdicts_llm_ok": {
+      "ACCEPT": 137,
+      "ABSTAIN": 72,
+      "ESCALATE": 4,
+      "REVISE": 2
+    },
+    "note": "ESCALATE/ABSTAIN sont deterministes (KEV/EPSS, description) ; ACCEPT/REVISE exigent llm_ok."
+  },
+  "abstention_and_verifier_summary": {
+    "measurable": false,
+    "n_with_fields": null,
+    "abstained": null,
+    "abstention_rate": null,
+    "verifier_manual_review": null
+  },
+  "notes": [
+    "Labels : snapshot approuve uniquement. Score : hors pli (risk_score_oof).",
+    "Metrique principale : Macro-F1 P1-P4 ; MAE secondaire (meme hierarchie que le gate NV132).",
+    "Coupures : derive_priority_cuts(priority_anchors), identiques au Cas A (cellule 100).",
+    "Reference naive : mediane leave-one-out (sans fuite) ; mediane in-sample (cellule 181) rapportee a part.",
+    "Ce banc est descriptif : la decision de promotion reste celle du gate gele (Phase 13/14)."
+  ]
+}

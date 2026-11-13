@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-12T22:32:58.719823",
+  "stage": "end_of_run",
+  "ok_count": 17,
+  "issue_count": 0,
+  "issues": [],
+  "approved_examples": 70,
+  "approved_examples_source": "protocol.json N (labels approuves, snapshot fige) ; DPO rejete",
+  "cache_fresh": 215,
+  "cache_stale": 0,
+  "cache_config_hash": "dcd089035a48d359",
+  "cache_valid": 215,
+  "cache_orphans": 0,
+  "cache_to_generate": 0,
+  "cache_per_dir": {
+    "llm_redteam_state_v8": 215,
+    "llm_3agents_state": 0
+  },
+  "redteam_llm_ok": 215,
+  "redteam_total": 282
+}

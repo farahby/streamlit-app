@@ -1,0 +1,48 @@
+{
+  "P3": {
+    "status": "available",
+    "detail": {
+      "artifact_id": "p3_propagation-76864a6798b0",
+      "counts": {
+        "matched": 60,
+        "incomplete_graph": 0,
+        "unmatched": 222
+      }
+    },
+    "at": "2026-11-12T19:02:46.004844+00:00"
+  },
+  "P2": {
+    "status": "available",
+    "detail": {
+      "artifact_id": "p2_shap-82849d9cc308",
+      "counts": {
+        "valid": 282,
+        "stale": 0,
+        "unknown_finding": 0
+      }
+    },
+    "at": "2026-11-12T19:06:49.128609+00:00"
+  },
+  "P4": {
+    "status": "available",
+    "detail": {
+      "artifact_id": "p4_fp-cd161bc4c8dc",
+      "n_routed": 0
+    },
+    "at": "2026-11-12T19:07:53.529437+00:00"
+  },
+  "P5": {
+    "status": "available",
+    "detail": {
+      "index_artifact": "p5_index-e7900bad84e6",
+      "neighbors_artifact": "p5_neighbors-d14c855e259a",
+      "eval": {
+        "pairs": 1410,
+        "share_same_package": 0.4532,
+        "share_same_tool": 0.705,
+        "note": "indicateurs descriptifs de coherence, PAS une validation de pertinence ; la pertinence se mesure par les decisions analyste P5 (CONFIRM/REJECT)"
+      }
+    },
+    "at": "2026-11-12T19:08:09.714405+00:00"
+  }
+}

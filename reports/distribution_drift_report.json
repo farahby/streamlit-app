@@ -1,0 +1,75 @@
+{
+  "status": "partial",
+  "scorer_scanner": {
+    "status": "stable",
+    "alerts": []
+  },
+  "lora": {
+    "status": "not_comparable_adapter",
+    "alerts": [
+      "SHA adaptateur absent (baseline ou courant) : comparaison LoRA impossible (None == None ne prouve rien)"
+    ]
+  },
+  "baseline": {
+    "created_at": "2026-11-11T20:28:38.175485+00:00",
+    "reason": "premiere baseline",
+    "approved_by": "auto (aucune baseline)"
+  },
+  "current": {
+    "scorer": {
+      "available": {
+        "scored_findings": true,
+        "final_soc_report": true
+      },
+      "population_hash": "87887d6a481b86e3",
+      "n": 282,
+      "priority_final_dist": {
+        "P3": 0.4255,
+        "P1": 0.3723,
+        "P2": 0.1667,
+        "P4": 0.0355
+      },
+      "priority_final_missing_rate": 0.0,
+      "risk_mean": 38.198,
+      "risk_std": 16.19,
+      "risk_p90": 60.57,
+      "severity_dist": {
+        "MEDIUM": 0.461,
+        "HIGH": 0.3617,
+        "CRITICAL": 0.1206,
+        "LOW": 0.0567
+      }
+    },
+    "lora": {
+      "source": "/kaggle/working/SOC-Audit-v7/reports/agent_results_SFT.json",
+      "available": true,
+      "adapter_sha256": "96b0a23c55fd7f56ffb3aaf3a7f9cab68e1f75e80f678c6bb62ccdf416ef4d97",
+      "promoted_id": "NV132_Promoted_v1",
+      "adapter_path": "/kaggle/working/SOC-Audit-v7/models/NV132_Promoted_v1/seed42/soc_lora_adapter_full",
+      "n": 282,
+      "population_hash": "87887d6a481b86e3",
+      "urgency_dist": {
+        "HIGH": 0.6454,
+        "MEDIUM": 0.1809,
+        "IMMEDIATE": 0.1206,
+        "LOW": 0.0532
+      },
+      "abstention_recorded_n": 0,
+      "abstention_rate": null,
+      "verifier_flag_rate": null,
+      "agent_fallback_rate": null
+    }
+  },
+  "thresholds": {
+    "priority_final_tvd": 0.2,
+    "risk_mean_abs_shift": 15.0,
+    "risk_std_collapse_ratio": 0.5,
+    "severity_tvd": 0.3,
+    "lora_urgency_tvd": 0.25,
+    "abstention_collapse_from": 0.05,
+    "abstention_collapse_to": 0.01,
+    "verifier_flag_rate_abs_shift": 0.2,
+    "priority_final_missing_abs_shift": 0.1
+  },
+  "thresholds_source": "CFG defaut NV132 (cellule 121), non calibre empiriquement"
+}

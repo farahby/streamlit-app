@@ -1,0 +1,52 @@
+{
+ "adapter_sha256": null,
+ "artifact_id": "p2_shap-82849d9cc308",
+ "contract_version": "c9-4/v1",
+ "created_at": "2026-11-12T19:06:49.118714+00:00",
+ "kind": "p2_shap",
+ "meta": {
+  "counts": {
+   "stale": 0,
+   "unknown_finding": 0,
+   "valid": 282
+  },
+  "explained_model_sha": "xgb_booster:04d4818449e8cf53e798a1c36f2d44d30eae090ba953cd5133c0e5e548050563",
+  "feature_list_hash": "9669872dae56469890c36140645a7e7ab3beb5be860f0a4ccc06f894050dcec7",
+  "features": [
+   "severity_score",
+   "cvss_numeric",
+   "epss_numeric",
+   "in_kev",
+   "has_exploit",
+   "internet_facing",
+   "network_exposed",
+   "requires_auth",
+   "asset_criticality",
+   "tool_count",
+   "confidence_score",
+   "time_decay_factor",
+   "pci_scope",
+   "gdpr_scope",
+   "in_blast_radius",
+   "blast_radius_count",
+   "topology_hops_score",
+   "asset_resolution_confidence",
+   "internet_facing_unknown"
+  ],
+  "model_file_sha256": "b990cc043d0d922676891ee8da48ba15f38252d5518da8348a16cde02495992f",
+  "role": "explicatif — les valeurs SHAP ne modifient pas la decision du pipeline",
+  "scored_findings_sha256": "c82b22ae5579204020a4bce351c964465d6e29cbfc94b280b852e2e22285b7c5",
+  "shap_status": "ok"
+ },
+ "model_revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+ "payload_bytes": 224617,
+ "payload_file": "p2_shap.json",
+ "payload_sha256": "409a2febed7aec3e787af3757aaa267e170a27fc1b6dba7e3ce7d01aef1b797d",
+ "producer_cell": "P2-INT",
+ "run_id": "NV132_Run3",
+ "schema_version": "1",
+ "scoring_version": {
+  "dataset_identity_hash": "69d2f501d4c0422998b37675da5d13f21781dffe9821d47e3665e58b6a84b544",
+  "protocol_hash": null
+ }
+}

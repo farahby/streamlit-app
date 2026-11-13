@@ -1,0 +1,54 @@
+{
+ "adapter_sha256": null,
+ "artifact_id": "p4_fp-cd161bc4c8dc",
+ "contract_version": "c9-4/v1",
+ "created_at": "2026-11-12T19:07:53.520690+00:00",
+ "kind": "p4_fp",
+ "meta": {
+  "auc_statistically_reliable": false,
+  "evaluation_caveats": {
+   "auc": "non fiable statistiquement : 5 faux positif(s) au total, soit environ 1.2 dans le holdout de 25 %",
+   "fp_rate_before_after": "calcule sur les findings labellises, donc en partie sur les donnees d entrainement : gain surestime, ne pas presenter comme un resultat",
+   "probabilities_on_labeled_findings": "non indicatives : findings presents dans fp_labels.csv, utilises par train_fp_models (entrainement ou holdout de l AUC)"
+  },
+  "fp_model_sha": "eef471a72e114a1515861f561eb46812dde15fd61f9ec1504fa7aecd51004956",
+  "fp_rate_before_after": {
+   "partly_on_training_data": true,
+   "publishable_as_result": false,
+   "value": {
+    "findings_deferred": 0,
+    "fp_rate_main_queue_after": 0.076,
+    "fp_rate_main_queue_before": 0.076
+   }
+  },
+  "label_snapshot_hash": "fc8b95c914f5c76afa694d6e26aeb7aa1b81b78f7d77bca4c2ec76f43c27b3d5",
+  "labels": {
+   "fp": 5,
+   "linked_to_findings": 66,
+   "tp": 61,
+   "unlinked_ids": []
+  },
+  "limitation": "exploratoire : 5 label(s) FP seulement",
+  "model_metrics": {
+   "auc": 0.531,
+   "brier": 0.058,
+   "n_labeled": 66
+  },
+  "n_in_training_labels": 66,
+  "n_routed": 0,
+  "role": "consultatif — aucune suppression, aucune cloture, priority_final inchange",
+  "scored_findings_sha256": "c82b22ae5579204020a4bce351c964465d6e29cbfc94b280b852e2e22285b7c5",
+  "threshold": 0.6
+ },
+ "model_revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+ "payload_bytes": 64675,
+ "payload_file": "p4_fp.json",
+ "payload_sha256": "9bf7f31ecfa3f59d209b2f72413ec6645b7cffa3486ea94fe54f874c9aace9f2",
+ "producer_cell": "P4-INT",
+ "run_id": "NV132_Run3",
+ "schema_version": "2",
+ "scoring_version": {
+  "dataset_identity_hash": "69d2f501d4c0422998b37675da5d13f21781dffe9821d47e3665e58b6a84b544",
+  "protocol_hash": null
+ }
+}

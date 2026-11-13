@@ -1,0 +1,254 @@
+{
+  "comparison_id": "d9d8f953564fce7f",
+  "schema": "cmp/v1",
+  "created_at": "2026-11-12T19:18:42.369547+00:00",
+  "before_snapshot_hash": "66af66949fe7b151",
+  "after_snapshot_hash": "55c62ae9f658ed58",
+  "before_reports_hash": "a421ffb734cb0334",
+  "after_reports_hash": "67c6e1208cfd29b1",
+  "comparability": {
+    "verdict": "PARTIAL",
+    "blocking": [],
+    "warnings": [],
+    "per_scanner": {
+      "checkov": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "dockle": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "gitleaks": {
+        "before_status": "INCOMPLETE",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "placeholder_report"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_incomplete",
+          "after_missing_report"
+        ]
+      },
+      "grype": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "kube-bench": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "kube-score": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "nikto": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "opa-gate": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "semgrep": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "snyk": {
+        "before_status": "SUCCESS",
+        "after_status": "SUCCESS",
+        "before_reasons": [],
+        "after_reasons": [],
+        "scanner_or_config_changed": [],
+        "comparable": true,
+        "issues": []
+      },
+      "tfsec": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "trivy": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "vault": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      },
+      "zap": {
+        "before_status": "UNATTESTED",
+        "after_status": "MISSING_REPORT",
+        "before_reasons": [
+          "no_execution_evidence"
+        ],
+        "after_reasons": null,
+        "scanner_or_config_changed": [
+          "parser"
+        ],
+        "comparable": false,
+        "issues": [
+          "before_unattested",
+          "after_missing_report"
+        ]
+      }
+    }
+  },
+  "counts": {
+    "INCONCLUSIVE": 315,
+    "PERSISTENT": 41,
+    "DISAPPEARED_VERIFIED_SCAN": 9,
+    "NEW": 1
+  },
+  "sft_eligible": false,
+  "files": {
+    "before_snapshot": "before_snapshot.json",
+    "after_snapshot": "after_snapshot.json",
+    "before_findings": "before_findings.csv",
+    "after_findings": "after_findings.csv",
+    "matches": "matches.csv"
+  },
+  "content_sha256": {
+    "after_findings.csv": "fcbeaf1b98417bd253a8d4a5c2d9775dbb628cabd64bf5aa3905b59486540121",
+    "after_snapshot.json": "cb976fa397b564a35761208a2ec6ad9b85be1c0b17f7338c4e7c9e3d3618727c",
+    "before_findings.csv": "cc3e8a5978860ad8d1d10ef7e256853e42b07f955926d72d711e109d2e54deec",
+    "before_snapshot.json": "5975979c485cc3e096ce97a8d5b363157ecac45442468c7a085d3793737981ef",
+    "matches.csv": "ad7439ffbe3856bf5900038fe16cc5fa6d06e05e8785b2252855e235c10c0418"
+  }
+}

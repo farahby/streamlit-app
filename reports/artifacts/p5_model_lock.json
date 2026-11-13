@@ -1,0 +1,6 @@
+{
+  "repo": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "files_sha256": "11232768f4252e3ecc1f6b583e83a0856b4364dcd786c9431200758bc47a1866",
+  "locked_at": "2026-11-10T21:16:53.164575+00:00"
+}

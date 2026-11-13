@@ -1,0 +1,33 @@
+{
+ "adapter_sha256": null,
+ "artifact_id": "p5_neighbors-d14c855e259a",
+ "contract_version": "c9-4/v1",
+ "created_at": "2026-11-12T19:08:09.703656+00:00",
+ "kind": "p5_neighbors",
+ "meta": {
+  "descriptive_eval": {
+   "note": "indicateurs descriptifs de coherence, PAS une validation de pertinence ; la pertinence se mesure par les decisions analyste P5 (CONFIRM/REJECT)",
+   "pairs": 1410,
+   "share_same_package": 0.4532,
+   "share_same_tool": 0.705
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_model_sha": "11232768f4252e3ecc1f6b583e83a0856b4364dcd786c9431200758bc47a1866",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "index_sha": "6dcbe1695bb5488992b1185db08128a7c63baac009fbc3596f387d0f580ca741",
+  "role": "consultatif — hypotheses de similarite, aucune vulnerabilite confirmee",
+  "scored_findings_sha256": "c82b22ae5579204020a4bce351c964465d6e29cbfc94b280b852e2e22285b7c5",
+  "top_k": 5
+ },
+ "model_revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+ "payload_bytes": 156355,
+ "payload_file": "p5_neighbors.json",
+ "payload_sha256": "927d89800d24e7fb62ba085f4d34a595eefcc689c2eaad3c3efd77e2c5302c10",
+ "producer_cell": "P5-INT",
+ "run_id": "NV132_Run3",
+ "schema_version": "1",
+ "scoring_version": {
+  "dataset_identity_hash": "69d2f501d4c0422998b37675da5d13f21781dffe9821d47e3665e58b6a84b544",
+  "protocol_hash": null
+ }
+}
